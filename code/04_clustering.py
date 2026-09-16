@@ -28,7 +28,7 @@ SEED = 7
 SAMPLE = 5000          # silhouette on all 18k records is slow, a sample is enough
 K_RANGE = range(2, 16)
 K_MAIN = 4             # chosen in step 3
-K_FINE = 12            # smaller clusters, used in step 8 to question the labels
+K_FINE = 12            # smaller clusters, used in step 9 to question the labels
 PURE_HUMAN = 0.85      # a cluster this human-heavy is treated as one-sided
 PURE_NON_HUMAN = 0.35  # and this is the other side, well below the 0.69 rate of the data
 
@@ -135,7 +135,58 @@ plt.tight_layout()
 plt.show()
 
 
-# 5. read the clusters against the crowd label. The clusters were built without the label,
+# 5. a cluster average can hide a mix of very low and very high values, so check the spread.
+# Box plots show the middle half of each cluster (the box) and its median (the line)
+RAW_COUNTS = ["tweet_count", "tweets_per_day", "fav_number", "favs_per_day"]
+BOX = RAW_COUNTS + ["account_age_days", "text_len", "desc_len"]
+fig, axes = plt.subplots(2, 4, figsize=(15, 7))
+for ax, col in zip(axes.ravel(), BOX):
+    ax.boxplot([df.loc[df["cluster"] == c, col] for c in range(K_MAIN)], showfliers=False)
+    ax.set_xticks(range(1, K_MAIN + 1), range(K_MAIN))
+    ax.set_xlabel("cluster")
+    ax.set_title(col)
+    # the first four are raw counts spread over several orders of magnitude; symlog is a log
+    # scale that can also show zero. The last three were only kept in standardised units
+    if col in RAW_COUNTS:
+        ax.set_yscale("symlog")
+        ax.set_ylim(bottom=0)   # counts cannot be negative
+    else:
+        ax.set_ylabel("standardised")
+axes.ravel()[-1].axis("off")
+plt.suptitle("spread of each feature inside each cluster (outliers hidden)")
+plt.tight_layout()
+plt.show()
+
+# the same check as numbers: the share of each cluster in the lowest and highest 25% of all
+# profiles. A cluster that is truly low has many in the bottom and almost none in the top;
+# a mix of extremes would show up in both
+ends = {}
+for col in BOX:
+    low, high = df[col].quantile([.25, .75])
+    ends[col + " bottom 25%"] = (df[col] <= low).groupby(df["cluster"]).mean()
+    ends[col + " top 25%"] = (df[col] >= high).groupby(df["cluster"]).mean()
+print("\nshare of each cluster at the two ends of the whole data:")
+print(pd.DataFrame(ends).T.round(2))
+
+# counts of links, hashtags, mentions and digits are mostly zero, so their averages are pulled
+# up by a few large values. Count zero, one and two or more instead. The columns are
+# standardised, but the order is kept: the smallest value is 0, the next is 1, and so on
+for col in ["text_n_urls", "text_n_hashtags", "text_n_mentions", "name_n_digits"]:
+    step = df[col].rank(method="dense")
+    counts = pd.DataFrame({"zero": step == 1, "one": step == 2, "two_plus": step >= 3})
+    table = counts.groupby(df["cluster"]).mean()
+    table.loc["all"] = counts.mean()
+    print("\n" + col + ", share of profiles with:")
+    print(table.round(2))
+
+# What the spread confirms: cluster 0 is low on activity throughout (74% in the bottom quarter
+# for tweets, none in the top); cluster 2 almost never likes anything and nearly all of it tweets
+# at the highest rates; cluster 3 likes far more than usual (none in the bottom quarter).
+# Cluster 1 mostly posts links, but its high hashtag average comes from a minority - most of
+# its tweets have no hashtag at all
+
+
+# 6. read the clusters against the crowd label. The clusters were built without the label,
 # so any difference between them is something the behaviour alone found
 mix = pd.crosstab(df["cluster"], df["is_human"].map({1: "human", 0: "non_human"}))
 mix["human_rate"] = (mix["human"] / mix.sum(axis=1)).round(3)
@@ -158,7 +209,7 @@ plt.tight_layout()
 plt.show()
 
 
-# 6. show the clusters in two dimensions. PCA rotates the 19 features so that the first two
+# 7. show the clusters in two dimensions. PCA rotates the 19 features so that the first two
 # components carry as much of the spread as possible, which makes the shape drawable
 pca = PCA(n_components=2, random_state=SEED)
 points = pca.fit_transform(X)
@@ -187,7 +238,7 @@ plt.tight_layout()
 plt.show()
 
 
-# 7. k-means assumes round, equally sized clusters. Three other algorithms are tried to
+# 8. k-means assumes round, equally sized clusters. Three other algorithms are tried to
 # check that the four groups are really in the data and not just an artefact of k-means.
 # Ward and the dendrogram run on a sample because they need the distance between every pair
 part = np.random.RandomState(SEED).choice(len(X), SAMPLE, replace=False)
@@ -257,7 +308,7 @@ plt.tight_layout()
 plt.show()
 
 
-# 8. finer clusters for the actual question. Four clusters describe the data well but they are
+# 9. finer clusters for the actual question. Four clusters describe the data well but they are
 # too broad to judge a single profile: even the most one-sided of them is 19% human. Splitting
 # the same features into more, smaller groups gives clusters that lean much harder one way
 fine = KMeans(K_FINE, n_init=10, random_state=SEED).fit(X)
@@ -272,7 +323,7 @@ print(rate.sort_values("human_rate").round(3))
 print("one-sided clusters:", (rate["leans"] != "mixed").sum(), "of", K_FINE)
 
 
-# 9. a profile sitting in a one-sided cluster but carrying the opposite label is a candidate
+# 10. a profile sitting in a one-sided cluster but carrying the opposite label is a candidate
 # mislabel: everything about its behaviour matches the profiles it was not grouped with
 leaning = rate[rate["leans"] != "mixed"]
 suspect = df["fine_cluster"].map(leaning["leans"]).where(labelled)
@@ -290,7 +341,7 @@ print(flagged["gender"].value_counts())
 print(flagged.groupby("cluster_says")[["cluster_human_rate", "gender:confidence"]].mean().round(3))
 
 
-# 10. check the flags against something the clustering never saw: how sure the crowd was.
+# 11. check the flags against something the clustering never saw: how sure the crowd was.
 # If the flags were noise the two distributions would sit on top of each other
 print("\ncrowd confidence, flagged vs all labelled profiles:")
 print(pd.DataFrame({"flagged": flagged["gender:confidence"].describe(),
@@ -318,7 +369,7 @@ if rules_file.exists():
           "| by clustering:", len(flagged), "| by both:", len(both))
 
 
-# 11. the 1037 profiles the crowd could not label still fall into a cluster, so the cluster
+# 12. the 1037 profiles the crowd could not label still fall into a cluster, so the cluster
 # they landed in is a suggestion for what they most likely are
 unlabelled = df.loc[~labelled].copy()
 unlabelled["suggested"] = unlabelled["fine_cluster"].map(leaning["leans"])
@@ -327,7 +378,7 @@ print("\nsuggestions for the unlabelled profiles:")
 print(unlabelled["suggested"].value_counts(dropna=False))
 
 
-# 12. write the three lists out for the report.
+# 13. write the three lists out for the report.
 # The flagged list is sorted so the most one-sided cluster comes first, and inside a cluster
 # the profiles closest to its centre come first
 KEEP = ["_unit_id", "name", "gender", "gender:confidence", "cluster", "fine_cluster",
