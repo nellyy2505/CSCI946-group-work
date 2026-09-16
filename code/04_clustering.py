@@ -144,10 +144,11 @@ print("\nlabel mix per cluster (human rate of the whole data:", round(truth.mean
 print(mix)
 
 fig, axes = plt.subplots(1, 2, figsize=(12, 4))
-mix[["non_human", "human"]].plot.bar(stacked=True, ax=axes[0])
+mix[["non_human", "human"]].plot.bar(stacked=True, ax=axes[0], rot=0)
 axes[0].set_ylabel("profiles")
 axes[0].set_title("how the labels fall in each cluster")
 axes[1].bar(mix.index, mix["human_rate"])
+axes[1].set_xticks(mix.index)   # one tick per cluster, not a number scale
 axes[1].axhline(truth.mean(), color="red", linestyle="--", label="rate of the whole data")
 axes[1].set_xlabel("cluster")
 axes[1].set_ylabel("human rate")
@@ -196,8 +197,11 @@ has_label = ~np.isnan(truth_part)
 # a dendrogram shows where the merges happen, which is a second opinion on the number of clusters
 links = linkage(X[np.random.RandomState(SEED).choice(len(X), 2000, replace=False)], method="ward")
 plt.figure(figsize=(11, 4))
-dendrogram(links, truncate_mode="lastp", p=30, no_labels=True)
-plt.axhline(links[-K_MAIN, 2], color="red", linestyle="--", label="cut for k = " + str(K_MAIN))
+# cut halfway between the merge that makes k groups and the one that makes k-1,
+# and colour the branches below the cut so each colour is one group
+cut = (links[-K_MAIN, 2] + links[-K_MAIN + 1, 2]) / 2
+dendrogram(links, truncate_mode="lastp", p=30, no_labels=True, color_threshold=cut)
+plt.axhline(cut, color="red", linestyle="--", label="cut for k = " + str(K_MAIN))
 plt.ylabel("merge distance")
 plt.title("Ward dendrogram (2000 profiles)")
 plt.legend()
