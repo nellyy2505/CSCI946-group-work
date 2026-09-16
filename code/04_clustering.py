@@ -6,10 +6,12 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.cluster import KMeans
+from scipy.cluster.hierarchy import dendrogram, linkage
+from sklearn.cluster import DBSCAN, AgglomerativeClustering, KMeans
 from sklearn.decomposition import PCA
-from sklearn.metrics import (calinski_harabasz_score, davies_bouldin_score,
-                             silhouette_score)
+from sklearn.mixture import GaussianMixture
+from sklearn.metrics import (adjusted_rand_score, calinski_harabasz_score,
+                             davies_bouldin_score, silhouette_score)
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -176,5 +178,66 @@ for ax in axes:
     ax.set_xlabel("PC1")
     ax.set_ylabel("PC2")
     ax.legend(markerscale=4)
+plt.tight_layout()
+plt.show()
+
+
+# 7. k-means assumes round, equally sized clusters. Three other algorithms are tried to
+# check that the four groups are really in the data and not just an artefact of k-means.
+# Ward and the dendrogram run on a sample because they need the distance between every pair
+part = np.random.RandomState(SEED).choice(len(X), SAMPLE, replace=False)
+X_part, truth_part = X[part], df["is_human"].to_numpy()[part]
+has_label = ~np.isnan(truth_part)
+
+# a dendrogram shows where the merges happen, which is a second opinion on the number of clusters
+links = linkage(X[np.random.RandomState(SEED).choice(len(X), 2000, replace=False)], method="ward")
+plt.figure(figsize=(11, 4))
+dendrogram(links, truncate_mode="lastp", p=30, no_labels=True)
+plt.axhline(links[-K_MAIN, 2], color="red", linestyle="--", label="cut for k = " + str(K_MAIN))
+plt.ylabel("merge distance")
+plt.title("Ward dendrogram (2000 profiles)")
+plt.legend()
+plt.tight_layout()
+plt.show()
+
+models = {
+    "k-means": KMeans(K_MAIN, n_init=10, random_state=SEED).fit_predict(X_part),
+    "hierarchical (Ward)": AgglomerativeClustering(K_MAIN, linkage="ward").fit_predict(X_part),
+    # a mixture model allows stretched, overlapping clusters instead of round ones
+    "gaussian mixture": GaussianMixture(K_MAIN, covariance_type="full",
+                                        random_state=SEED).fit_predict(X_part),
+    # DBSCAN finds dense regions and decides the number of clusters itself; eps is the
+    # median distance to the 20th neighbour, the usual starting point
+    "DBSCAN": DBSCAN(eps=1.5, min_samples=20).fit_predict(X_part),
+}
+
+rows = []
+for name, groups in models.items():
+    found = len(set(groups) - {-1})
+    rows.append({
+        "algorithm": name,
+        "clusters": found,
+        "unassigned": int((groups == -1).sum()),
+        # the two indices need at least two clusters to mean anything
+        "silhouette": silhouette_score(X_part, groups) if found > 1 else np.nan,
+        "davies_bouldin": davies_bouldin_score(X_part, groups) if found > 1 else np.nan,
+        # agreement with the crowd label, and with the k-means result
+        "rand_vs_label": adjusted_rand_score(truth_part[has_label], groups[has_label]),
+        "rand_vs_kmeans": adjusted_rand_score(models["k-means"], groups),
+    })
+print("\nalgorithms compared on", SAMPLE, "profiles:")
+print(pd.DataFrame(rows).set_index("algorithm").round(3))
+
+# k-means scores best on both indices and Ward agrees with it in part, so the groups are not
+# an artefact of one algorithm. DBSCAN leaves more than half the sample unassigned: the data
+# is one dense cloud with no empty space between the groups, so splitting it into parts works
+# better here than looking for dense regions
+fig, axes = plt.subplots(1, len(models), figsize=(4 * len(models), 4), sharex=True, sharey=True)
+points_part = points[part]
+for ax, (name, groups) in zip(axes, models.items()):
+    ax.scatter(points_part[:, 0], points_part[:, 1], c=groups, cmap="tab10", s=5, alpha=0.4)
+    ax.set_title(name)
+    ax.set_xlabel("PC1")
+axes[0].set_ylabel("PC2")
 plt.tight_layout()
 plt.show()
