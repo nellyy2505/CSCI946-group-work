@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
 from sklearn.metrics import (calinski_harabasz_score, davies_bouldin_score,
                              silhouette_score)
 
@@ -124,5 +125,56 @@ for i in range(len(FEATURES)):
         ax.text(j, i, round(centres.iloc[i, j], 2), ha="center", va="center", fontsize=7)
 fig.colorbar(image, label="mean value")
 plt.title("what each cluster looks like")
+plt.tight_layout()
+plt.show()
+
+
+# 5. read the clusters against the crowd label. The clusters were built without the label,
+# so any difference between them is something the behaviour alone found
+mix = pd.crosstab(df["cluster"], df["is_human"].map({1: "human", 0: "non_human"}))
+mix["human_rate"] = (mix["human"] / mix.sum(axis=1)).round(3)
+mix["unlabelled"] = df.loc[~labelled, "cluster"].value_counts().sort_index()
+print("\nlabel mix per cluster (human rate of the whole data:", round(truth.mean(), 3), ")")
+print(mix)
+
+fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+mix[["non_human", "human"]].plot.bar(stacked=True, ax=axes[0])
+axes[0].set_ylabel("profiles")
+axes[0].set_title("how the labels fall in each cluster")
+axes[1].bar(mix.index, mix["human_rate"])
+axes[1].axhline(truth.mean(), color="red", linestyle="--", label="rate of the whole data")
+axes[1].set_xlabel("cluster")
+axes[1].set_ylabel("human rate")
+axes[1].set_title("share of each cluster labelled human")
+axes[1].legend()
+plt.tight_layout()
+plt.show()
+
+
+# 6. show the clusters in two dimensions. PCA rotates the 19 features so that the first two
+# components carry as much of the spread as possible, which makes the shape drawable
+pca = PCA(n_components=2, random_state=SEED)
+points = pca.fit_transform(X)
+print("\nvariance kept by the two components:", pca.explained_variance_ratio_.round(3),
+      "total", round(pca.explained_variance_ratio_.sum(), 3))
+print("what the components are built from:")
+print(pd.DataFrame(pca.components_.T, index=FEATURES, columns=["PC1", "PC2"]).round(2))
+
+# the same points twice: coloured by cluster, then by the crowd label
+fig, axes = plt.subplots(1, 2, figsize=(13, 5.5))
+for cluster in range(K_MAIN):
+    hit = df["cluster"] == cluster
+    axes[0].scatter(points[hit, 0], points[hit, 1], s=4, alpha=0.3, label="cluster " + str(cluster))
+centre_points = pca.transform(kmeans.cluster_centers_)
+axes[0].scatter(centre_points[:, 0], centre_points[:, 1], c="black", marker="X", s=150)
+axes[0].set_title("clusters found by k-means")
+for value, name in [(1, "human"), (0, "non-human")]:
+    hit = (df["is_human"] == value).to_numpy()
+    axes[1].scatter(points[hit, 0], points[hit, 1], s=4, alpha=0.3, label=name)
+axes[1].set_title("the crowd label, same points")
+for ax in axes:
+    ax.set_xlabel("PC1")
+    ax.set_ylabel("PC2")
+    ax.legend(markerscale=4)
 plt.tight_layout()
 plt.show()
