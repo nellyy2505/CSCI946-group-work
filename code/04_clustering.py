@@ -6,7 +6,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from scipy.cluster.hierarchy import dendrogram, linkage
+from scipy.cluster.hierarchy import dendrogram, fcluster, leaves_list, linkage
 from sklearn.cluster import DBSCAN, AgglomerativeClustering, KMeans
 from sklearn.decomposition import PCA
 from sklearn.mixture import GaussianMixture
@@ -249,7 +249,8 @@ X_part, truth_part = X[part], df["is_human"].to_numpy()[part]
 has_label = ~np.isnan(truth_part)
 
 # a dendrogram shows where the merges happen, which is a second opinion on the number of clusters
-links = linkage(X[np.random.RandomState(SEED).choice(len(X), 2000, replace=False)], method="ward")
+tree_part = np.random.RandomState(SEED).choice(len(X), 2000, replace=False)
+links = linkage(X[tree_part], method="ward")
 plt.figure(figsize=(11, 4))
 # cut halfway between the merge that makes k groups and the one that makes k-1,
 # and colour the branches below the cut so each colour is one group
@@ -261,6 +262,30 @@ plt.title("Ward dendrogram (2000 profiles)")
 plt.legend()
 plt.tight_layout()
 plt.show()
+
+# the tree does not show what is inside each branch, so cut it at the same line and describe
+# the groups. They are listed left to right, in the order the branches are drawn
+tree = df.iloc[tree_part].copy()
+tree["ward_group"] = fcluster(links, cut, criterion="distance")
+left_to_right = tree["ward_group"].iloc[leaves_list(links)].unique()
+branches = tree.groupby("ward_group").agg(
+    size=("ward_group", "size"), human_rate=("is_human", "mean"),
+    default_image=("default_image", "mean"), desc_missing=("desc_missing", "mean"),
+    median_likes=("fav_number", "median"), median_tweets_per_day=("tweets_per_day", "median"),
+).loc[left_to_right]
+branches.index = ["branch " + str(i + 1) + " from left" for i in range(len(branches))]
+print("\nWard groups at the cut:")
+print(branches.round(2))
+
+# where each branch's profiles went in k-means, to see if the two methods found the same groups
+match = pd.crosstab(tree["ward_group"], tree["cluster"]).loc[left_to_right]
+match.index = branches.index
+print("\nWard branch (rows) vs k-means cluster (columns), same 2000 profiles:")
+print(match)
+
+# The branch that joins last is the bot-like core: every one of its profiles is in k-means
+# cluster 2, but Ward is stricter and puts the less extreme part of cluster 2 in another branch.
+# The other three branches line up mostly with one k-means cluster each
 
 # DBSCAN needs a radius. The usual way to set it is to measure how far each profile is from
 # its 20th neighbour and take the middle of those distances
