@@ -31,6 +31,8 @@ K_MAIN = 4             # chosen in step 3
 K_FINE = 12            # smaller clusters, used in step 9 to question the labels
 PURE_HUMAN = 0.85      # a cluster this human-heavy is treated as one-sided
 PURE_NON_HUMAN = 0.35  # and this is the other side, well below the 0.69 rate of the data
+# one colour per label, used by every chart that shows the label
+LABEL_COLOURS = {"human": "tab:blue", "non_human": "tab:orange"}
 
 # the features, grouped by what they describe
 ACTIVITY = ["fav_number_log", "tweet_count_log", "tweets_per_day_log", "favs_per_day_log",
@@ -195,10 +197,10 @@ print("\nlabel mix per cluster (human rate of the whole data:", round(truth.mean
 print(mix)
 
 fig, axes = plt.subplots(1, 2, figsize=(12, 4))
-mix[["non_human", "human"]].plot.bar(stacked=True, ax=axes[0], rot=0)
+mix[["non_human", "human"]].plot.bar(stacked=True, ax=axes[0], rot=0, color=LABEL_COLOURS)
 axes[0].set_ylabel("profiles")
 axes[0].set_title("how the labels fall in each cluster")
-axes[1].bar(mix.index, mix["human_rate"])
+axes[1].bar(mix.index, mix["human_rate"], color=LABEL_COLOURS["human"])
 axes[1].set_xticks(mix.index)   # one tick per cluster, not a number scale
 axes[1].axhline(truth.mean(), color="red", linestyle="--", label="rate of the whole data")
 axes[1].set_xlabel("cluster")
@@ -226,9 +228,10 @@ for cluster in range(K_MAIN):
 centre_points = pca.transform(kmeans.cluster_centers_)
 axes[0].scatter(centre_points[:, 0], centre_points[:, 1], c="black", marker="X", s=150)
 axes[0].set_title("clusters found by k-means")
-for value, name in [(1, "human"), (0, "non-human")]:
+for value, name in [(1, "human"), (0, "non_human")]:
     hit = (df["is_human"] == value).to_numpy()
-    axes[1].scatter(points[hit, 0], points[hit, 1], s=4, alpha=0.3, label=name)
+    axes[1].scatter(points[hit, 0], points[hit, 1], s=4, alpha=0.3, label=name,
+                    color=LABEL_COLOURS[name])
 axes[1].set_title("the crowd label, same points")
 for ax in axes:
     ax.set_xlabel("PC1")
