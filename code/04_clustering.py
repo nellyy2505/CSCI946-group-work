@@ -380,10 +380,9 @@ print("below full confidence - flagged:", round((flagged["gender:confidence"] < 
 plt.figure(figsize=(8, 4))
 # the two groups differ a lot in size (279 vs 17,678), so each bar is the percentage of its own
 # group rather than a count - that way the two shapes can be compared directly
-# red and grey, because blue and orange already mean human and non-human
 confidence = [flagged["gender:confidence"], df.loc[labelled, "gender:confidence"]]
 plt.hist(confidence, bins=20, weights=[np.full(len(c), 100 / len(c)) for c in confidence],
-         color=["tab:red", "tab:grey"], label=["flagged by clustering", "all labelled profiles"])
+         label=["flagged by clustering", "all labelled profiles"])
 plt.xlabel("gender:confidence")
 plt.ylabel("% of profiles in the group")
 plt.title("the crowd was less sure about the profiles the clusters flagged")
