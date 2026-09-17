@@ -53,6 +53,7 @@ print("Var(y_train):", round(target_var, 4))
 plt.hist(y_train, bins=40)
 plt.xlabel("gender:confidence")
 plt.title("Distribution of gender:confidence (train)")
+plt.savefig(OUT / "regression_target_distribution.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 
@@ -62,6 +63,7 @@ print(corr)
 corr.plot.barh(figsize=(6, 6))
 plt.xlabel("correlation with gender:confidence")
 plt.tight_layout()
+plt.savefig(OUT / "regression_feature_correlation.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 top = corr.abs().idxmax()
@@ -72,6 +74,7 @@ plt.plot(x_line, slope * x_line + intercept, "r-")
 plt.xlabel(top)
 plt.ylabel("gender:confidence")
 plt.title(f"strongest single feature: {top} (corr={corr[top]:.2f})")
+plt.savefig(OUT / "regression_top_feature.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 
@@ -94,6 +97,7 @@ coefs = pd.Series(ridge.coef_, index=FEATURES).sort_values()
 coefs.plot.barh(figsize=(6, 9))
 plt.xlabel("Ridge coefficient")
 plt.tight_layout()
+plt.savefig(OUT / "regression_ridge_coefficients.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 
@@ -108,6 +112,7 @@ importance = pd.Series(rf.feature_importances_, index=FEATURES).sort_values()
 importance.plot.barh(figsize=(6, 9))
 plt.xlabel("feature importance")
 plt.tight_layout()
+plt.savefig(OUT / "regression_rf_importance.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 
@@ -134,6 +139,7 @@ plt.plot([0, 1], [0, 1], "r--")
 plt.xlabel("actual gender:confidence")
 plt.ylabel("predicted gender:confidence")
 plt.title(f"{best_name}: predicted vs actual (test)")
+plt.savefig(OUT / "regression_prediction_evaluation.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 
