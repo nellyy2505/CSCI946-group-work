@@ -1,0 +1,28 @@
+{
+  "Decision Tree": {
+    "model__class_weight": null,
+    "model__criterion": "entropy",
+    "model__max_depth": 8,
+    "model__min_samples_leaf": 25,
+    "decision_threshold": 0.5700000000000003
+  },
+  "KNN": {
+    "model__n_neighbors": 21,
+    "model__p": 2,
+    "model__weights": "distance",
+    "decision_threshold": 0.6300000000000003
+  },
+  "Naive Bayes": {
+    "model__var_smoothing": 1e-09,
+    "decision_threshold": 0.3100000000000001
+  },
+  "MLP": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      64,
+      32
+    ],
+    "model__learning_rate_init": 0.001,
+    "decision_threshold": 0.5400000000000003
+  }
+}

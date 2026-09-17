@@ -1,0 +1,19 @@
+01:52:37 | Project root: D:\uow-mphil\resh905\group_assignment\CSCI946-group-work
+01:52:37 | Output folder: D:\uow-mphil\resh905\group_assignment\CSCI946-group-work\data\output\classification
+01:52:38 | train: using 7,826 reliable rows; holding out 2,780 uncertain/conflicting rows
+01:52:38 | validation: using 2,600 reliable rows; holding out 936 uncertain/conflicting rows
+01:52:38 | test: using 2,657 reliable rows; holding out 879 uncertain/conflicting rows
+01:52:38 | Tuning Decision Tree (80 configurations)...
+01:52:52 | Tuning KNN (20 configurations)...
+01:52:57 | Tuning Naive Bayes (5 configurations)...
+01:52:58 | Tuning MLP (18 configurations)...
+01:53:36 | Final test comparison:
+        model  accuracy  balanced_accuracy  macro_f1  non_human_recall  human_recall  roc_auc
+          MLP    0.8442             0.7849    0.7956            0.6547        0.9152   0.8979
+Decision Tree    0.8299             0.7919    0.7882            0.7086        0.8753   0.8736
+          KNN    0.8254             0.7750    0.7776            0.6644        0.8857   0.8784
+  Naive Bayes    0.7907             0.7430    0.7397            0.6381        0.8479   0.8093
+        Dummy    0.7275             0.5000    0.4211            0.0000        1.0000   0.5000
+01:53:36 | Selected model by test macro F1 (tie-tolerance 0.010) for reporting: Decision Tree
+01:53:36 | Classification review candidates: 2,808
+01:53:36 | Outputs written to: D:\uow-mphil\resh905\group_assignment\CSCI946-group-work\data\output\classification
