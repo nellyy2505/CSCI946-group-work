@@ -6,8 +6,9 @@ Goal:
 - predict gender:confidence (crowd-labeller agreement score) from profile features
 - big gap between actual vs predicted confidence -> candidate mislabelled profile (Task 4)
 
-Structure - same as Lab 5 (Task 2: Linear Regression):
-summarize -> sanity-check relationship -> fit -> evaluate (train) -> evaluate (held-out) -> predict
+Steps:
+look at the target -> check the features actually relate to it -> fit 2 models ->
+compare them on validation -> evaluate the winner once on test -> flag suspicious profiles
 """
 
 from pathlib import Path
@@ -89,7 +90,7 @@ print("Saved plot: regression_target_distribution.png")
 # =====================================================================
 # 3. Sanity-check the relationship, before fitting anything
 # =====================================================================
-# - same habit as the lab's lmplot step: look before you fit
+# - look at the data before fitting a model to it
 # - check correlation of each feature with the target
 corr = train[NUM_COLS + [TARGET]].corr()[TARGET].drop(TARGET).sort_values()
 print("\n----- correlation with gender:confidence -----")

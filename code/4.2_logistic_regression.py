@@ -8,8 +8,9 @@ Goal:
   4.1 asks "how confident was the label", this asks "does the profile look human"
 - model confident about one class, but actually labelled the other -> candidate for Task 4
 
-Structure - same as Lab 5 (Task 3: Logistic Regression):
-check classes -> fit -> evaluate (accuracy, confusion matrix) -> feature selection (RFE) -> conclusion
+Steps:
+check the classes -> fit -> evaluate (accuracy, confusion matrix) ->
+try fewer features (RFE) -> pick the best on validation -> evaluate once on test -> conclusion
 """
 
 from pathlib import Path
@@ -60,8 +61,7 @@ FEATURES = NUM_COLS + FLAG_COLS + tz_cols
 print("----- shapes -----")
 print("train:", train.shape, "validation:", val.shape, "test:", test.shape)
 
-# check: exactly 2 classes? balanced or not?
-# -> same check as the lab's Describe 8 (benign vs malignant counts)
+# check: exactly 2 classes, and how balanced they are
 print("\n----- class balance (train) -----")
 print(train[TARGET].value_counts())
 print("share human:", round(train[TARGET].mean(), 3))
@@ -129,8 +129,8 @@ rfe_5, acc_5 = rfe_accuracy(5)
 best_rfe = rfe_10 if acc_10 >= acc_5 else rfe_5
 selected = [f for f, keep in zip(FEATURES, best_rfe.support_) if keep]
 print("features kept by the best RFE model:", selected)
-print("-> unlike the lab's breast-cancer example (3 features beat the full 9-feature model),")
-print("   here the full model wins -> with ~10,600 training rows, 38 features does not overfit,")
+print("-> full model wins over the smaller RFE models")
+print("-> with ~10,600 training rows, 38 features does not overfit,")
 print("   so cutting features here only throws away useful signal instead of noise")
 
 
