@@ -74,6 +74,7 @@ plt.colorbar(points, label="lift")
 plt.xlabel("support")
 plt.ylabel("confidence")
 plt.title("all rules")
+plt.savefig(OUT / "fig_rules_support_confidence.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 # main result: the rules that conclude a label
@@ -103,6 +104,7 @@ plt.xlabel("lift")
 plt.title("strongest rules for the label")
 plt.legend()
 plt.tight_layout()
+plt.savefig(OUT / "fig_rules_top_by_lift.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 
@@ -166,4 +168,5 @@ plt.xlabel("gender:confidence")
 plt.ylabel("% of the group")
 plt.title("crowd confidence, nominated vs all")
 plt.legend()
+plt.savefig(OUT / "fig_rules_crowd_confidence.png", dpi=120, bbox_inches="tight")
 plt.show()

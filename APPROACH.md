@@ -298,21 +298,23 @@ misspecified from the start. Keep that experiment — a documented negative resu
 - Drop the mislabel list built from residuals — it is `gender:confidence` re-sorted
   (`corr(|residual|, target) = −0.842`).
 
-### (unassigned — needs an owner) — Text (`06_text.py`)
+### Text (`06_text.py`) ✅ done
 
-**Lab 7.** Tokenisation, stop words, TF-IDF, optionally LDA.
+**Lab 7.** nltk tokenising and stop words, conditional frequency distribution, TF-IDF, gensim LDA.
 
-**This is the highest-value unclaimed work.** The structured features top out around 0.805; adding
-TF-IDF of `desc_clean` and `text_clean` lifts it to **0.8377**. That is the biggest single gain
-available, and better accuracy means better-justified flags for everyone.
+Uses **text features only** — no structured features — so it stays an independent voter for the
+consensus. `desc_clean` and `text_clean` were already lower-cased and stripped in 02.
 
-Task 4 also names text explicitly as one of the "multiple views/modes" to study.
-
-- Features: `TfidfVectorizer(max_features=2000, min_df=5, sublinear_tf=True)` on `desc_clean` and
-  `text_clean` — both columns already exist in `twitter_full.csv`.
-- Report the most discriminative words per class. The EDA already hints at it: human descriptions
-  are `love / life / fan / music / writer`, non-human are `news / updates / official / latest / price`.
-- Flag rule: same confident-disagreement rule as classification, using words only.
+- Text alone reaches **0.8187**, higher than all 38 structured features together (0.8052).
+  Description alone 0.7069, tweet alone 0.7376 — the two fields are complementary.
+- Nominates 357 profiles at `score >= 0.85`, 64.1% of which the crowd was also unsure about.
+- The clearest linguistic finding for the report: **first-person pronouns separate the classes.**
+  `my`, `me`, `I` are the strongest human weights; `we`, `us`, `our` the strongest non-human.
+  People speak as individuals, organisations speak as groups.
+- Distinctive words — non-human: `continuous, price, updates, subscribe, official, latest`;
+  human: `husband, father, dad, graduate, actor, writer, snapchat`.
+- LDA over the descriptions gives 8 readable topics, and their human rate ranges from 0.492
+  (`news, social, media, free`) to 0.899 (`fan, writer, lover, love, girl`).
 
 ---
 
@@ -379,6 +381,7 @@ Baseline "always guess human" = **0.6939**.
 | logistic regression | 0.8052 |
 | decision tree | 0.7953 |
 | association rules as a classifier | 0.7745 |
+| **text only** (TF-IDF, no structured features) | **0.8187** |
 | everything + TF-IDF of both text fields | **0.8377** (`class_weight="balanced"`) / 0.8560 (plain) |
 
 **Accuracy by view — this is the Task 4 "multiple modes" answer:**
@@ -387,7 +390,7 @@ Baseline "always guess human" = **0.6939**.
 |---|---|
 | activity (tweets, favourites, account age) | 0.7544 |
 | profile flags (picture, bio, location) | 0.7475 |
-| text content (TF-IDF) | 0.7376 |
+| text content (TF-IDF, both fields) | 0.8187 |
 | **colour** | **0.5516 — essentially uninformative** |
 | all combined | **0.8377** |
 
@@ -416,8 +419,10 @@ changes accuracy by ±0.004. The problem was never too many features — it was 
 
 ## 8. Open questions for the team
 
-1. **Who takes text processing?** It is unassigned and it is worth the most. If nobody has capacity,
-   split it: one person does TF-IDF features, another does LDA topics.
+1. **Does classification fold the text features in?** Text alone (0.8187) already beats the
+   structured features (0.8052), and combined they reach 0.8377. But if `05` uses text too it stops
+   being independent of `06` and the consensus double-counts. Suggest `05` stays structured-only and
+   we report the combined number separately as the best single model.
 2. **Filename collision.** The clustering and regression branches both add `code/04_*.py`. Renumber
    before merging — suggest `04_clustering`, `05_classification`, `06_regression`, `07_text`.
 3. **Pick one model configuration and stick to it.** Some numbers above use
