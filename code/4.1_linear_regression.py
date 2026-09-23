@@ -1,16 +1,13 @@
 """
 CSCI446/946 Big Data Analytics - Assignment 2
-Task 2: Regression
+Task 2: Regression (Linear)
 
-Goal: predict gender:confidence (how much the crowd-sourced labellers
-agreed on a profile's gender label) from profile features. A profile
-the model expects to have a normal confidence, but whose real
-confidence disagrees a lot with the prediction, is a candidate for a
-mislabelled profile.
+Goal:
+- predict gender:confidence (crowd-labeller agreement score) from profile features
+- big gap between actual vs predicted confidence -> candidate mislabelled profile (Task 4)
 
-Structure (Linear Regression):
-summarise -> sanity-check the relationship before fitting -> fit ->
-evaluate in-sample -> evaluate on a held-out split -> predict.
+Structure - same as Lab 5 (Task 2: Linear Regression):
+summarize -> sanity-check relationship -> fit -> evaluate (train) -> evaluate (held-out) -> predict
 """
 
 from pathlib import Path
@@ -36,10 +33,8 @@ OUT.mkdir(exist_ok=True)
 TARGET = "gender:confidence"
 SEED = 7
 
-# The features used: activity (tweets/favourites, log-scaled since they
-# are heavily skewed), text stats, colour customisation, account age,
-# plus binary flags and one-hot encoded timezone. All of this was
-# already cleaned/scaled upstream in 02_preprocess.py.
+# feature groups: activity, text, colour, account age, flags, timezone
+# -> all already cleaned/scaled upstream in 02_preprocess.py
 NUM_COLS = ["fav_number_log", "tweet_count_log", "tweets_per_day_log", "favs_per_day_log",
             "account_age_days", "text_len", "desc_len", "text_n_urls",
             "text_n_mentions", "text_n_hashtags", "name_n_digits",
@@ -51,17 +46,13 @@ FLAG_COLS = ["desc_missing", "desc_has_url", "text_has_emoji", "default_image", 
 # =====================================================================
 # 1. Load data
 # =====================================================================
-# 02_preprocess.py already split the labelled profiles (is_human not
-# missing) into train/validation/test, stratified on is_human so all
-# three sets keep the same human vs non-human ratio (60/20/20, seed=7).
-# Loading the ready-made split here instead of re-splitting keeps every
-# script in the group using the exact same rows for each set.
+# - train/validation/test already split in 02_preprocess.py
+# - stratified on is_human, 60/20/20, seed=7
+# - reuse this exact split everywhere -> every script compares apples to apples
 train = pd.read_csv(PROC / "twitter_train.csv")
 val = pd.read_csv(PROC / "twitter_validation.csv")
 test = pd.read_csv(PROC / "twitter_test.csv")
 
-# tz_* columns (one-hot encoded timezone) are not a fixed list - read
-# them from the data itself.
 tz_cols = [c for c in train.columns if c.startswith("tz_")]
 FEATURES = NUM_COLS + FLAG_COLS + tz_cols
 
@@ -71,26 +62,20 @@ print("train:", train.shape, "validation:", val.shape, "test:", test.shape)
 X_train, y_train = train[FEATURES], train[TARGET]
 X_val, y_val = val[FEATURES], val[TARGET]
 X_test, y_test = test[FEATURES], test[TARGET]
-# gender, is_human and label_conflict are deliberately NOT used as
-# features: they are derived from (or are) the label this model is
-# trying to evaluate, so using them would leak the answer into the
-# model instead of testing whether the profile's own behaviour
-# predicts its label confidence.
+# drop gender / is_human / label_conflict from features
+# -> they come from the label we are trying to evaluate -> would leak the answer
 
 
 # =====================================================================
 # 2. Summarize the target
 # =====================================================================
-# describe(): distribution of gender:confidence on the training set.
 print("\n----- y_train.describe() -----")
 print(y_train.describe())
 
-# var(): the MSE a model would get by always predicting the mean of
-# y_train, regardless of any feature. This is the baseline every model
-# below needs to beat to be worth anything - same idea as comparing
-# MSE to y.var() in Describe 6 of the lab.
+# baseline: MSE if we always predict the mean, no features at all
+# -> every model below must beat this number to be worth anything
 target_var = y_train.var()
-print("\nVar(y_train), i.e. the 'always predict the mean' baseline MSE:", round(target_var, 4))
+print("\nVar(y_train), baseline MSE:", round(target_var, 4))
 
 plt.hist(y_train, bins=40)
 plt.xlabel("gender:confidence")
@@ -104,12 +89,10 @@ print("Saved plot: regression_target_distribution.png")
 # =====================================================================
 # 3. Sanity-check the relationship, before fitting anything
 # =====================================================================
-# Same habit as the lab's Describe 5 (sns.lmplot before committing to a
-# linear model): look at how strongly each feature relates to the
-# target first, so a low R^2 later can be explained rather than
-# mistaken for a bug.
+# - same habit as the lab's lmplot step: look before you fit
+# - check correlation of each feature with the target
 corr = train[NUM_COLS + [TARGET]].corr()[TARGET].drop(TARGET).sort_values()
-print("\n----- correlation of each numeric feature with gender:confidence -----")
+print("\n----- correlation with gender:confidence -----")
 print(corr)
 
 corr.plot.barh(figsize=(6, 6))
@@ -120,9 +103,7 @@ plt.savefig(OUT / "regression_feature_correlation.png", dpi=120, bbox_inches="ti
 plt.show()
 print("Saved plot: regression_feature_correlation.png")
 
-# Plot the single strongest-correlated feature against the target, with
-# a fitted line - the same visual check as the lab's lmplot step, just
-# drawn manually since we want it for one chosen feature.
+# plot the strongest single feature vs target, with a fitted line
 top = corr.abs().idxmax()
 slope, intercept = np.polyfit(train[top], y_train, 1)
 x_line = np.linspace(train[top].min(), train[top].max(), 100)
@@ -135,15 +116,12 @@ plt.title(f"Strongest single feature: {top} (corr={corr[top]:.2f})")
 plt.savefig(OUT / "regression_top_feature.png", dpi=120, bbox_inches="tight")
 plt.show()
 print("Saved plot: regression_top_feature.png")
-print(f"\nEven the strongest single feature only has |corr|={corr[top]:.2f} with the target -"
-      f" the point cloud above is wide and the fitted line is close to flat.")
-print("This previews a low R^2 below: no single feature drives gender:confidence strongly.")
+print(f"\n-> even the strongest feature only reaches |corr|={corr[top]:.2f}")
+print("-> expect a low R^2 below - that's the data, not a bug")
 
 
 def evaluate(name, model, X, y):
-    # Same 3 metrics the lab uses (MSE, R^2), plus RMSE (same unit as
-    # the target, easier to read) and MAE (less sensitive to outliers
-    # than MSE, useful given the target is skewed - see Describe 2).
+    # predict -> compute MSE / RMSE / MAE / R2 -> print -> return
     pred = model.predict(X)
     mse = mean_squared_error(y, pred)
     rmse = mse ** 0.5
@@ -154,32 +132,22 @@ def evaluate(name, model, X, y):
 
 
 # =====================================================================
-# 4. Fit a linear model (Ridge Regression)
+# 4. Fit Ridge Regression (linear model)
 # =====================================================================
-# Plain LinearRegression is not used here: with 27 features (vs 1 in
-# the lab's sea-ice example) and some of them correlated with each
-# other (e.g. tweet_count_log and favs_per_day_log), an unregularised
-# fit can become unstable. Ridge adds L2 regularisation (alpha=1.0),
-# which keeps the coefficients small and stable without changing the
-# underlying linear model.
+# - 27 features, some correlated with each other -> plain LinearRegression unstable
+# - Ridge = linear regression + L2 regularization -> keeps coefficients stable
 ridge = Ridge(alpha=1.0, random_state=SEED)
 ridge.fit(X_train, y_train)
 
-# In-sample evaluation first (same as Describe 6: MSE/R^2 on the data
-# the model was trained on).
-print("\n----- Ridge: in-sample (train) -----")
+print("\n----- Ridge: train -----")
 _, ridge_train_mse, ridge_train_rmse, ridge_train_mae, ridge_train_r2 = evaluate(
     "Ridge (train)", ridge, X_train, y_train)
 
-# Held-out evaluation on the validation set (same idea as Describe 7's
-# held-out years: check performance on data the model has not seen).
-print("\n----- Ridge: held-out (validation) -----")
+print("\n----- Ridge: validation (held-out) -----")
 _, ridge_mse, ridge_rmse, ridge_mae, ridge_r2 = evaluate(
     "Ridge (validation)", ridge, X_val, y_val)
 
-# coef_: how much each feature pushes the predicted confidence up or
-# down, holding the others fixed - the linear-model equivalent of
-# est.coef_ in Describe 6.
+# coefficients -> which feature pushes confidence up / down
 coefs = pd.Series(ridge.coef_, index=FEATURES).sort_values()
 coefs.plot.barh(figsize=(6, 9))
 plt.xlabel("Ridge coefficient")
@@ -191,22 +159,19 @@ print("Saved plot: regression_ridge_coefficients.png")
 
 
 # =====================================================================
-# 5. A second model for comparison (Random Forest)
+# 5. Fit Random Forest (second model, for comparison)
 # =====================================================================
-# Beyond what the lab covers: gender:confidence is skewed, not normal
-# (most values sit exactly at 1.0 - see Describe 2), so a model that
-# does not assume a linear relationship is worth trying alongside
-# Ridge. Random Forest also gives feature importances, which can be
-# cross-checked against Ridge's coefficients.
+# - target is skewed (most values = 1.0) -> try a non-linear model too
+# - also gives feature importances -> cross-check against Ridge coefficients
 rf = RandomForestRegressor(n_estimators=300, max_depth=8, min_samples_leaf=5,
                            random_state=SEED, n_jobs=-1)
 rf.fit(X_train, y_train)
 
-print("\n----- RandomForest: in-sample (train) -----")
+print("\n----- RandomForest: train -----")
 _, rf_train_mse, rf_train_rmse, rf_train_mae, rf_train_r2 = evaluate(
     "RandomForest (train)", rf, X_train, y_train)
 
-print("\n----- RandomForest: held-out (validation) -----")
+print("\n----- RandomForest: validation (held-out) -----")
 _, rf_mse, rf_rmse, rf_mae, rf_r2 = evaluate(
     "RandomForest (validation)", rf, X_val, y_val)
 
@@ -221,11 +186,10 @@ print("Saved plot: regression_rf_importance.png")
 
 
 # =====================================================================
-# 6. Pick the best model on the validation set
+# 6. Pick the best model on validation
 # =====================================================================
-# The test set must only be used once, for the final report number
-# below - not for deciding which model is "best". That decision is
-# made here using validation performance only.
+# - compare Ridge vs RandomForest on validation only
+# - test set stays untouched until step 7 - decision must not "see" it
 print("\n----- model selection (validation set) -----")
 print(f"Ridge        validation MSE={ridge_mse:.4f} ({ridge_mse / target_var:.1%} of baseline), R2={ridge_r2:.4f}")
 print(f"RandomForest validation MSE={rf_mse:.4f} ({rf_mse / target_var:.1%} of baseline), R2={rf_r2:.4f}")
@@ -235,16 +199,14 @@ print("Best model, selected on validation:", best_name)
 
 
 # =====================================================================
-# 7. Predictions: final, one-time evaluation on the held-out test set
+# 7. Final evaluation on test (one time only)
 # =====================================================================
 print(f"\n----- {best_name}: final evaluation (test) -----")
 best_pred, best_mse, best_rmse, best_mae, best_r2 = evaluate(
     f"{best_name} (test - final)", best_model, X_test, y_test)
-print(f"{best_name} test MSE is {best_mse / target_var:.1%} of the baseline Var(y_train) -"
-      f" i.e. predicting from profile features only modestly beats guessing the mean confidence"
-      f" for everyone. This matches the weak correlations found in step 3: gender:confidence"
-      f" mostly reflects whether the labellers agreed, which is not strongly visible in the"
-      f" profile's own features.")
+print(f"-> test MSE is {best_mse / target_var:.1%} of the baseline")
+print("-> profile features barely beat guessing the mean confidence for everyone")
+print("-> confidence mostly reflects labeller agreement, not something visible in the profile")
 
 comparison = pd.DataFrame({
     "model": ["Ridge", "Ridge", "RandomForest", "RandomForest", best_name],
@@ -270,12 +232,11 @@ print("Saved plot: regression_prediction_evaluation.png")
 
 
 # =====================================================================
-# 8. Conclusion: profiles the model disagrees with most (Task 4)
+# 8. Candidate mislabels for Task 4
 # =====================================================================
-# residual = actual - predicted. A large |residual| means the model
-# expected a "normal" confidence from this profile's features, but the
-# real confidence was very different - a candidate for a mislabelled
-# profile, to be reviewed manually rather than treated as confirmed.
+# - residual = actual - predicted
+# - big |residual| -> profile "looks normal" but confidence disagrees -> flag as candidate
+# - not a confirmed error - just worth a manual look
 diag = test[["name", "gender", TARGET, "label_conflict"]].copy()
 diag["predicted"] = best_pred
 diag["residual"] = diag[TARGET] - diag["predicted"]
@@ -284,15 +245,12 @@ diag = diag.reindex(diag["residual"].abs().sort_values(ascending=False).index)
 print("\n----- top 20 profiles by |residual| -----")
 print(diag.head(20).to_string(index=False))
 
-# label_conflict (from 02_preprocess.py) flags accounts whose name was
-# labelled inconsistently across duplicate records - a different,
-# independent signal of the same underlying problem. Checking overlap
-# tells us whether the two signals agree or catch different cases.
+# label_conflict = a different signal (inconsistent label across duplicate records)
+# -> check overlap: do the two signals agree, or catch different cases?
 overlap = diag.head(200)["label_conflict"].sum()
 print(f"\nOf the top 200 profiles by residual, {overlap} are also flagged by label_conflict.")
-print("Low/no overlap means the two signals catch different kinds of mislabelling - worth"
-      " presenting both in Task 4 as separate, complementary views rather than one confirming"
-      " the other.")
+print("-> low overlap = two different signals, not one confirming the other")
+print("-> present both separately in Task 4")
 
 diag.head(50).to_csv(OUT / "regression_mislabel_candidates.csv", index=False)
 print("Saved: regression_mislabel_candidates.csv")
