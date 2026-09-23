@@ -174,20 +174,34 @@ print("Saved plot: logistic_confusion_matrix.png")
 
 
 # =====================================================================
-# 6. Conclusion: precision, recall, F1
+# 6. Conclusion: precision, recall, F1 - both classes
 # =====================================================================
-# "positive" class = human (1)
-# precision = of predicted human, how many truly are
-# recall    = of actual human, how many were caught
-# F1        = precision and recall combined into one number
-precision = precision_score(y_test, y_hat_test)
-recall = recall_score(y_test, y_hat_test)
-f1 = f1_score(y_test, y_hat_test)
-print(f"\nPrecision: {precision:.4f}")
-print(f"Recall: {recall:.4f}")
-print(f"F1: {f1:.4f}")
-print(f"-> recall ({recall:.2f}) higher than precision ({precision:.2f})")
+# - sklearn's default (pos_label=1) only scores the "human" class
+# - dataset is imbalanced (~69% human) -> also score "non-human" (pos_label=0)
+#   on its own, otherwise a model that just leans towards the majority class
+#   can still look good on the human-only numbers
+precision_h = precision_score(y_test, y_hat_test, pos_label=1)
+recall_h = recall_score(y_test, y_hat_test, pos_label=1)
+f1_h = f1_score(y_test, y_hat_test, pos_label=1)
+
+precision_nh = precision_score(y_test, y_hat_test, pos_label=0)
+recall_nh = recall_score(y_test, y_hat_test, pos_label=0)
+f1_nh = f1_score(y_test, y_hat_test, pos_label=0)
+
+print("\n----- human (majority class) -----")
+print(f"Precision: {precision_h:.4f}")
+print(f"Recall: {recall_h:.4f}")
+print(f"F1: {f1_h:.4f}")
+
+print("\n----- non-human (minority class) -----")
+print(f"Precision: {precision_nh:.4f}")
+print(f"Recall: {recall_nh:.4f}")
+print(f"F1: {f1_nh:.4f}")
+
+print(f"\n-> recall human ({recall_h:.2f}) higher than recall non-human ({recall_nh:.2f})")
 print("-> model leans towards predicting 'human' -> matches the ~69% human imbalance in step 1")
+print("-> recall non-human is the real number for 'does this catch brand/bot accounts' -")
+print("   the human-only numbers alone would hide how well the minority class is caught")
 print("-> false negative (real person flagged non-human) is rarer than")
 print("   false positive (a brand/bot-like account predicted human, so it slips through)")
 print("-> which error matters more depends on how the group uses this result")
