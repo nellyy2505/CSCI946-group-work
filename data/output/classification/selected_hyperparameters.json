@@ -1,0 +1,17 @@
+{
+  "decision_tree": {
+    "max_depth": 7
+  },
+  "knn": {
+    "n_neighbors": 13
+  },
+  "mlp": {
+    "hidden_layer_sizes": [
+      10
+    ],
+    "alpha": 0.1,
+    "max_iter": 500,
+    "early_stopping": true,
+    "note": "fixed from an earlier sweep"
+  }
+}

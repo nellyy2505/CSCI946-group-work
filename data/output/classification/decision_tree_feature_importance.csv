@@ -1,0 +1,39 @@
+feature,importance
+fav_number_log,0.43731781065889597
+text_n_urls,0.22186904130404309
+desc_len,0.07323114750020554
+default_image,0.06845459791442556
+tweets_per_day_log,0.04778223165720991
+account_age_days,0.04706461316285363
+text_len,0.023816826802179242
+name_n_digits,0.020965409660036016
+tweet_count_log,0.012217041381613341
+favs_per_day_log,0.01175843934837443
+link_b,0.008331529969822804
+sidebar_b,0.004693062813989195
+desc_has_url,0.004094766571773534
+text_n_hashtags,0.0038697724419037402
+link_g,0.0029554268428549214
+tz_London,0.0023864358693222298
+tz_Pacific Time (US & Canada),0.002298053679837055
+has_retweets,0.0019370396422405537
+text_n_mentions,0.0014225637195050675
+tz_Other,0.001202421570855992
+tz_Eastern Time (US & Canada),0.0009483758130033786
+sidebar_default,0.0008693444952530969
+sidebar_g,0.000514047179801831
+tz_Mountain Time (US & Canada),0.0
+tz_Arizona,0.0
+tz_Central Time (US & Canada),0.0
+tz_Casablanca,0.0
+tz_Atlantic Time (Canada),0.0
+text_has_emoji,0.0
+tz_Amsterdam,0.0
+link_default,0.0
+timezone_missing,0.0
+location_missing,0.0
+has_coord,0.0
+desc_missing,0.0
+sidebar_r,0.0
+link_r,0.0
+tz_Quito,0.0
