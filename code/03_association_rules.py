@@ -74,7 +74,7 @@ plt.colorbar(points, label="lift")
 plt.xlabel("support")
 plt.ylabel("confidence")
 plt.title("all rules")
-plt.savefig(OUT / "fig_rules_support_confidence.png", dpi=120, bbox_inches="tight")
+plt.savefig(OUT / "fig_association_support_confidence.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 # main result: the rules that conclude a label
@@ -104,17 +104,23 @@ plt.xlabel("lift")
 plt.title("strongest rules for the label")
 plt.legend()
 plt.tight_layout()
-plt.savefig(OUT / "fig_rules_top_by_lift.png", dpi=120, bbox_inches="tight")
+plt.savefig(OUT / "fig_association_top_by_lift.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 
-def contradicted(min_conf, min_lift):
-    # profiles matching a rule for the class opposite to their label
+def strongest_rule(min_conf, min_lift):
+    # every profile takes the verdict of the strongest rule it matches; unmatched profiles keep score 0
     strong = label_rules[(label_rules["confidence"] >= min_conf) & (label_rules["lift"] >= min_lift)]
-    hit = pd.Series(False, index=df.index)
+    says = pd.Series("", index=df.index)
+    score = pd.Series(0.0, index=df.index)
+    matched = pd.Series(0, index=df.index)
     for _, r in strong.iterrows():
-        hit |= items[sorted(r["antecedents"])].all(axis=1) & labelled & (label != r["says"])
-    return strong, hit
+        match = items[sorted(r["antecedents"])].all(axis=1)
+        matched[match] += 1                                   # strong rules matched, for either class
+        stronger = match & (r["confidence"] > score)           # strongest = highest confidence; ties keep the higher-lift rule seen first
+        says[stronger] = r["says"]
+        score[stronger] = r["confidence"]
+    return strong, says, score, matched
 
 
 # choose the threshold by what it produces, not by hand
@@ -122,27 +128,31 @@ print("\nthreshold sweep (crowd was unsure about %.3f of all labelled profiles)"
       % (df.loc[labelled, "gender:confidence"] < 1).mean())
 sweep = []
 for conf in [0.70, 0.75, 0.80, 0.85, 0.90]:
-    strong, hit = contradicted(conf, MIN_LIFT)
+    strong, says, score, _ = strongest_rule(conf, MIN_LIFT)
+    hit = labelled & (score > 0) & (says != label)
     sweep.append({"min_confidence": conf, "rules": len(strong), "profiles": int(hit.sum()),
                   "crowd_unsure": (df.loc[hit, "gender:confidence"] < 1).mean()})
 print(pd.DataFrame(sweep).round(3).to_string(index=False))
 
 # 0.80 is the tightest cut keeping rules for both classes (best non_human rule is 0.846)
-STRONG, hit = contradicted(MIN_CONF, MIN_LIFT)
+STRONG, says, score, matched = strongest_rule(MIN_CONF, MIN_LIFT)
 print("\nusing confidence >=", MIN_CONF, "lift >=", MIN_LIFT, "->", len(STRONG), "rules")
 
-# score each nominated profile by the strongest rule against it
-score = pd.Series(0.0, index=df.index)
-says = pd.Series("", index=df.index)
-votes = pd.Series(0, index=df.index)
-for _, r in STRONG.iterrows():
-    match = items[sorted(r["antecedents"])].all(axis=1) & labelled & (label != r["says"])
-    votes[match] += 1
-    stronger = match & (r["confidence"] > score)
-    says[stronger] = r["says"]
-    score[stronger] = r["confidence"]
+# output contract: association_predictions.csv - every profile a strong rule covers, labelled or not
+covered = score > 0
+predictions = pd.DataFrame({
+    "_unit_id": df.loc[covered, "_unit_id"],
+    "says": says[covered],
+    "score": score[covered].round(3),
+    "recorded": label[covered],
+    "rules_matched": matched[covered],
+})
+predictions.to_csv(OUT / "association_predictions.csv", index=False)
+print("profiles covered by a strong rule:", len(predictions),
+      "| unknown among them:", int((predictions["recorded"] == "unknown").sum()))
 
-# output contract: _unit_id, says, score
+# output contract: association_flagged.csv - labelled profiles whose strongest rule contradicts the label
+hit = covered & labelled & (says != label)
 result = pd.DataFrame({
     "_unit_id": df.loc[hit, "_unit_id"],
     "says": says[hit],
@@ -151,7 +161,7 @@ result = pd.DataFrame({
     "gender": df.loc[hit, "gender"],
     "name": df.loc[hit, "name"],
     "gender:confidence": df.loc[hit, "gender:confidence"],
-    "rules_contradicting": votes[hit],
+    "rules_matched": matched[hit],
 }).sort_values("score", ascending=False)
 result.to_csv(OUT / "association_flagged.csv", index=False)
 
@@ -168,5 +178,5 @@ plt.xlabel("gender:confidence")
 plt.ylabel("% of the group")
 plt.title("crowd confidence, nominated vs all")
 plt.legend()
-plt.savefig(OUT / "fig_rules_crowd_confidence.png", dpi=120, bbox_inches="tight")
+plt.savefig(OUT / "fig_association_crowd_confidence.png", dpi=120, bbox_inches="tight")
 plt.show()

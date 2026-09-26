@@ -1,0 +1,1296 @@
+_unit_id,name,gender,recorded,says,votes,opposing_votes,available_methods,review_tier,methods,gender:confidence,label_conflict,association_says,classification_says,clustering_says,regression_says,text_says,association_score,classification_score,clustering_score,regression_score,text_score
+815733174,daddy_unchained,brand,non_human,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3303,0,human,human,human,human,human,0.862,0.938,0.957,0.967,0.895
+815725796,27349stwd,female,human,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3357,0,non_human,non_human,non_human,non_human,non_human,0.846,0.995,0.956,0.931,0.993
+815732012,kenziesachen,brand,non_human,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3361,0,human,human,human,human,human,0.898,0.966,0.957,0.918,0.868
+815724853,01808gnlb,female,human,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3374,0,non_human,non_human,non_human,non_human,non_human,0.846,0.975,0.956,0.926,0.998
+815724251,kamyb22,brand,non_human,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3401,0,human,human,human,human,human,0.898,0.933,0.917,0.919,0.901
+815728354,07199jcsc,female,human,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3444,0,non_human,non_human,non_human,non_human,non_human,0.846,0.984,0.956,0.932,0.993
+815729075,04768lktc,male,human,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3494,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.924,0.993
+815739580,BabiesGunsJesus,brand,non_human,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6354,0,human,human,human,human,human,0.869,0.969,0.957,0.95,0.945
+815727388,mojo_YOjo,brand,non_human,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6368,0,human,human,human,human,human,0.862,0.944,0.957,0.921,0.898
+815731845,sugarspankhorn,brand,non_human,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.65,0,human,human,human,human,human,0.864,0.923,0.917,0.926,0.941
+815732415,viria13,brand,non_human,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6543,0,human,human,human,human,human,0.898,0.977,0.957,0.971,0.887
+815737867,bones_six7,brand,non_human,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6598,0,human,human,human,human,human,0.925,0.968,0.957,0.934,0.871
+815723056,byediva,brand,non_human,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6602,0,human,human,human,human,human,0.898,0.969,0.957,0.946,0.899
+815737303,TheOnlyAhmed,brand,non_human,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6751,0,human,human,human,human,human,0.925,0.979,0.957,0.98,0.897
+815728020,sungohst,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.3354,0,human,human,,human,human,0.862,0.905,,0.92,0.958
+815737698,Hessahalkhawari,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.3389,0,human,human,,human,human,0.925,0.956,,0.963,0.876
+815734827,triggzyy,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, text",0.3408,0,human,human,human,,human,0.861,0.903,0.917,,0.878
+815739540,KuKu_EmmaW_fan,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.3418,0,human,human,human,human,,0.925,0.952,0.957,0.943,
+815737004,Milena_mico,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.3423,0,human,human,human,human,,0.861,0.926,0.957,0.918,
+815736601,Lunatik_guy,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.3425,0,human,human,,human,human,0.862,0.933,,0.917,0.912
+815733966,mywaitisu,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.3449,0,human,human,human,human,,0.88,0.96,0.917,0.945,
+815730820,destiny_weaver,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.3456,0,human,human,human,human,,0.925,0.964,0.917,0.98,
+815726719,Shutter_Lense,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.3459,0,human,human,human,human,,0.869,0.985,0.917,0.942,
+815729588,luciboo80,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.347,0,human,human,human,human,,0.898,0.954,0.957,0.933,
+815729633,Kuwaballer,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.3537,0,human,human,,human,human,0.864,0.912,,0.916,0.931
+815736962,goatsworthy,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.3571,0,human,human,human,human,,0.862,0.989,0.917,0.961,
+815722517,ghostofjohanna,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.3574,0,human,human,,human,human,0.925,0.913,,0.916,0.918
+815728023,lowkeylwt_,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.3595,0,human,human,human,human,,0.925,0.989,0.957,0.973,
+815738130,2faceh,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6296,0,human,human,human,human,,0.898,0.935,0.957,0.908,
+815727133,Tawa8_12,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6341,0,human,human,,human,human,0.862,0.936,,0.949,0.867
+815719699,inimba,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6404,0,human,human,human,human,,0.898,0.969,0.917,0.965,
+815737554,przemusiowa,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6461,0,human,human,human,human,,0.873,0.967,0.957,0.921,
+815736461,whoaskedyoushit,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.648,0,human,human,human,human,,0.898,0.973,0.957,0.931,
+815722160,sigmacoder,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6497,0,human,human,human,human,,0.861,0.965,0.957,0.94,
+815734350,pumpkin_horse,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6502,0,human,human,human,human,,0.898,0.942,0.957,0.944,
+815738412,iAxX23,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6504,0,human,human,human,human,,0.862,0.945,0.957,0.953,
+815730167,twinkhedgehog,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6506,0,human,human,,human,human,0.862,0.913,,0.907,0.942
+815720588,tomlinsgomez,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6508,0,human,human,,human,human,0.898,0.929,,0.959,0.908
+815723028,inthebarberry,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6526,0,human,human,human,human,,0.873,0.955,0.917,0.926,
+815728924,lawyerinbeta,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6534,0,human,human,human,human,,0.862,0.956,0.957,0.927,
+815734342,dadadaily,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6534,0,human,human,human,human,,0.873,0.961,0.957,0.924,
+815723324,LukeIsASequin,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6543,1,human,human,,human,human,0.925,0.94,,0.967,0.881
+815731407,coyotekissesxo,brand,non_human,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6556,0,,human,human,human,human,,0.96,0.917,0.925,0.876
+815736240,owldom,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6556,0,human,human,human,human,,0.864,0.965,0.957,0.975,
+815737960,CoolTrainrJulio,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6562,0,human,human,human,human,,0.898,0.967,0.957,0.965,
+815729321,nobrightside,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6566,0,human,human,human,human,,0.898,0.979,0.957,0.942,
+815723206,ChayseFox,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6577,0,human,human,human,human,,0.862,0.966,0.957,0.98,
+815739350,noonmohsharfi,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6585,0,human,human,human,human,,0.925,0.97,0.917,0.948,
+815721398,348255gbabies,brand,non_human,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6597,0,,human,human,human,human,,0.922,0.917,0.913,0.892
+815727117,Hobie_Dog,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.66,0,human,human,,human,human,0.873,0.958,,0.926,0.909
+815726116,lonhro,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6609,0,human,human,,human,human,0.862,0.948,,0.93,0.89
+815732178,dariancordova,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6615,0,human,human,human,human,,0.869,0.975,0.917,0.953,
+815722730,naegisnaegi,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6618,0,human,human,human,human,,0.873,0.982,0.957,0.968,
+815724385,afscot,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6619,0,human,human,human,human,,0.873,0.959,0.957,0.945,
+815731889,311guy,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6619,0,human,human,,human,human,0.873,0.972,,0.942,0.866
+815731688,MBieber_Smith,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6627,0,human,human,human,human,,0.925,0.994,0.957,0.985,
+815719581,IgniteMeRiRi,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6634,0,human,human,,human,human,0.925,0.976,,0.961,0.944
+815722929,fosteravepro,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, text",0.6642,0,human,human,human,,human,0.898,0.95,0.957,,0.978
+815723329,SketchMasterMJH,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6659,0,human,human,human,human,,0.898,0.978,0.957,0.956,
+815735292,19jim47,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6665,0,human,human,human,human,,0.925,0.943,0.917,0.936,
+815739202,KidrauhllNey,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6674,0,human,human,,human,human,0.925,0.905,,0.931,0.927
+815720041,dazM33,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6678,0,human,human,,human,human,0.898,0.966,,0.925,0.946
+815731121,nevertooo1D,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6685,0,human,human,,human,human,0.925,0.944,,0.953,0.854
+815738205,healfranta,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6685,0,human,human,,human,human,0.922,0.975,,0.915,0.929
+815729137,VerseUniverse,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6688,0,human,human,human,human,,0.869,0.979,0.917,0.924,
+815720053,ChelseaWrenArt,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6691,0,human,human,,human,human,0.898,0.965,,0.952,0.864
+815721726,labelsforlunch,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6694,0,human,human,,human,human,0.925,0.977,,0.959,0.918
+815727109,loookapanda,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6705,0,human,human,human,human,,0.873,0.979,0.957,0.969,
+815723593,spazil,brand,non_human,human,4,0,5,3+ methods,"association, clustering, regression, text",0.6707,0,human,,human,human,human,0.869,,0.957,0.922,0.851
+815735889,Ovalegal,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6715,0,human,human,,human,human,0.869,0.956,,0.97,0.892
+815723611,vitalninjaYT,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6734,0,human,human,human,human,,0.869,0.959,0.917,0.933,
+815723600,AlboSwagger,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6736,0,human,human,human,human,,0.925,0.941,0.917,0.964,
+815724741,daejones,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6736,0,human,human,human,human,,0.898,0.974,0.957,0.931,
+815731135,xKrki,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6759,0,human,human,,human,human,0.898,0.946,,0.941,0.871
+815738361,Imreallyshitty,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.676,0,human,human,human,human,,0.862,0.91,0.917,0.922,
+815726689,Gh0st2126,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6761,0,human,human,,human,human,0.862,0.954,,0.92,0.879
+815722828,JKE_G,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6769,0,human,human,human,human,,0.873,0.95,0.957,0.932,
+815729176,rasputinmethod,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6774,0,human,human,,human,human,0.869,0.949,,0.923,0.899
+815720278,GermanWizard11,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6789,1,human,human,,human,human,0.925,0.971,,0.96,0.862
+815722137,Cekeshe,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6789,0,human,human,human,human,,0.925,0.962,0.957,0.946,
+815732647,icanttt,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, text",0.6835,0,human,human,human,,human,0.861,0.94,0.917,,0.887
+815724819,Barokoru,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6879,0,human,human,human,human,,0.898,0.963,0.917,0.923,
+815733160,faviator,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.688,0,human,human,,human,human,0.862,0.917,,0.964,0.921
+815731753,InRainesville,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6887,0,human,human,human,human,,0.873,0.966,0.917,0.922,
+815730710,MaddieandTaeFly,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",0.6921,0,human,human,human,human,,0.925,0.926,0.917,0.902,
+815730825,iWant_Gaga,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",0.6923,0,human,human,,human,human,0.925,0.925,,0.954,0.937
+815719906,TwistandSports,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",1.0,0,human,human,human,human,,0.925,0.964,0.917,0.963,
+815726256,ltmcdies,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",1.0,0,human,human,human,human,,0.869,0.971,0.957,0.966,
+815726616,MejoresLook,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.922,0.96,,0.931,0.894
+815727926,facepaulmrevere,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.925,0.952,,0.96,0.886
+815729409,monetpearson,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",1.0,0,human,human,human,human,,0.869,0.981,0.917,0.954,
+815729653,ljgrover22,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",1.0,0,human,human,human,human,,0.861,0.982,0.957,0.952,
+815731772,MusikDaLYCD,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.925,0.964,,0.96,0.925
+815732407,IUParking,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",1.0,0,human,human,human,human,,0.873,0.963,0.957,0.965,
+815733835,bcfc_fans_fc,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",1.0,0,human,human,human,human,,0.869,0.958,0.957,0.928,
+815734204,anytimetips,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",1.0,0,human,human,human,human,,0.925,0.929,0.917,0.911,
+815734999,Nuevomedio,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",1.0,0,human,human,human,human,,0.873,0.978,0.957,0.964,
+815735607,Porcelanosa_EN,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",1.0,0,human,human,human,human,,0.873,0.929,0.917,0.914,
+815737036,DefiantBA,brand,non_human,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.862,0.983,,0.952,0.907
+815738576,JbSleaz,brand,non_human,human,4,0,5,3+ methods,"association, classification, clustering, regression",1.0,0,human,human,human,human,,0.925,0.965,0.957,0.911,
+815731718,AlmiiCuello,brand,non_human,human,3,0,5,3+ methods,"association, clustering, text",0.314,0,human,,human,,human,0.873,,0.917,,0.896
+815735389,Thatdamn_Scrapp,brand,non_human,human,3,0,5,3+ methods,"association, classification, text",0.3383,0,human,human,,,human,0.869,0.9,,,0.935
+815736943,trivialattire,brand,non_human,human,3,0,5,3+ methods,"association, regression, text",0.3387,0,human,,,human,human,0.862,,,0.936,0.903
+815723871,Iouvinglwt,brand,non_human,human,3,0,5,3+ methods,"association, classification, text",0.3388,0,human,human,,,human,0.862,0.943,,,0.856
+815734996,soukatsu_,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.3392,0,human,human,,human,,0.862,0.965,,0.933,
+815727024,loseyourself235,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.3397,0,human,human,,human,,0.869,0.953,,0.916,
+815731177,156Sharknose,brand,non_human,human,3,0,5,3+ methods,"classification, regression, text",0.3402,0,,human,,human,human,,0.92,,0.905,0.881
+815723594,ranveersbabe,brand,non_human,human,3,0,5,3+ methods,"classification, clustering, text",0.3404,0,,human,human,,human,,0.928,0.957,,0.929
+815731148,timc4567,brand,non_human,human,3,0,5,3+ methods,"classification, clustering, regression",0.3411,0,,human,human,human,,,0.948,0.957,0.924,
+815725233,WhatMaffTweets,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.3417,0,human,human,,human,,0.862,0.949,,0.945,
+815724539,SoddersLiger,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.3474,0,human,human,,human,,0.898,0.959,,0.919,
+815724452,michaelcoyote,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.3494,0,human,human,,human,,0.862,0.916,,0.907,
+815725447,Zinxii_FFA,brand,non_human,human,3,0,5,3+ methods,"association, clustering, text",0.3497,0,human,,human,,human,0.879,,0.917,,0.946
+815734194,zelimpa,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.3507,0,human,human,,human,,0.862,0.966,,0.944,
+815734124,RobProvince,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.352,0,human,human,,human,,0.925,0.984,,0.973,
+815732190,joXn,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.3547,0,human,human,,human,,0.862,0.929,,0.966,
+815729310,Rob_Simple,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.3548,0,human,human,,human,,0.862,0.903,,0.913,
+815738619,elizasoberano11,female,human,non_human,3,0,5,3+ methods,"association, classification, regression",0.356,0,non_human,non_human,,non_human,,0.84,0.915,,0.942,
+815725754,K1LLz_,brand,non_human,human,3,0,5,3+ methods,"association, clustering, text",0.369,0,human,,human,,human,0.861,,0.957,,0.889
+815724599,d_michaelsatele,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6333,0,human,human,human,,,0.873,0.918,0.917,,
+815731526,paparatti,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6361,0,human,human,,human,,0.862,0.937,,0.93,
+815738500,conandoyle5,male,human,non_human,3,0,5,3+ methods,"association, classification, regression",0.6365,0,non_human,non_human,,non_human,,0.84,0.927,,0.941,
+815722430,creeper32605,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6432,0,human,human,,human,,0.862,0.927,,0.955,
+815736722,sadwitches,brand,non_human,human,3,0,5,3+ methods,"classification, clustering, text",0.6456,0,,human,human,,human,,0.921,0.917,,0.88
+815738862,Unite24Lq,female,human,non_human,3,0,5,3+ methods,"association, classification, regression",0.647,0,non_human,non_human,,non_human,,0.84,0.911,,0.915,
+815732878,GMcCorrister,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6471,0,human,human,,human,,0.862,0.926,,0.933,
+815736589,iamdaman00,brand,non_human,human,3,0,5,3+ methods,"association, classification, text",0.6476,0,human,human,,,human,0.869,0.904,,,0.88
+815737697,KnifeStitch,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6478,0,human,human,,human,,0.898,0.911,,0.931,
+815725934,erynies,brand,non_human,human,3,0,5,3+ methods,"association, classification, text",0.6488,0,human,human,,,human,0.873,0.905,,,0.877
+815727210,haineystuart,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6506,0,human,human,,human,,0.861,0.915,,0.913,
+815719693,TreJinkins,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6508,0,human,human,,human,,0.862,0.922,,0.955,
+815735624,IketheNinja14,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6508,0,human,human,,human,,0.869,0.938,,0.919,
+815734965,KaraAbheri1,brand,non_human,human,3,0,5,3+ methods,"classification, regression, text",0.6525,0,,human,,human,human,,0.931,,0.938,0.926
+815733214,MightyAvocado,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6534,0,human,human,,human,,0.869,0.932,,0.919,
+815724134,yell999,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6539,0,human,human,,human,,0.873,0.94,,0.944,
+815733845,JoySeele,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6539,0,human,human,,human,,0.925,0.9,,0.936,
+815723235,THE_HOEOLOGIST,brand,non_human,human,3,0,5,3+ methods,"classification, clustering, regression",0.6545,0,,human,human,human,,,0.968,0.957,0.935,
+815732024,rashidgill5,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6546,0,human,human,,human,,0.862,0.92,,0.914,
+815731047,Taz_Cat1,brand,non_human,human,3,0,5,3+ methods,"classification, clustering, regression",0.6551,0,,human,human,human,,,0.956,0.957,0.949,
+815736154,RazaHussain101,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6553,0,human,human,,human,,0.869,0.941,,0.942,
+815734286,Fatimahamoudi5,brand,non_human,human,3,0,5,3+ methods,"classification, clustering, regression",0.6555,0,,human,human,human,,,0.96,0.917,0.922,
+815736330,Jazzzyone,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6558,0,human,human,,human,,0.862,0.93,,0.903,
+815725467,80slukeftharry,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6567,0,human,human,,human,,0.922,0.926,,0.944,
+815727267,bobcatarts,brand,non_human,human,3,0,5,3+ methods,"association, clustering, text",0.6574,0,human,,human,,human,0.898,,0.957,,0.89
+815726930,sensualsehun,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6578,0,human,human,,human,,0.862,0.918,,0.919,
+815734181,monstracious,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6578,0,human,human,,human,,0.898,0.912,,0.913,
+815733002,SpinsterAndCat,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6581,0,human,human,,human,,0.862,0.922,,0.924,
+815737186,bonhomme37,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6584,0,human,human,human,,,0.88,0.91,0.917,,
+815727895,_Turntway,brand,non_human,human,3,0,5,3+ methods,"association, clustering, regression",0.6589,0,human,,human,human,,0.869,,0.957,0.907,
+815729201,KazJester,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6591,0,human,human,human,,,0.873,0.928,0.957,,
+815732751,ChanceOneShot,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.66,0,human,human,,human,,0.925,0.944,,0.923,
+815735282,darkIaws,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6602,0,human,human,,human,,0.898,0.937,,0.91,
+815738012,r_wolfcastle,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6602,0,human,human,,human,,0.862,0.946,,0.942,
+815730116,skywlka22,brand,non_human,human,3,0,5,3+ methods,"classification, clustering, text",0.6603,0,,human,human,,human,,0.928,0.917,,0.938
+815725986,LibromusicaIES,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6607,0,human,human,,human,,0.922,0.971,,0.963,
+815720107,RidgeWorld,brand,non_human,human,3,0,5,3+ methods,"association, regression, text",0.6612,0,human,,,human,human,0.909,,,0.907,0.886
+815734513,bama_tweets,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6615,0,human,human,,human,,0.873,0.936,,0.907,
+815736177,Tetsuo9999,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6621,0,human,human,,human,,0.861,0.96,,0.959,
+815737729,durtgeek,male,human,non_human,3,0,5,3+ methods,"association, classification, regression",0.6626,0,non_human,non_human,,non_human,,0.839,0.938,,0.995,
+815733698,takua343,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6631,0,human,human,,human,,0.898,0.931,,0.954,
+815724358,JesTr0n,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6639,0,human,human,,human,,0.898,0.938,,0.928,
+815727725,tomlinflows,brand,non_human,human,3,0,5,3+ methods,"association, regression, text",0.6643,0,human,,,human,human,0.862,,,0.948,0.867
+815730322,TrueLies6,brand,non_human,human,3,0,5,3+ methods,"association, classification, text",0.6643,0,human,human,,,human,0.862,0.951,,,0.903
+815724051,bonfiresband,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6648,0,human,human,human,,,0.898,0.924,0.917,,
+815720003,NotLikeFreddy,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6653,0,human,human,,human,,0.864,0.934,,0.907,
+815739270,_boog1,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6653,0,human,human,,human,,0.869,0.943,,0.923,
+815721246,jadespr1te,brand,non_human,human,3,0,5,3+ methods,"association, classification, text",0.6655,0,human,human,,,human,0.862,0.914,,,0.949
+815724033,ssnaqi,brand,non_human,human,3,0,5,3+ methods,"association, regression, text",0.6656,0,human,,,human,human,0.869,,,0.904,0.911
+815728295,superwomanchick,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6658,0,human,human,,human,,0.869,0.932,,0.932,
+815739402,KINGPOM_FUCKYOU,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6661,0,human,human,human,,,0.873,0.943,0.957,,
+815728098,Hollyoakslover3,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6674,0,human,human,human,,,0.869,0.958,0.957,,
+815734451,KrazzyTracy,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6676,0,human,human,,human,,0.864,0.964,,0.936,
+815725486,c0l5hy69,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6678,0,human,human,human,,,0.854,0.907,0.917,,
+815721732,the_dirty_ho,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6679,0,human,human,,human,,0.898,0.902,,0.913,
+815735767,catholic_nun,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6681,0,human,human,,human,,0.862,0.927,,0.921,
+815738632,irishgoespop,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6688,0,human,human,,human,,0.925,0.983,,0.969,
+815733013,kaneki_txt,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.669,0,human,human,,human,,0.925,0.97,,0.935,
+815730796,ReindeerBrayden,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6692,0,human,human,,human,,0.873,0.912,,0.912,
+815729780,itsterrio_hoe,brand,non_human,human,3,0,5,3+ methods,"association, clustering, text",0.6704,0,human,,human,,human,0.873,,0.957,,0.922
+815727669,_shunsou,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6707,0,human,human,human,,,0.898,0.922,0.957,,
+815732850,Mark11888,brand,non_human,human,3,0,5,3+ methods,"classification, regression, text",0.6709,0,,human,,human,human,,0.915,,0.937,0.856
+815734068,Sunglare,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6723,0,human,human,,human,,0.925,0.985,,0.989,
+815737289,animeneesan,brand,non_human,human,3,0,5,3+ methods,"association, classification, text",0.6726,0,human,human,,,human,0.898,0.923,,,0.924
+815724761,sthrob77,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6727,0,human,human,,human,,0.925,0.956,,0.969,
+815733156,lisalisa2123,female,human,non_human,3,0,5,3+ methods,"association, classification, clustering",0.6732,0,non_human,non_human,non_human,,,0.841,0.988,0.956,,
+815734380,MrAmaru,brand,non_human,human,3,0,5,3+ methods,"association, regression, text",0.6733,0,human,,,human,human,0.925,,,0.908,0.851
+815727299,BIRP,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6739,0,human,human,human,,,0.873,0.903,0.957,,
+815732920,StripedGypsum,brand,non_human,human,3,0,5,3+ methods,"association, classification, text",0.6742,0,human,human,,,human,0.862,0.92,,,0.946
+815722134,ArticBleu,brand,non_human,human,3,0,5,3+ methods,"classification, clustering, text",0.6743,0,,human,human,,human,,0.919,0.917,,0.955
+815735871,Doctorwhat2,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6743,0,human,human,human,,,0.869,0.93,0.917,,
+815732838,obsessed_boyban,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6745,0,human,human,human,,,0.88,0.941,0.917,,
+815734559,LeAnnsFissure,brand,non_human,human,3,0,5,3+ methods,"classification, clustering, text",0.6749,0,,human,human,,human,,0.917,0.917,,0.855
+815726269,wandarection_,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6754,0,human,human,,human,,0.898,0.92,,0.949,
+815734524,McJerkyface,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6754,0,human,human,,human,,0.861,0.969,,0.958,
+815720739,Noodles105,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6755,0,human,human,,human,,0.869,0.946,,0.958,
+815734367,HenryBeans,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6757,0,human,human,,human,,0.869,0.961,,0.962,
+815727064,BanJen15,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6761,0,human,human,,human,,0.925,0.901,,0.919,
+815735687,CyborgScreams,brand,non_human,human,3,0,5,3+ methods,"classification, clustering, text",0.6768,0,,human,human,,human,,0.953,0.957,,0.961
+815720701,jvngwheein,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6774,0,human,human,,human,,0.898,0.907,,0.925,
+815733504,WhatsGrammar,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6777,0,human,human,,human,,0.869,0.951,,0.914,
+815725166,lrhstereo,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6787,0,human,human,human,,,0.88,0.922,0.917,,
+815729965,BriMercedes,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6792,0,human,human,human,,,0.898,0.907,0.957,,
+815723711,niceindieman,male,human,non_human,3,0,5,3+ methods,"association, classification, regression",0.6795,0,non_human,non_human,,non_human,,0.816,0.93,,0.979,
+815737613,cnorton128,brand,non_human,human,3,0,5,3+ methods,"classification, clustering, regression",0.6802,0,,human,human,human,,,0.964,0.957,0.942,
+815736095,funkboii,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6815,0,human,human,,human,,0.862,0.946,,0.93,
+815719591,sufurkater,brand,non_human,human,3,0,5,3+ methods,"classification, clustering, regression",0.6818,0,,human,human,human,,,0.925,0.957,0.91,
+815736374,AkraticBehavior,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",0.6818,0,human,human,human,,,0.869,0.916,0.917,,
+815724414,mike_brach,brand,non_human,human,3,0,5,3+ methods,"association, clustering, regression",0.6823,0,human,,human,human,,0.862,,0.917,0.921,
+815732307,calvin_kieran,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6825,0,human,human,,human,,0.925,0.925,,0.928,
+815721092,dntsqzthchrmn,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.683,0,human,human,,human,,0.898,0.957,,0.921,
+815735245,khalidrafiq141,male,human,non_human,3,0,5,3+ methods,"association, classification, regression",0.683,0,non_human,non_human,,non_human,,0.839,0.981,,0.991,
+815727296,Eddki885Mohamm,male,human,non_human,3,0,5,3+ methods,"association, classification, regression",0.6837,0,non_human,non_human,,non_human,,0.839,0.921,,0.978,
+815728125,OnefaststasisS5,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6909,0,human,human,,human,,0.909,0.959,,0.943,
+815735742,lukeslouis,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6937,0,human,human,,human,,0.862,0.919,,0.933,
+815722186,CWert41,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",0.6944,0,human,human,,human,,0.869,0.936,,0.914,
+815720206,SharmarkeAhmed4,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.898,0.939,,0.929,
+815720486,_LHS_Leadership,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",1.0,0,human,human,human,,,0.925,0.905,0.917,,
+815720508,kgon,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",1.0,0,human,human,human,,,0.873,0.915,0.957,,
+815721806,660NEWSTraffic,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.862,0.943,,0.91,
+815723581,judyleajackson,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.862,0.954,,0.928,
+815725173,powderballcp,brand,non_human,human,3,0,5,3+ methods,"association, clustering, text",1.0,0,human,,human,,human,0.88,,0.917,,0.896
+815725481,LAKERFANATICS,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.862,0.922,,0.902,
+815725895,spoon9z,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.862,0.934,,0.958,
+815727542,gene14800846,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.869,0.97,,0.962,
+815727824,Foothill_Dance,brand,non_human,human,3,0,5,3+ methods,"association, clustering, regression",1.0,0,human,,human,human,,0.909,,0.917,0.911,
+815729092,WeRWorld,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.925,0.917,,0.924,
+815730339,shizuizas,brand,non_human,human,3,0,5,3+ methods,"association, classification, text",1.0,0,human,human,,,human,0.864,0.913,,,0.9
+815730738,94heskind,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,1,human,human,,human,,0.862,0.91,,0.906,
+815732567,Thor_of_Asgard1,brand,non_human,human,3,0,5,3+ methods,"association, clustering, text",1.0,0,human,,human,,human,0.873,,0.917,,0.857
+815733433,gatorschomp1019,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.861,0.936,,0.916,
+815733468,StockExpert3,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",1.0,0,human,human,human,,,0.861,0.931,0.917,,
+815733644,byZayys,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",1.0,0,human,human,human,,,0.861,0.928,0.957,,
+815734044,Adlez27,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.898,0.959,,0.949,
+815735103,GbenroBasit,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.925,0.915,,0.921,
+815735202,AniesiODaniels,brand,non_human,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.915,,0.93,0.869
+815736281,bbbrieger,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.862,0.919,,0.935,
+815736293,TheFuture2Hope4,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.925,0.956,,0.919,
+815736412,armadillomon,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.862,0.905,,0.928,
+815737244,Petersson84,brand,non_human,human,3,0,5,3+ methods,"association, classification, text",1.0,0,human,human,,,human,0.925,0.922,,,0.911
+815737509,viperblood77,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",1.0,0,human,human,human,,,0.862,0.925,0.917,,
+815738253,cashset_Lae,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",1.0,0,human,human,human,,,0.869,0.923,0.957,,
+815738467,aafx0_,brand,non_human,human,3,0,5,3+ methods,"association, classification, text",1.0,0,human,human,,,human,0.869,0.918,,,0.934
+815738672,SkatersChoiceCO,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.925,0.92,,0.946,
+815739377,BarbasolShave,brand,non_human,human,3,0,5,3+ methods,"association, classification, clustering",1.0,0,human,human,human,,,0.898,0.932,0.957,,
+815739594,Gbuschrist,brand,non_human,human,3,0,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,,0.869,0.907,,0.95,
+815733519,HeshamBeram,brand,non_human,human,2,0,5,2 methods,"association, classification",0.3312,0,human,human,,,,0.925,0.916,,,
+815731005,samisuperfly,brand,non_human,human,2,0,5,2 methods,"association, classification",0.3354,0,human,human,,,,0.862,0.924,,,
+815734564,bosunescobar,brand,non_human,human,2,0,5,2 methods,"clustering, regression",0.3376,0,,,human,human,,,,0.957,0.902,
+815734805,nutellAHarris24,brand,non_human,human,2,0,5,2 methods,"association, classification",0.3385,0,human,human,,,,0.869,0.909,,,
+815729596,pramoldhawan,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.3388,0,,human,,human,,,0.963,,0.933,
+815727535,ottawaclique,brand,non_human,human,2,0,5,2 methods,"classification, clustering",0.3396,0,,human,human,,,,0.946,0.917,,
+815738989,jemstok,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.3409,0,,human,,human,,,0.939,,0.902,
+815734573,killuaura,brand,non_human,human,2,0,5,2 methods,"association, text",0.341,0,human,,,,human,0.862,,,,0.912
+815738948,forestbirb,brand,non_human,human,2,0,5,2 methods,"association, text",0.3415,0,human,,,,human,0.862,,,,0.888
+815737271,breakingadriel,brand,non_human,human,2,0,5,2 methods,"association, text",0.3417,0,human,,,,human,0.925,,,,0.957
+815722758,polwrestling,brand,non_human,human,2,0,5,2 methods,"classification, clustering",0.3429,0,,human,human,,,,0.919,0.917,,
+815729425,_Lantern_,brand,non_human,human,2,0,5,2 methods,"association, classification",0.344,0,human,human,,,,0.925,0.948,,,
+815727389,xtinasvenue,brand,non_human,human,2,0,5,2 methods,"classification, text",0.3442,0,,human,,,human,,0.92,,,0.916
+815736474,ThreeGymnopedie,brand,non_human,human,2,0,5,2 methods,"association, text",0.3447,0,human,,,,human,0.861,,,,0.928
+815738727,JDSempai,brand,non_human,human,2,0,5,2 methods,"association, text",0.3457,0,human,,,,human,0.862,,,,0.852
+815731398,hesft1975,brand,non_human,human,2,0,5,2 methods,"association, regression",0.3462,0,human,,,human,,0.898,,,0.91,
+815735555,cocococcooonan,male,human,non_human,2,0,5,2 methods,"association, regression",0.3467,0,non_human,,,non_human,,0.84,,,0.922,
+815732246,CassperNyoves18,brand,non_human,human,2,0,5,2 methods,"association, text",0.347,0,human,,,,human,0.925,,,,0.87
+815732524,Sigueme_todo,brand,non_human,human,2,0,5,2 methods,"association, text",0.3485,0,human,,,,human,0.869,,,,0.865
+815730222,pweekes48,male,human,non_human,2,0,5,2 methods,"association, regression",0.3489,0,non_human,,,non_human,,0.839,,,0.907,
+815739429,LOSGIDDY,brand,non_human,human,2,0,5,2 methods,"association, regression",0.3489,0,human,,,human,,0.869,,,0.928,
+815719863,microdile,brand,non_human,human,2,0,5,2 methods,"association, regression",0.3494,0,human,,,human,,0.862,,,0.938,
+815729580,LawrencePatte20,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.3519,0,,human,,human,,,0.917,,0.934,
+815721239,RedLineCommuter,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.3551,0,human,,human,,,0.873,,0.917,,
+815734547,Bilston71,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.3553,0,,human,,human,,,0.927,,0.906,
+815721979,biIIielurk,brand,non_human,human,2,0,5,2 methods,"association, regression",0.3566,0,human,,,human,,0.873,,,0.924,
+815723952,mom2yahoos,brand,non_human,human,2,0,5,2 methods,"association, text",0.3571,0,human,,,,human,0.861,,,,0.896
+815721146,tsull5150,brand,non_human,human,2,0,5,2 methods,"association, text",0.3581,0,human,,,,human,0.869,,,,0.852
+815720996,darklands23,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.3583,0,,human,,human,,,0.923,,0.903,
+815733854,kolaaakatsuo,male,human,non_human,2,0,5,2 methods,"association, regression",0.3709,0,non_human,,,non_human,,0.84,,,0.927,
+815728680,DrHotelMario,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6362,0,human,human,,,,0.898,0.916,,,
+815730678,SHERWlND,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6385,0,human,,,human,,0.862,,,0.927,
+815734690,coadienugent,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6392,0,,human,,human,,,0.914,,0.934,
+815723888,DubbzBear,brand,non_human,human,2,0,5,2 methods,"association, text",0.6409,0,human,,,,human,0.869,,,,0.907
+815730455,Ragin_Wookie,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6409,0,human,,,human,,0.925,,,0.928,
+815727114,Mythical_Skrub,brand,non_human,human,2,0,5,2 methods,"association, text",0.6415,0,human,,,,human,0.88,,,,0.92
+815731844,kgracehicks2,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6429,0,human,,,human,,0.869,,,0.901,
+815735467,AudrinaDavis1,female,human,non_human,2,0,5,2 methods,"classification, regression",0.6432,0,,non_human,,non_human,,,0.91,,0.983,
+815739022,TonyIguana69,brand,non_human,human,2,0,5,2 methods,"classification, clustering",0.6432,0,,human,human,,,,0.924,0.917,,
+815738988,smeggo,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6437,0,,human,,human,,,0.951,,0.948,
+815723880,TCultureVulture,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6445,0,human,,,human,,0.922,,,0.943,
+815725330,nuki_shitposts,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6446,0,human,,human,,,0.873,,0.917,,
+815735585,ajstenaka,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6447,0,human,,,human,,0.909,,,0.906,
+815736344,ClarityDaily,brand,non_human,human,2,0,5,2 methods,"clustering, text",0.6457,0,,,human,,human,,,0.957,,0.876
+815738508,ShezaHolmes,brand,non_human,human,2,0,5,2 methods,"association, text",0.6461,0,human,,,,human,0.873,,,,0.908
+815720239,Butcherr666,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6468,0,human,human,,,,0.862,0.937,,,
+815735283,TruthBToldDe,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.647,0,human,,human,,,0.869,,0.957,,
+815726817,ZeusCarver,brand,non_human,human,2,0,5,2 methods,"association, text",0.6471,0,human,,,,human,0.869,,,,0.872
+815737902,UOTrackFangirl,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6472,0,human,,,human,,0.869,,,0.916,
+815727643,MartyMcTweet,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6474,0,human,human,,,,0.869,0.907,,,
+815735225,hologramvron,brand,non_human,human,2,0,5,2 methods,"association, text",0.6475,0,human,,,,human,0.864,,,,0.917
+815724770,TheRivermanRuns,brand,non_human,human,2,0,5,2 methods,"classification, text",0.6479,0,,human,,,human,,0.923,,,0.852
+815737393,froleyfilm,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6495,0,,human,,human,,,0.939,,0.918,
+815732828,AnimalWorIds,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6501,0,human,,human,,,0.869,,0.957,,
+815733374,littleredspook,brand,non_human,human,2,0,5,2 methods,"association, text",0.6502,0,human,,,,human,0.869,,,,0.934
+815721918,maaakstiles,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6506,0,,human,,human,,,0.919,,0.926,
+815732483,CliathAthaBaile,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6509,0,human,,human,,,0.854,,0.917,,
+815738456,Based1UP,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6516,0,human,,human,,,0.861,,0.917,,
+815720070,CyberneticPym,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6523,0,human,,human,,,0.869,,0.917,,
+815729683,frankenwentz,brand,non_human,human,2,0,5,2 methods,"association, text",0.6524,0,human,,,,human,0.862,,,,0.986
+815734913,squid_girl_,brand,non_human,human,2,0,5,2 methods,"classification, clustering",0.6525,0,,human,human,,,,0.942,0.917,,
+815723054,keanerie,brand,non_human,human,2,0,5,2 methods,"regression, text",0.6536,0,,,,human,human,,,,0.908,0.865
+815729346,_yanwari,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6536,0,human,,,human,,0.861,,,0.911,
+815724834,meekjr_,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6542,0,human,,human,,,0.873,,0.917,,
+815725551,pesra01,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6552,0,human,,,human,,0.862,,,0.956,
+815736956,mytimeIord,brand,non_human,human,2,0,5,2 methods,"association, text",0.6554,0,human,,,,human,0.922,,,,0.858
+815725026,Marlnnn,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6555,0,human,human,,,,0.862,0.924,,,
+815729944,gemsglow,brand,non_human,human,2,0,5,2 methods,"association, text",0.656,0,human,,,,human,0.862,,,,0.891
+815723537,BlackTopMediaUK,brand,non_human,human,2,0,5,2 methods,"association, text",0.6561,0,human,,,,human,0.869,,,,0.883
+815733637,Fony_Zony,brand,non_human,human,2,0,5,2 methods,"association, text",0.6565,0,human,,,,human,0.862,,,,0.872
+815728081,The_Kohinoor,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6569,0,human,,human,,,0.873,,0.917,,
+815720014,DJ_UnDisTone,brand,non_human,human,2,0,5,2 methods,"association, text",0.6571,0,human,,,,human,0.861,,,,0.931
+815727324,MrmappyINOF,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6574,0,human,,human,,,0.873,,0.917,,
+815738604,crayoness,brand,non_human,human,2,0,5,2 methods,"association, text",0.6577,0,human,,,,human,0.862,,,,0.939
+815728110,JoBlack668,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6578,0,,human,,human,,,0.97,,0.911,
+815738725,FilAEK,brand,non_human,human,2,0,5,2 methods,"association, text",0.6578,0,human,,,,human,0.861,,,,0.87
+815729545,ClanViolent,brand,non_human,human,2,0,5,2 methods,"association, text",0.6579,0,human,,,,human,0.869,,,,0.854
+815729597,CrimsonLCC,brand,non_human,human,2,0,5,2 methods,"association, text",0.658,0,human,,,,human,0.861,,,,0.96
+815730430,Fuegofandango,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6582,0,human,,,human,,0.898,,,0.907,
+815733096,sypijeleje,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6583,0,human,,human,,,0.869,,0.917,,
+815726408,Legna989,brand,non_human,human,2,0,5,2 methods,"classification, clustering",0.6587,0,,human,human,,,,0.907,0.957,,
+815727430,aceIucy,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6589,0,human,,,human,,0.898,,,0.94,
+815722030,NeilaK20,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6591,0,human,human,,,,0.862,0.902,,,
+815733793,AIgerian,brand,non_human,human,2,0,5,2 methods,"association, text",0.6597,0,human,,,,human,0.862,,,,0.897
+815731938,Gerrisol,brand,non_human,human,2,0,5,2 methods,"association, text",0.6601,0,human,,,,human,0.857,,,,0.942
+815729210,balticblau,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6608,0,human,human,,,,0.862,0.91,,,
+815719396,MightyMoose3,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.661,0,,human,,human,,,0.914,,0.904,
+815722995,C_S__,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6613,0,human,,human,,,0.861,,0.957,,
+815732901,SLightmaree,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6614,0,human,,human,,,0.873,,0.917,,
+815719951,robert_stock7,male,human,non_human,2,0,5,2 methods,"association, regression",0.6617,0,non_human,,,non_human,,0.81,,,0.929,
+815733245,RhinosKiss,brand,non_human,human,2,0,5,2 methods,"regression, text",0.6617,0,,,,human,human,,,,0.931,0.854
+815733770,nyaneyan,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6617,0,human,,,human,,0.864,,,0.914,
+815731399,ItsJust_Aileen,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6618,0,human,,,human,,0.925,,,0.911,
+815724331,Zachs_A_Million,brand,non_human,human,2,0,5,2 methods,"association, text",0.6619,0,human,,,,human,0.869,,,,0.963
+815720822,WorcsFaithful,brand,non_human,human,2,0,5,2 methods,"classification, clustering",0.6621,0,,human,human,,,,0.925,0.917,,
+815720445,LittleMix,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6623,0,human,,human,,,0.922,,0.957,,
+815739317,itzdizzle,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6623,0,human,human,,,,0.862,0.904,,,
+815723265,AstroAthene,brand,non_human,human,2,0,5,2 methods,"association, text",0.6625,0,human,,,,human,0.869,,,,0.85
+815736247,DevanPalmer,brand,non_human,human,2,0,5,2 methods,"association, text",0.6626,0,human,,,,human,0.925,,,,0.944
+815722362,nas162010,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6632,0,,human,,human,,,0.953,,0.94,
+815726253,Lucius_C_Sulla,brand,non_human,human,2,0,5,2 methods,"clustering, text",0.6636,0,,,human,,human,,,0.917,,0.876
+815731009,GMShivers,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6638,0,human,,,human,,0.862,,,0.916,
+815735138,FrostyBear21,brand,non_human,human,2,0,5,2 methods,"association, text",0.6641,0,human,,,,human,0.869,,,,0.879
+815737111,jab50yen,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6653,0,human,human,,,,0.862,0.927,,,
+815737214,OregonBiker,brand,non_human,human,2,0,5,2 methods,"classification, text",0.6654,0,,human,,,human,,0.907,,,0.855
+815719997,AudreyEnjoyLife,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6655,0,human,,human,,,0.873,,0.957,,
+815722743,iamtwine,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6656,0,human,,,human,,0.922,,,0.905,
+815734097,twlldun,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6656,0,human,,,human,,0.869,,,0.934,
+815737404,drgnkiller,brand,non_human,human,2,0,5,2 methods,"association, text",0.6656,0,human,,,,human,0.862,,,,0.898
+815729158,Nico_boi,brand,non_human,human,2,0,5,2 methods,"classification, text",0.666,0,,human,,,human,,0.922,,,0.883
+815728448,Marco41237622,male,human,non_human,2,0,5,2 methods,"clustering, regression",0.6665,0,,,non_human,non_human,,,,0.956,0.942,
+815730496,kneedough,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6666,0,human,,human,,,0.854,,0.957,,
+815726503,Gargamelkiller,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6667,0,human,,human,,,0.869,,0.957,,
+815739043,AsahSkye,brand,non_human,human,2,0,5,2 methods,"association, text",0.6667,0,human,,,,human,0.869,,,,0.955
+815729776,ssquala,brand,non_human,human,2,0,5,2 methods,"clustering, text",0.6669,0,,,human,,human,,,0.917,,0.913
+815719776,Rampantredlion1,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6672,0,human,human,,,,0.898,0.939,,,
+815719949,GirlOnUtd,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6672,0,human,human,,,,0.873,0.925,,,
+815732398,613Linkshot,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6672,0,human,human,,,,0.869,0.9,,,
+815732721,sindarina,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6674,0,human,,,human,,0.862,,,0.907,
+815720228,bearaboi,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6678,1,,human,,human,,,0.916,,0.926,
+815733298,BardockIRL,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6678,0,human,human,,,,0.898,0.957,,,
+815722327,hulk4477,brand,non_human,human,2,0,5,2 methods,"association, text",0.668,0,human,,,,human,0.861,,,,0.875
+815722078,pseudojustin,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6682,0,,human,,human,,,0.931,,0.947,
+815727291,iglvzx_ebooks,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6682,0,human,human,,,,0.88,0.913,,,
+815730262,Kyuugayaku,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6685,0,human,,human,,,0.873,,0.957,,
+815722876,FemaIeFltness,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6686,0,human,human,,,,0.909,0.905,,,
+815727974,jljaina,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6688,0,,human,,human,,,0.924,,0.921,
+815737490,themapdallas,brand,non_human,human,2,0,5,2 methods,"classification, clustering",0.6688,0,,human,human,,,,0.924,0.917,,
+815719316,NotNuttyKarl,female,human,non_human,2,0,5,2 methods,"association, regression",0.6691,0,non_human,,,non_human,,0.816,,,0.951,
+815721286,phenokage,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6691,0,human,,,human,,0.862,,,0.963,
+815724110,MochaLattePanda,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6691,0,human,,,human,,0.862,,,0.922,
+815733480,12131415616,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6695,0,,human,,human,,,0.962,,0.902,
+815731390,jaklumen,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6697,0,human,,human,,,0.854,,0.957,,
+815724760,TheWalkingFled,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6702,0,,human,,human,,,0.926,,0.902,
+815735364,Einherion,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6703,0,,human,,human,,,0.974,,0.943,
+815724321,TrickyBee,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6711,0,human,,,human,,0.862,,,0.908,
+815732343,Maximal_Liberal,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6715,0,,human,,human,,,0.92,,0.952,
+815727046,DiamondDawit,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.672,0,human,,human,,,0.925,,0.917,,
+815733675,XUrbanSimsX,brand,non_human,human,2,0,5,2 methods,"association, text",0.672,0,human,,,,human,0.862,,,,0.904
+815725192,fact275,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6725,0,human,,,human,,0.869,,,0.905,
+815733196,JuanisaGundam,brand,non_human,human,2,0,5,2 methods,"classification, text",0.6725,0,,human,,,human,,0.935,,,0.915
+815733316,dialecticube,brand,non_human,human,2,0,5,2 methods,"association, text",0.6726,0,human,,,,human,0.925,,,,0.881
+815730950,JJayTee_,brand,non_human,human,2,0,5,2 methods,"association, text",0.6743,0,human,,,,human,0.862,,,,0.864
+815739536,OrionsBlack,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6744,1,human,,human,,,0.873,,0.917,,
+815737181,Valerie_832,brand,non_human,human,2,0,5,2 methods,"classification, clustering",0.675,0,,human,human,,,,0.961,0.917,,
+815733511,cmcbvc,female,human,non_human,2,0,5,2 methods,"association, regression",0.6752,0,non_human,,,non_human,,0.816,,,0.93,
+815726792,itsisabelldiaz,brand,non_human,human,2,0,5,2 methods,"association, text",0.6759,0,human,,,,human,0.854,,,,0.903
+815730108,KrustyAllslopp,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6759,0,human,,,human,,0.869,,,0.942,
+815726071,Freudianslipz,brand,non_human,human,2,0,5,2 methods,"classification, clustering",0.6761,0,,human,human,,,,0.907,0.957,,
+815725391,HUDAFUNK,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6766,0,,human,,human,,,0.907,,0.932,
+815720346,HogwartsCitou,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6768,0,human,,human,,,0.854,,0.957,,
+815720525,reisakuma,brand,non_human,human,2,0,5,2 methods,"association, text",0.6769,0,human,,,,human,0.869,,,,0.936
+815720699,AberJohnny,brand,non_human,human,2,0,5,2 methods,"regression, text",0.6772,0,,,,human,human,,,,0.903,0.913
+815735393,TENCH0U_,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6772,0,human,,human,,,0.854,,0.917,,
+815720768,COGICgopChica,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6774,0,human,,human,,,0.898,,0.917,,
+815726875,noquestions,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6777,0,human,,human,,,0.869,,0.957,,
+815725645,SMACKHighNY,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.678,0,human,,human,,,0.88,,0.957,,
+815736502,GeckoQuoteBot,brand,non_human,human,2,0,5,2 methods,"association, text",0.6801,0,human,,,,human,0.869,,,,0.853
+815736853,theARKHAM_,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6809,0,human,,human,,,0.869,,0.917,,
+815723474,MrMoustacheCat,brand,non_human,human,2,0,5,2 methods,"association, text",0.6833,0,human,,,,human,0.869,,,,0.896
+815737513,coyotes_ebooks,brand,non_human,human,2,0,5,2 methods,"classification, clustering",0.6839,0,,human,human,,,,0.913,0.917,,
+815730653,GlitterSpresso,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6841,0,human,human,,,,0.922,0.903,,,
+815734397,sonicherosfan,brand,non_human,human,2,0,5,2 methods,"association, classification",0.6846,0,human,human,,,,0.862,0.913,,,
+815729767,Lockedinbathroo,male,human,non_human,2,0,5,2 methods,"association, regression",0.6848,0,non_human,,,non_human,,0.816,,,0.929,
+815720067,cyberwuff,brand,non_human,human,2,0,5,2 methods,"association, regression",0.6857,0,human,,,human,,0.873,,,0.906,
+815720082,JohnJohndel2,male,human,non_human,2,0,5,2 methods,"association, regression",0.6859,0,non_human,,,non_human,,0.816,,,0.956,
+815734037,ScyTweeter,brand,non_human,human,2,0,5,2 methods,"classification, text",0.6866,0,,human,,,human,,0.917,,,0.895
+815726623,ZOANTHROPOLOGY,brand,non_human,human,2,0,5,2 methods,"association, text",0.6872,0,human,,,,human,0.898,,,,0.905
+815726441,dcgblog,female,human,non_human,2,0,5,2 methods,"classification, regression",0.6889,0,,non_human,,non_human,,,0.911,,0.984,
+815732290,blazingbooks420,brand,non_human,human,2,0,5,2 methods,"association, clustering",0.6912,0,human,,human,,,0.88,,0.917,,
+815725825,high_on_glitter,brand,non_human,human,2,0,5,2 methods,"classification, regression",0.6921,0,,human,,human,,,0.924,,0.912,
+815719232,Shutterstock,brand,non_human,human,2,0,5,2 methods,"association, regression",1.0,0,human,,,human,,0.862,,,0.918,
+815719400,WarOnTheRocks,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.854,,0.957,,
+815720114,DCDouchbag,brand,non_human,human,2,0,5,2 methods,"association, text",1.0,0,human,,,,human,0.862,,,,0.936
+815720241,kubidyza,brand,non_human,human,2,0,5,2 methods,"classification, clustering",1.0,0,,human,human,,,,0.937,0.957,,
+815720284,LifeAtPurdue,brand,non_human,human,2,0,5,2 methods,"association, regression",1.0,0,human,,,human,,0.862,,,0.916,
+815720340,etailPR,brand,non_human,human,2,0,5,2 methods,"association, classification",1.0,0,human,human,,,,0.862,0.942,,,
+815720345,Rombaart,brand,non_human,human,2,0,5,2 methods,"association, text",1.0,0,human,,,,human,0.869,,,,0.913
+815720454,BrandsKingdom,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.873,,0.917,,
+815720482,BostonRDT,brand,non_human,human,2,0,5,2 methods,"association, regression",1.0,0,human,,,human,,0.898,,,0.914,
+815720844,TradexFoods,brand,non_human,human,2,0,5,2 methods,"association, classification",1.0,0,human,human,,,,0.909,0.91,,,
+815721032,OneOfTheDingoes,brand,non_human,human,2,0,5,2 methods,"association, text",1.0,0,human,,,,human,0.898,,,,0.9
+815721053,10MinDQ,brand,non_human,human,2,0,5,2 methods,"association, classification",1.0,0,human,human,,,,0.862,0.933,,,
+815721160,RedditDesign,brand,non_human,human,2,0,5,2 methods,"association, regression",1.0,0,human,,,human,,0.898,,,0.925,
+815721473,IlIIlllIIIllIlI,brand,non_human,human,2,0,5,2 methods,"association, regression",1.0,0,human,,,human,,0.862,,,0.931,
+815721529,GrizzleBF,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.862,,0.957,,
+815721625,LosHalepenos,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.922,,0.917,,
+815721699,MetalFortressCT,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.854,,0.917,,
+815721991,HadTwpSports,brand,non_human,human,2,0,5,2 methods,"classification, clustering",1.0,0,,human,human,,,,0.922,0.917,,
+815722272,FoComcfc,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.854,,0.917,,
+815722785,CentralValleyTV,brand,non_human,human,2,0,5,2 methods,"association, classification",1.0,0,human,human,,,,0.873,0.969,,,
+815722838,St8edge4life88,brand,non_human,human,2,0,5,2 methods,"classification, regression",1.0,0,,human,,human,,,0.938,,0.918,
+815722976,WelcomDog,brand,non_human,human,2,0,5,2 methods,"association, classification",1.0,0,human,human,,,,0.925,0.901,,,
+815723037,My1Universe,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.873,,0.957,,
+815723317,CosmopolitanUK,brand,non_human,human,2,0,5,2 methods,"association, classification",1.0,0,human,human,,,,0.922,0.901,,,
+815724107,MTVBrasil,brand,non_human,human,2,0,5,2 methods,"association, classification",1.0,0,human,human,,,,0.862,0.916,,,
+815724209,brewerpackaging,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.873,,0.917,,
+815724237,wiml2,brand,non_human,human,2,0,5,2 methods,"clustering, text",1.0,0,,,human,,human,,,0.917,,0.87
+815724390,EscapeVelo,brand,non_human,human,2,0,5,2 methods,"classification, regression",1.0,0,,human,,human,,,0.928,,0.907,
+815724527,vote41dbro,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.869,,0.917,,
+815724692,_wonderfrankie,brand,non_human,human,2,0,5,2 methods,"classification, clustering",1.0,0,,human,human,,,,0.947,0.957,,
+815724798,BognorRegisHour,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.873,,0.917,,
+815724955,TheEscapistMag,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.854,,0.957,,
+815726216,SaleSafari,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.88,,0.917,,
+815726781,SekgobolaT,brand,non_human,human,2,0,5,2 methods,"classification, regression",1.0,0,,human,,human,,,0.972,,0.925,
+815727363,subw00ter,brand,non_human,human,2,0,5,2 methods,"classification, regression",1.0,0,,human,,human,,,0.947,,0.948,
+815727479,_MyDemons__,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.873,,0.957,,
+815727634,thewasabiman,brand,non_human,human,2,0,5,2 methods,"association, text",1.0,0,human,,,,human,0.898,,,,0.902
+815728285,Cellusious,brand,non_human,human,2,0,5,2 methods,"association, regression",1.0,0,human,,,human,,0.898,,,0.942,
+815728363,Unitedinprayer1,brand,non_human,human,2,0,5,2 methods,"association, regression",1.0,0,human,,,human,,0.869,,,0.924,
+815728461,wickedshrapnel,brand,non_human,human,2,0,5,2 methods,"association, text",1.0,0,human,,,,human,0.898,,,,0.95
+815728765,PsychospamYT,brand,non_human,human,2,0,5,2 methods,"association, text",1.0,0,human,,,,human,0.862,,,,0.851
+815728833,Larry63333,male,human,non_human,2,0,5,2 methods,"association, regression",1.0,0,non_human,,,non_human,,0.801,,,0.9,
+815728854,16KTS,brand,non_human,human,2,0,5,2 methods,"classification, regression",1.0,0,,human,,human,,,0.921,,0.919,
+815729142,DEEJAYMOB,brand,non_human,human,2,0,5,2 methods,"association, text",1.0,0,human,,,,human,0.922,,,,0.883
+815729213,1041theBlaze,brand,non_human,human,2,0,5,2 methods,"classification, regression",1.0,0,,human,,human,,,0.921,,0.931,
+815729279,DiversityIsALie,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.88,,0.917,,
+815729681,TeamYouTube,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.873,,0.917,,
+815729703,sazzemcsazz,female,human,non_human,2,0,5,2 methods,"association, regression",1.0,0,non_human,,,non_human,,0.816,,,0.946,
+815729856,whatsontvuk,brand,non_human,human,2,0,5,2 methods,"association, regression",1.0,0,human,,,human,,0.861,,,0.901,
+815730130,worldrafanadal,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.869,,0.917,,
+815730562,LakeHastingsWea,brand,non_human,human,2,0,5,2 methods,"classification, clustering",1.0,0,,human,human,,,,0.914,0.957,,
+815730706,Full_Time_Scrub,brand,non_human,human,2,0,5,2 methods,"classification, clustering",1.0,0,,human,human,,,,0.935,0.917,,
+815730773,MoreFifaFun,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.88,,0.917,,
+815731036,CCS_Skate,brand,non_human,human,2,0,5,2 methods,"association, regression",1.0,0,human,,,human,,0.922,,,0.935,
+815731152,OverDriveLibs,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.854,,0.957,,
+815731255,LondonRIB,brand,non_human,human,2,0,5,2 methods,"association, text",1.0,0,human,,,,human,0.925,,,,0.913
+815731539,dks2_ebooks,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.873,,0.917,,
+815732050,JuliaGreenwald7,female,human,non_human,2,0,5,2 methods,"association, regression",1.0,0,non_human,,,non_human,,0.816,,,0.925,
+815732136,Dormality,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.869,,0.917,,
+815732576,fluffycrossover,brand,non_human,human,2,0,5,2 methods,"association, text",1.0,0,human,,,,human,0.869,,,,0.893
+815732594,420USAPAC,brand,non_human,human,2,0,5,2 methods,"clustering, regression",1.0,0,,,human,human,,,,0.917,0.923,
+815732650,bazzared1903,brand,non_human,human,2,0,5,2 methods,"classification, text",1.0,0,,human,,,human,,0.939,,,0.872
+815732814,BigBlackDonaghy,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.854,,0.917,,
+815732949,Fishsweets,male,human,non_human,2,0,5,2 methods,"association, regression",1.0,0,non_human,,,non_human,,0.816,,,0.906,
+815732958,PeterBrassard,male,human,non_human,2,0,5,2 methods,"association, regression",1.0,0,non_human,,,non_human,,0.816,,,0.91,
+815733076,YoshinoPaula,female,human,non_human,2,0,5,2 methods,"association, regression",1.0,0,non_human,,,non_human,,0.816,,,0.945,
+815733117,McTermii,brand,non_human,human,2,0,5,2 methods,"clustering, text",1.0,0,,,human,,human,,,0.917,,0.974
+815733166,tpmquiz,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.873,,0.917,,
+815733347,TheOtherPlus1,brand,non_human,human,2,0,5,2 methods,"classification, text",1.0,0,,human,,,human,,0.927,,,0.924
+815733577,weeddream420,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.88,,0.917,,
+815733668,ChrisF1116,brand,non_human,human,2,0,5,2 methods,"classification, regression",1.0,0,,human,,human,,,0.964,,0.952,
+815733960,SouthwestAir,brand,non_human,human,2,0,5,2 methods,"association, classification",1.0,0,human,human,,,,0.862,0.92,,,
+815733992,BonesDobie,brand,non_human,human,2,0,5,2 methods,"association, text",1.0,0,human,,,,human,0.869,,,,0.895
+815734629,IHOP,brand,non_human,human,2,0,5,2 methods,"association, regression",1.0,0,human,,,human,,0.898,,,0.915,
+815734767,6ONE9CLOTHING,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.854,,0.917,,
+815734931,PharmSpc,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.854,,0.917,,
+815735055,L7Vinal,brand,non_human,human,2,0,5,2 methods,"association, text",1.0,0,human,,,,human,0.862,,,,0.85
+815735182,pacmissle,brand,non_human,human,2,0,5,2 methods,"classification, regression",1.0,0,,human,,human,,,0.941,,0.902,
+815735533,CanadianBeats1,brand,non_human,human,2,0,5,2 methods,"association, classification",1.0,0,human,human,,,,0.869,0.912,,,
+815735689,Travel_Word,brand,non_human,human,2,0,5,2 methods,"classification, clustering",1.0,0,,human,human,,,,0.937,0.917,,
+815735916,teejay4u_06,brand,non_human,human,2,0,5,2 methods,"classification, regression",1.0,0,,human,,human,,,0.944,,0.925,
+815735968,PenguinBoss1,brand,non_human,human,2,0,5,2 methods,"classification, clustering",1.0,0,,human,human,,,,0.916,0.917,,
+815735994,Wins2011,brand,non_human,human,2,0,5,2 methods,"association, text",1.0,0,human,,,,human,0.861,,,,0.88
+815736013,southstandnige9,brand,non_human,human,2,0,5,2 methods,"clustering, text",1.0,0,,,human,,human,,,0.917,,0.866
+815736466,MarioDinardo9,male,human,non_human,2,0,5,2 methods,"classification, regression",1.0,0,,non_human,,non_human,,,0.902,,0.995,
+815736675,SHSComplimnts,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.88,,0.917,,
+815736693,hv_younglife,brand,non_human,human,2,0,5,2 methods,"association, regression",1.0,0,human,,,human,,0.925,,,0.933,
+815737050,Travel_Barrel,brand,non_human,human,2,0,5,2 methods,"classification, clustering",1.0,0,,human,human,,,,0.933,0.917,,
+815737618,theunitedmanc,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.873,,0.917,,
+815737920,WiffleBall1,brand,non_human,human,2,0,5,2 methods,"classification, regression",1.0,0,,human,,human,,,0.953,,0.951,
+815737925,5SOSHotelReport,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.925,,0.917,,
+815737967,ACHoang32,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.869,,0.957,,
+815738070,StrikeFM,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.873,,0.917,,
+815738681,BirchgroveCA,brand,non_human,human,2,0,5,2 methods,"classification, regression",1.0,0,,human,,human,,,0.939,,0.905,
+815738843,DCProductionLTD,brand,non_human,human,2,0,5,2 methods,"association, regression",1.0,0,human,,,human,,0.925,,,0.902,
+815739271,loserstation,brand,non_human,human,2,0,5,2 methods,"association, regression",1.0,0,human,,,human,,0.862,,,0.949,
+815739318,GBISummerSchool,brand,non_human,human,2,0,5,2 methods,"association, clustering",1.0,0,human,,human,,,0.854,,0.917,,
+815730882,eros9911,brand,non_human,human,1,0,5,1 method,association,0.3321,0,human,,,,,0.861,,,,
+815726373,AdamCoo64216897,female,human,non_human,1,0,5,1 method,clustering,0.3335,0,,,non_human,,,,,0.956,,
+815727983,black2_Bot,brand,non_human,human,1,0,5,1 method,association,0.3353,0,human,,,,,0.869,,,,
+815720373,almawari,brand,non_human,human,1,0,5,1 method,association,0.3358,0,human,,,,,0.861,,,,
+815725882,fitboar,brand,non_human,human,1,0,5,1 method,association,0.3366,0,human,,,,,0.869,,,,
+815731645,alexgasratchet,brand,non_human,human,1,0,5,1 method,text,0.3374,0,,,,,human,,,,,0.967
+815729846,peartonjohnson,brand,non_human,human,1,0,5,1 method,clustering,0.3375,0,,,human,,,,,0.957,,
+815719800,KeizerCyrus,brand,non_human,human,1,0,5,1 method,association,0.3388,0,human,,,,,0.869,,,,
+815723276,sassysam8,male,human,non_human,1,0,5,1 method,regression,0.3397,0,,,,non_human,,,,,0.938,
+815730816,lynhamlett1,brand,non_human,human,1,0,5,1 method,association,0.3403,0,human,,,,,0.869,,,,
+815730777,TrianglePascal,brand,non_human,human,1,0,5,1 method,association,0.3408,0,human,,,,,0.862,,,,
+815734600,JonaSchnedi,brand,non_human,human,1,0,5,1 method,association,0.3418,0,human,,,,,0.869,,,,
+815732990,bot_flippy,brand,non_human,human,1,0,5,1 method,association,0.3419,0,human,,,,,0.873,,,,
+815724980,ARIZONATWEETZ,brand,non_human,human,1,0,5,1 method,association,0.3424,0,human,,,,,0.869,,,,
+815728769,jeremy_good,brand,non_human,human,1,0,5,1 method,regression,0.3426,0,,,,human,,,,,0.905,
+815732080,HighlyBBe,male,human,non_human,1,0,5,1 method,regression,0.3428,0,,,,non_human,,,,,0.905,
+815733192,1cough_syrup8,brand,non_human,human,1,0,5,1 method,text,0.3429,0,,,,,human,,,,,0.908
+815730692,BigTittieFreak,male,human,non_human,1,0,5,1 method,association,0.3432,0,non_human,,,,,0.816,,,,
+815735891,kalpeshh1,brand,non_human,human,1,0,5,1 method,association,0.3435,0,human,,,,,0.854,,,,
+815719820,blankyhanky17,brand,non_human,human,1,0,5,1 method,association,0.3436,0,human,,,,,0.869,,,,
+815725179,martynpeel,male,human,non_human,1,0,5,1 method,text,0.3441,0,,,,,non_human,,,,,0.871
+815731692,PG_ESAM,brand,non_human,human,1,0,5,1 method,association,0.3449,0,human,,,,,0.862,,,,
+815735477,saidosereno,male,human,non_human,1,0,5,1 method,text,0.3449,0,,,,,non_human,,,,,0.964
+815729008,TheSaintOfTous,brand,non_human,human,1,0,5,1 method,classification,0.3451,0,,human,,,,,0.945,,,
+815722012,BinaryeProfit,male,human,non_human,1,0,5,1 method,regression,0.3456,0,,,,non_human,,,,,0.976,
+815726653,CharBotGreen2,female,human,non_human,1,0,5,1 method,text,0.3463,0,,,,,non_human,,,,,0.884
+815732461,xmaya5sos,brand,non_human,human,1,0,5,1 method,association,0.3463,0,human,,,,,0.862,,,,
+815723610,turntsad,brand,non_human,human,1,0,5,1 method,text,0.3471,0,,,,,human,,,,,0.939
+815720816,ZeroMkay_,brand,non_human,human,1,0,5,1 method,text,0.3472,0,,,,,human,,,,,0.957
+815728790,DoHoBOB,brand,non_human,human,1,0,5,1 method,association,0.3472,0,human,,,,,0.869,,,,
+815724598,Mrs_SamusAran,brand,non_human,human,1,0,5,1 method,association,0.3478,0,human,,,,,0.869,,,,
+815729012,AnahienMurcia,brand,non_human,human,1,0,5,1 method,text,0.348,0,,,,,human,,,,,0.935
+815734877,Mistehhhh,brand,non_human,human,1,0,5,1 method,text,0.3488,0,,,,,human,,,,,0.964
+815734244,Collinsfrappe,brand,non_human,human,1,0,5,1 method,association,0.3489,0,human,,,,,0.922,,,,
+815724958,carolannbagan,female,human,non_human,1,0,5,1 method,regression,0.349,0,,,,non_human,,,,,0.952,
+815734855,SearrealSoul,brand,non_human,human,1,0,5,1 method,text,0.3495,0,,,,,human,,,,,0.914
+815721540,raabulls,male,human,non_human,1,0,5,1 method,association,0.3498,0,non_human,,,,,0.816,,,,
+815731940,NYTweetz,brand,non_human,human,1,0,5,1 method,association,0.3498,0,human,,,,,0.88,,,,
+815724858,missaquarius20c,female,human,non_human,1,0,5,1 method,association,0.3502,0,non_human,,,,,0.841,,,,
+815722579,tonguesintrees,brand,non_human,human,1,0,5,1 method,text,0.3503,0,,,,,human,,,,,0.99
+815734561,dontcry_bot,brand,non_human,human,1,0,5,1 method,association,0.3504,0,human,,,,,0.869,,,,
+815731823,mamisoawesome,brand,non_human,human,1,0,5,1 method,text,0.3507,0,,,,,human,,,,,0.891
+815735836,cliffordatass,brand,non_human,human,1,0,5,1 method,association,0.3515,0,human,,,,,0.862,,,,
+815738167,Pichubot,brand,non_human,human,1,0,5,1 method,association,0.3519,0,human,,,,,0.869,,,,
+815730949,_grace_v,brand,non_human,human,1,0,5,1 method,text,0.3539,0,,,,,human,,,,,0.901
+815735622,HffTiago,male,human,non_human,1,0,5,1 method,regression,0.3547,0,,,,non_human,,,,,0.945,
+815736939,Terick_7,brand,non_human,human,1,0,5,1 method,classification,0.3548,0,,human,,,,,0.928,,,
+815735409,shad_rahman_,brand,non_human,human,1,0,5,1 method,association,0.3559,0,human,,,,,0.861,,,,
+815734398,1electricpirate,brand,non_human,human,1,0,5,1 method,association,0.3577,0,human,,,,,0.869,,,,
+815738291,Desolation00,brand,non_human,human,1,0,5,1 method,text,0.3592,0,,,,,human,,,,,0.906
+815727411,louis_singha,male,human,non_human,1,0,5,1 method,regression,0.3597,0,,,,non_human,,,,,0.918,
+815735938,yomings,brand,non_human,human,1,0,5,1 method,association,0.3632,0,human,,,,,0.898,,,,
+815737970,chaacSmite,brand,non_human,human,1,0,5,1 method,text,0.6212,0,,,,,human,,,,,0.966
+815736346,zjmliamalarca,brand,non_human,human,1,0,5,1 method,text,0.6266,0,,,,,human,,,,,0.883
+815737769,Obmaha,brand,non_human,human,1,0,5,1 method,text,0.6298,0,,,,,human,,,,,0.889
+815731749,NathanVarner,brand,non_human,human,1,0,5,1 method,text,0.6336,0,,,,,human,,,,,0.929
+815722970,MathPowerPoints,brand,non_human,human,1,0,5,1 method,association,0.6349,0,human,,,,,0.861,,,,
+815720068,YusufMoneer,brand,non_human,human,1,0,5,1 method,text,0.635,0,,,,,human,,,,,0.861
+815730349,NWSodor23,brand,non_human,human,1,0,5,1 method,association,0.6354,0,human,,,,,0.862,,,,
+815731804,1000kindsofrain,brand,non_human,human,1,0,5,1 method,classification,0.6366,0,,human,,,,,0.942,,,
+815722164,oCruiise,brand,non_human,human,1,0,5,1 method,association,0.6368,0,human,,,,,0.862,,,,
+815725734,os4185,brand,non_human,human,1,0,5,1 method,classification,0.6372,0,,human,,,,,0.988,,,
+815720266,DolphinDivePro,brand,non_human,human,1,0,5,1 method,association,0.6386,0,human,,,,,0.869,,,,
+815733175,Beardlini,brand,non_human,human,1,0,5,1 method,text,0.6386,1,,,,,human,,,,,0.945
+815719907,flotsamfiles,brand,non_human,human,1,0,5,1 method,association,0.6394,0,human,,,,,0.861,,,,
+815736408,SimplyAnder,brand,non_human,human,1,0,5,1 method,association,0.6396,0,human,,,,,0.862,,,,
+815738605,toshboy99,brand,non_human,human,1,0,5,1 method,classification,0.6403,0,,human,,,,,0.951,,,
+815725885,breebird33,brand,non_human,human,1,0,5,1 method,association,0.6404,0,human,,,,,0.862,,,,
+815723832,CaGardenas,brand,non_human,human,1,0,5,1 method,regression,0.6414,0,,,,human,,,,,0.904,
+815731763,LinWalsh15,female,human,non_human,1,0,5,1 method,text,0.6425,0,,,,,non_human,,,,,0.937
+815724207,LVPhotos,brand,non_human,human,1,0,5,1 method,text,0.6436,0,,,,,human,,,,,0.922
+815720698,Dscin_9510,female,human,non_human,1,0,5,1 method,association,0.6441,0,non_human,,,,,0.839,,,,
+815721102,itsDeedles,female,human,non_human,1,0,5,1 method,text,0.6444,0,,,,,non_human,,,,,0.982
+815736615,WaltFrench,brand,non_human,human,1,0,5,1 method,association,0.6448,0,human,,,,,0.862,,,,
+815736972,TheLatsbrah,brand,non_human,human,1,0,5,1 method,association,0.6455,0,human,,,,,0.861,,,,
+815719911,SpiritOfEnLes,brand,non_human,human,1,0,5,1 method,association,0.6456,0,human,,,,,0.898,,,,
+815722461,DominationTos,brand,non_human,human,1,0,5,1 method,association,0.6458,0,human,,,,,0.909,,,,
+815720654,wellmemedsir,brand,non_human,human,1,0,5,1 method,association,0.6465,0,human,,,,,0.909,,,,
+815722974,Dfitz9477,brand,non_human,human,1,0,5,1 method,text,0.6465,0,,,,,human,,,,,0.852
+815727293,CyclingSurgeon,brand,non_human,human,1,0,5,1 method,text,0.6465,0,,,,,human,,,,,0.853
+815738399,enichols168,male,human,non_human,1,0,5,1 method,association,0.6466,0,non_human,,,,,0.801,,,,
+815728447,Cysero,brand,non_human,human,1,0,5,1 method,classification,0.6468,0,,human,,,,,0.956,,,
+815726248,PetConciergePls,brand,non_human,human,1,0,5,1 method,association,0.6471,0,human,,,,,0.854,,,,
+815719775,Free_Martinis,male,human,non_human,1,0,5,1 method,text,0.6472,0,,,,,non_human,,,,,0.998
+815719830,blankyhanky10,brand,non_human,human,1,0,5,1 method,association,0.6473,0,human,,,,,0.869,,,,
+815731140,ImWryz,brand,non_human,human,1,0,5,1 method,association,0.6475,0,human,,,,,0.861,,,,
+815736788,pear0s,brand,non_human,human,1,0,5,1 method,regression,0.6478,0,,,,human,,,,,0.901,
+815729024,MegaLobsterFace,brand,non_human,human,1,0,5,1 method,clustering,0.6487,0,,,human,,,,,0.917,,
+815733396,Hayato_Inazuma,brand,non_human,human,1,0,5,1 method,text,0.6487,0,,,,,human,,,,,0.884
+815722026,CollyPUG,brand,non_human,human,1,0,5,1 method,association,0.6492,0,human,,,,,0.898,,,,
+815723066,FFGC_SMatthews,brand,non_human,human,1,0,5,1 method,text,0.6497,0,,,,,human,,,,,0.945
+815727073,louehisart,brand,non_human,human,1,0,5,1 method,text,0.65,0,,,,,human,,,,,0.927
+815737879,TomMSFT,brand,non_human,human,1,0,5,1 method,text,0.6504,0,,,,,human,,,,,0.929
+815724789,1001coupons,male,human,non_human,1,0,5,1 method,regression,0.6506,0,,,,non_human,,,,,0.959,
+815720149,MonicaKoch18,female,human,non_human,1,0,5,1 method,regression,0.6507,0,,,,non_human,,,,,0.974,
+815736555,JulianLives,brand,non_human,human,1,0,5,1 method,association,0.6508,0,human,,,,,0.862,,,,
+815725283,Eating4Energy,brand,non_human,human,1,0,5,1 method,association,0.6509,0,human,,,,,0.854,,,,
+815735044,SelenaHQ,female,human,non_human,1,0,5,1 method,text,0.6514,0,,,,,non_human,,,,,0.918
+815733199,RCJ13,brand,non_human,human,1,0,5,1 method,regression,0.6515,0,,,,human,,,,,0.953,
+815731207,louissrovers,brand,non_human,human,1,0,5,1 method,text,0.6516,0,,,,,human,,,,,0.908
+815719431,English_Cocker,brand,non_human,human,1,0,5,1 method,text,0.6523,0,,,,,human,,,,,0.965
+815724077,vBubblez,brand,non_human,human,1,0,5,1 method,association,0.6524,0,human,,,,,0.873,,,,
+815725381,wayoftheaviator,brand,non_human,human,1,0,5,1 method,association,0.6524,1,human,,,,,0.873,,,,
+815731549,Phoenixarised,brand,non_human,human,1,0,5,1 method,association,0.6525,0,human,,,,,0.869,,,,
+815720548,ConnectAU1,brand,non_human,human,1,0,5,1 method,association,0.6527,0,human,,,,,0.854,,,,
+815728742,JebSource,male,human,non_human,1,0,5,1 method,text,0.6528,0,,,,,non_human,,,,,0.912
+815730449,ZroHour,brand,non_human,human,1,0,5,1 method,association,0.6529,0,human,,,,,0.862,,,,
+815735008,MistyDragon13,brand,non_human,human,1,0,5,1 method,association,0.6529,0,human,,,,,0.862,,,,
+815732205,ericarm,male,human,non_human,1,0,5,1 method,text,0.653,0,,,,,non_human,,,,,0.893
+815737817,hemmoschode,brand,non_human,human,1,0,5,1 method,text,0.653,0,,,,,human,,,,,0.937
+815725877,RaiderDelta,brand,non_human,human,1,0,5,1 method,association,0.6534,0,human,,,,,0.88,,,,
+815731049,hunhoot1,brand,non_human,human,1,0,5,1 method,text,0.6538,0,,,,,human,,,,,0.947
+815729261,theformalcat,brand,non_human,human,1,0,5,1 method,clustering,0.654,0,,,human,,,,,0.917,,
+815723325,IAmYourConnect,female,human,non_human,1,0,5,1 method,text,0.6544,0,,,,,non_human,,,,,0.917
+815727509,Zoom808,brand,non_human,human,1,0,5,1 method,classification,0.6551,0,,human,,,,,0.934,,,
+815738411,chrism1749,female,human,non_human,1,0,5,1 method,text,0.6551,0,,,,,non_human,,,,,0.907
+815726570,FLTRANSFERSs,male,human,non_human,1,0,5,1 method,text,0.6555,0,,,,,non_human,,,,,0.859
+815723769,PTAlanSwann,brand,non_human,human,1,0,5,1 method,text,0.6556,0,,,,,human,,,,,0.921
+815732421,Bigoldsupermoon,brand,non_human,human,1,0,5,1 method,association,0.6557,0,human,,,,,0.869,,,,
+815726976,BCmoney805,brand,non_human,human,1,0,5,1 method,text,0.6561,0,,,,,human,,,,,0.915
+815728139,JacksonAcura,brand,non_human,human,1,0,5,1 method,association,0.6561,0,human,,,,,0.854,,,,
+815735798,IamalrightJack,brand,non_human,human,1,0,5,1 method,association,0.6561,0,human,,,,,0.862,,,,
+815735967,QuatarTheOdd,brand,non_human,human,1,0,5,1 method,text,0.6563,0,,,,,human,,,,,0.879
+815720227,Ogbanje_,brand,non_human,human,1,0,5,1 method,classification,0.6565,0,,human,,,,,0.916,,,
+815726237,ECNashville,male,human,non_human,1,0,5,1 method,text,0.6566,0,,,,,non_human,,,,,0.937
+815723692,Qabalahmath,male,human,non_human,1,0,5,1 method,text,0.6567,0,,,,,non_human,,,,,0.907
+815732432,SHU10c,brand,non_human,human,1,0,5,1 method,association,0.6569,0,human,,,,,0.861,,,,
+815734420,pepperqt,brand,non_human,human,1,0,5,1 method,association,0.6569,0,human,,,,,0.864,,,,
+815728372,letsallcook,brand,non_human,human,1,0,5,1 method,text,0.6572,0,,,,,human,,,,,0.893
+815730308,Lovey180,male,human,non_human,1,0,5,1 method,association,0.6572,0,non_human,,,,,0.816,,,,
+815723825,ukwarmachine,brand,non_human,human,1,0,5,1 method,classification,0.6573,0,,human,,,,,0.915,,,
+815733858,bonorwich,brand,non_human,human,1,0,5,1 method,classification,0.6574,0,,human,,,,,0.904,,,
+815728940,HowitzerDoogie,brand,non_human,human,1,0,5,1 method,association,0.6575,0,human,,,,,0.862,,,,
+815732105,NoChiIlTweets,brand,non_human,human,1,0,5,1 method,text,0.6575,0,,,,,human,,,,,0.897
+815719619,Pixelfish,brand,non_human,human,1,0,5,1 method,association,0.6576,0,human,,,,,0.862,,,,
+815725197,TradersStream,brand,non_human,human,1,0,5,1 method,association,0.6577,0,human,,,,,0.861,,,,
+815735306,HazionC,brand,non_human,human,1,0,5,1 method,classification,0.6577,0,,human,,,,,0.921,,,
+815730207,WanderingNewbie,brand,non_human,human,1,0,5,1 method,association,0.658,0,human,,,,,0.869,,,,
+815727413,combeferretxt,brand,non_human,human,1,0,5,1 method,association,0.6581,0,human,,,,,0.862,,,,
+815723287,LunaAmatheia,brand,non_human,human,1,0,5,1 method,text,0.6583,0,,,,,human,,,,,0.94
+815733998,Luminaria98,brand,non_human,human,1,0,5,1 method,classification,0.6586,0,,human,,,,,0.91,,,
+815735529,Wale_Hero,brand,non_human,human,1,0,5,1 method,text,0.6586,0,,,,,human,,,,,0.92
+815732702,WingMayra,female,human,non_human,1,0,5,1 method,association,0.6589,0,non_human,,,,,0.824,,,,
+815720787,Dropgist,female,human,non_human,1,0,5,1 method,text,0.6591,0,,,,,non_human,,,,,0.878
+815730142,jfeckstein,brand,non_human,human,1,0,5,1 method,text,0.6591,0,,,,,human,,,,,0.925
+815723440,robinnico71,brand,non_human,human,1,0,5,1 method,association,0.6592,0,human,,,,,0.869,,,,
+815734115,ApartmentsiLike,female,human,non_human,1,0,5,1 method,text,0.6594,0,,,,,non_human,,,,,0.874
+815724815,russellshih,brand,non_human,human,1,0,5,1 method,association,0.6595,0,human,,,,,0.854,,,,
+815726368,en_iyi_vine,brand,non_human,human,1,0,5,1 method,association,0.6595,0,human,,,,,0.873,,,,
+815737949,wan2golf,brand,non_human,human,1,0,5,1 method,association,0.6596,0,human,,,,,0.869,,,,
+815735694,SWTvictim,brand,non_human,human,1,0,5,1 method,association,0.6597,0,human,,,,,0.869,,,,
+815731229,Dizzie_Dog,brand,non_human,human,1,0,5,1 method,text,0.6601,0,,,,,human,,,,,0.969
+815738337,mikleomore,brand,non_human,human,1,0,5,1 method,association,0.6601,0,human,,,,,0.862,,,,
+815721057,UnitedOnes,male,human,non_human,1,0,5,1 method,text,0.6602,0,,,,,non_human,,,,,0.874
+815721972,AMCx32,brand,non_human,human,1,0,5,1 method,association,0.6602,0,human,,,,,0.869,,,,
+815723772,Prostar84381634,brand,non_human,human,1,0,5,1 method,association,0.6602,0,human,,,,,0.873,,,,
+815724744,RPi31,brand,non_human,human,1,0,5,1 method,association,0.6602,0,human,,,,,0.854,,,,
+815720177,BlueCollarDrWho,brand,non_human,human,1,0,5,1 method,association,0.6603,0,human,,,,,0.869,,,,
+815721285,HarisBrutalo,male,human,non_human,1,0,5,1 method,regression,0.6605,0,,,,non_human,,,,,0.973,
+815722975,NcusheClothing,brand,non_human,human,1,0,5,1 method,association,0.6605,0,human,,,,,0.869,,,,
+815734574,HRHAerickLux,brand,non_human,human,1,0,5,1 method,text,0.6605,0,,,,,human,,,,,0.875
+815730153,Touch_Soul_Poem,female,human,non_human,1,0,5,1 method,text,0.661,0,,,,,non_human,,,,,0.972
+815732962,BCt_7_X4,female,human,non_human,1,0,5,1 method,text,0.661,0,,,,,non_human,,,,,0.852
+815725790,SuchBadDogs,brand,non_human,human,1,0,5,1 method,association,0.6611,0,human,,,,,0.869,,,,
+815733356,baekcult,brand,non_human,human,1,0,5,1 method,classification,0.6611,0,,human,,,,,0.905,,,
+815736106,bestofgemini_,brand,non_human,human,1,0,5,1 method,association,0.6612,0,human,,,,,0.861,,,,
+815736842,PatsCollection,brand,non_human,human,1,0,5,1 method,text,0.6612,0,,,,,human,,,,,0.868
+815736791,yourssssss,male,human,non_human,1,0,5,1 method,association,0.6613,0,non_human,,,,,0.816,,,,
+815719798,MiwanakamuraEBS,brand,non_human,human,1,0,5,1 method,association,0.6616,0,human,,,,,0.861,,,,
+815728390,PixelSSB,brand,non_human,human,1,0,5,1 method,association,0.6616,0,human,,,,,0.898,,,,
+815719832,DeadlyRave,brand,non_human,human,1,0,5,1 method,association,0.6617,0,human,,,,,0.873,,,,
+815734799,johnxiethor,brand,non_human,human,1,0,5,1 method,association,0.6617,0,human,,,,,0.861,,,,
+815721851,zAcquired,brand,non_human,human,1,0,5,1 method,clustering,0.6619,0,,,human,,,,,0.917,,
+815732160,dsexton1681,female,human,non_human,1,0,5,1 method,text,0.6619,0,,,,,non_human,,,,,0.887
+815734593,IndigoPinkTees,brand,non_human,human,1,0,5,1 method,association,0.6619,0,human,,,,,0.854,,,,
+815735461,CoolwhipSpecial,brand,non_human,human,1,0,5,1 method,classification,0.6622,0,,human,,,,,0.907,,,
+815725278,BillyTorain,brand,non_human,human,1,0,5,1 method,text,0.6626,0,,,,,human,,,,,0.896
+815719296,ShitApolloYells,male,human,non_human,1,0,5,1 method,text,0.6628,0,,,,,non_human,,,,,0.856
+815719314,WonderRhythm,brand,non_human,human,1,0,5,1 method,association,0.6629,0,human,,,,,0.854,,,,
+815736733,PASTTHEGONE,brand,non_human,human,1,0,5,1 method,text,0.6629,0,,,,,human,,,,,0.898
+815731244,Chchucks,brand,non_human,human,1,0,5,1 method,regression,0.6631,0,,,,human,,,,,0.93,
+815732884,_Meio_Ambiente,brand,non_human,human,1,0,5,1 method,association,0.6634,0,human,,,,,0.861,,,,
+815724186,macuskeli,brand,non_human,human,1,0,5,1 method,clustering,0.6635,0,,,human,,,,,0.917,,
+815731541,LaughingJack821,brand,non_human,human,1,0,5,1 method,text,0.6635,0,,,,,human,,,,,0.867
+815727560,beautybydavinia,brand,non_human,human,1,0,5,1 method,association,0.6636,0,human,,,,,0.909,,,,
+815721074,livin_the_life5,brand,non_human,human,1,0,5,1 method,association,0.6637,0,human,,,,,0.861,,,,
+815723335,tasteofassam,brand,non_human,human,1,0,5,1 method,text,0.6638,0,,,,,human,,,,,0.949
+815737028,beastcoastlyfe,brand,non_human,human,1,0,5,1 method,association,0.6638,0,human,,,,,0.909,,,,
+815737255,ushijimmy,brand,non_human,human,1,0,5,1 method,text,0.6639,0,,,,,human,,,,,0.868
+815730595,SunshineGal24,brand,non_human,human,1,0,5,1 method,classification,0.664,0,,human,,,,,0.935,,,
+815729067,O8qKkYKnWa7YP3O,female,human,non_human,1,0,5,1 method,regression,0.6641,0,,,,non_human,,,,,0.984,
+815736572,JMMatthewsBooks,brand,non_human,human,1,0,5,1 method,text,0.6641,0,,,,,human,,,,,0.913
+815734299,pyne_satarupa,female,human,non_human,1,0,5,1 method,text,0.6644,0,,,,,non_human,,,,,0.956
+815739397,aaronred18promo,male,human,non_human,1,0,5,1 method,text,0.6647,0,,,,,non_human,,,,,0.867
+815719831,blankyhanky11,brand,non_human,human,1,0,5,1 method,association,0.6648,0,human,,,,,0.869,,,,
+815719992,Heefosaurus,brand,non_human,human,1,0,5,1 method,association,0.6649,0,human,,,,,0.869,,,,
+815721920,ICMeltdown,female,human,non_human,1,0,5,1 method,text,0.6649,0,,,,,non_human,,,,,0.85
+815727682,juhasaarinen,brand,non_human,human,1,0,5,1 method,association,0.665,0,human,,,,,0.854,,,,
+815735329,xIamDeath,brand,non_human,human,1,0,5,1 method,clustering,0.665,0,,,human,,,,,0.917,,
+815738165,Londonengland_a,brand,non_human,human,1,0,5,1 method,association,0.6652,0,human,,,,,0.861,,,,
+815727279,jesu31598,brand,non_human,human,1,0,5,1 method,association,0.6653,0,human,,,,,0.873,,,,
+815723372,MissMBelieber,brand,non_human,human,1,0,5,1 method,association,0.6654,0,human,,,,,0.854,,,,
+815728364,StylesDiana145,female,human,non_human,1,0,5,1 method,association,0.6654,0,non_human,,,,,0.801,,,,
+815731290,turnertech_carl,brand,non_human,human,1,0,5,1 method,association,0.6654,0,human,,,,,0.869,,,,
+815736351,robotic_icon,brand,non_human,human,1,0,5,1 method,clustering,0.6656,0,,,human,,,,,0.957,,
+815725152,will70204,male,human,non_human,1,0,5,1 method,clustering,0.6658,0,,,non_human,,,,,0.956,,
+815736819,lindamo12895437,female,human,non_human,1,0,5,1 method,clustering,0.6659,0,,,non_human,,,,,0.956,,
+815723590,Garen_bot,brand,non_human,human,1,0,5,1 method,association,0.6663,0,human,,,,,0.873,,,,
+815723702,Fendrake,brand,non_human,human,1,0,5,1 method,association,0.6665,0,human,,,,,0.88,,,,
+815719352,AussiBodySecret,brand,non_human,human,1,0,5,1 method,association,0.6666,0,human,,,,,0.854,,,,
+815725172,RosellMartin88,brand,non_human,human,1,0,5,1 method,text,0.6666,0,,,,,human,,,,,0.901
+815725980,7digital_UK,brand,non_human,human,1,0,5,1 method,association,0.6666,0,human,,,,,0.922,,,,
+815731949,MilwaukeeTalk,female,human,non_human,1,0,5,1 method,text,0.6666,0,,,,,non_human,,,,,0.921
+815719253,the_offical_ios,brand,non_human,human,1,0,5,1 method,association,0.6667,0,human,,,,,0.898,,,,
+815723179,trapking_P4L,male,human,non_human,1,0,5,1 method,association,0.6667,0,non_human,,,,,0.827,,,,
+815728660,johnomo103,male,human,non_human,1,0,5,1 method,regression,0.6668,0,,,,non_human,,,,,0.959,
+815730448,RavenGirlll,brand,non_human,human,1,0,5,1 method,text,0.667,0,,,,,human,,,,,0.858
+815723827,Dewhz,brand,non_human,human,1,0,5,1 method,association,0.6672,0,human,,,,,0.862,,,,
+815734790,PamDrake,brand,non_human,human,1,0,5,1 method,text,0.6672,0,,,,,human,,,,,0.885
+815733512,ajhughes23,female,human,non_human,1,0,5,1 method,regression,0.6674,0,,,,non_human,,,,,0.933,
+815738516,gabriel13737457,male,human,non_human,1,0,5,1 method,clustering,0.6674,0,,,non_human,,,,,0.956,,
+815719812,Boeingpro,male,human,non_human,1,0,5,1 method,text,0.6675,0,,,,,non_human,,,,,0.851
+815731357,chantalldelport,female,human,non_human,1,0,5,1 method,association,0.6677,0,non_human,,,,,0.816,,,,
+815731663,JulietCohenn,female,human,non_human,1,0,5,1 method,association,0.6682,0,non_human,,,,,0.816,,,,
+815720156,rockandpink4u,brand,non_human,human,1,0,5,1 method,association,0.6683,0,human,,,,,0.861,,,,
+815733716,SuicideBiscuits,brand,non_human,human,1,0,5,1 method,association,0.6683,1,human,,,,,0.873,,,,
+815735005,EthanVei,brand,non_human,human,1,0,5,1 method,clustering,0.6683,0,,,human,,,,,0.917,,
+815734519,RyProductions_,brand,non_human,human,1,0,5,1 method,association,0.6684,0,human,,,,,0.862,,,,
+815736636,DanteNevante,male,human,non_human,1,0,5,1 method,association,0.6684,0,non_human,,,,,0.801,,,,
+815723550,starchaser57,brand,non_human,human,1,0,5,1 method,classification,0.6685,0,,human,,,,,0.912,,,
+815729750,TeamCJ4Ever,brand,non_human,human,1,0,5,1 method,text,0.6685,0,,,,,human,,,,,0.881
+815738807,94charminglouis,brand,non_human,human,1,0,5,1 method,association,0.6686,0,human,,,,,0.869,,,,
+815719777,blankyhanky4,brand,non_human,human,1,0,5,1 method,association,0.6687,0,human,,,,,0.869,,,,
+815720793,glenichinosebot,brand,non_human,human,1,0,5,1 method,association,0.6688,0,human,,,,,0.869,,,,
+815721793,psu4joe,female,human,non_human,1,0,5,1 method,regression,0.6692,0,,,,non_human,,,,,0.901,
+815730102,Miles_Smith98,male,human,non_human,1,0,5,1 method,association,0.6692,0,non_human,,,,,0.841,,,,
+815733673,FarpointToys,brand,non_human,human,1,0,5,1 method,association,0.6692,0,human,,,,,0.861,,,,
+815719818,blankyhanky19,brand,non_human,human,1,0,5,1 method,association,0.6694,0,human,,,,,0.869,,,,
+815721372,debbie18051978,female,human,non_human,1,0,5,1 method,clustering,0.6694,0,,,non_human,,,,,0.956,,
+815723431,nherfi,brand,non_human,human,1,0,5,1 method,association,0.6697,0,human,,,,,0.869,,,,
+815720452,Copypasteadscom,female,human,non_human,1,0,5,1 method,association,0.6698,0,non_human,,,,,0.824,,,,
+815738686,CandidoDhess,brand,non_human,human,1,0,5,1 method,association,0.6698,0,human,,,,,0.869,,,,
+815739231,BarbaraHewson,brand,non_human,human,1,0,5,1 method,association,0.6698,0,human,,,,,0.862,,,,
+815722399,ItsHumanity,brand,non_human,human,1,0,5,1 method,text,0.6699,0,,,,,human,,,,,0.954
+815732360,SoftballConnect,brand,non_human,human,1,0,5,1 method,association,0.6699,0,human,,,,,0.869,,,,
+815730536,TedTerrier,brand,non_human,human,1,0,5,1 method,association,0.6701,0,human,,,,,0.869,,,,
+815726180,JROlsonEnt,male,human,non_human,1,0,5,1 method,text,0.6702,0,,,,,non_human,,,,,0.881
+815725823,real_x_medium,brand,non_human,human,1,0,5,1 method,association,0.6706,0,human,,,,,0.861,,,,
+815730109,wahaha1222,brand,non_human,human,1,0,5,1 method,text,0.6706,0,,,,,human,,,,,0.927
+815721594,NormalLass,brand,non_human,human,1,0,5,1 method,association,0.6707,0,human,,,,,0.925,,,,
+815730414,seagull1973,female,human,non_human,1,0,5,1 method,association,0.6707,0,non_human,,,,,0.801,,,,
+815719687,GreekCimPromo,brand,non_human,human,1,0,5,1 method,association,0.6708,0,human,,,,,0.854,,,,
+815720927,GalaxyRemix922,brand,non_human,human,1,0,5,1 method,clustering,0.6708,0,,,human,,,,,0.917,,
+815720072,ckcucco,brand,non_human,human,1,0,5,1 method,association,0.6711,0,human,,,,,0.869,,,,
+815734056,arsenalamerica,brand,non_human,human,1,0,5,1 method,regression,0.6713,0,,,,human,,,,,0.909,
+815727632,Cyberghetto,brand,non_human,human,1,0,5,1 method,classification,0.6714,0,,human,,,,,0.902,,,
+815736026,TakiingFliights,brand,non_human,human,1,0,5,1 method,association,0.6717,0,human,,,,,0.861,,,,
+815736779,EasyEarle51,male,human,non_human,1,0,5,1 method,regression,0.6717,0,,,,non_human,,,,,0.914,
+815736945,ThePaintedElf,brand,non_human,human,1,0,5,1 method,text,0.6717,0,,,,,human,,,,,0.931
+815727792,locatheshowgirl,brand,non_human,human,1,0,5,1 method,association,0.672,0,human,,,,,0.862,,,,
+815720479,SalesForceReal,male,human,non_human,1,0,5,1 method,regression,0.6721,0,,,,non_human,,,,,0.939,
+815729736,curlyfry248,brand,non_human,human,1,0,5,1 method,classification,0.6721,0,,human,,,,,0.914,,,
+815721789,cesarmunozn,male,human,non_human,1,0,5,1 method,regression,0.6722,0,,,,non_human,,,,,0.958,
+815720301,irisannwests,brand,non_human,human,1,0,5,1 method,association,0.6723,1,human,,,,,0.862,,,,
+815723368,JudyLocal,female,human,non_human,1,0,5,1 method,regression,0.6724,0,,,,non_human,,,,,0.954,
+815725559,MSK_ISU,brand,non_human,human,1,0,5,1 method,association,0.6724,0,human,,,,,0.922,,,,
+815732541,tweetandfollows,brand,non_human,human,1,0,5,1 method,association,0.6727,0,human,,,,,0.854,,,,
+815734375,semieitas,brand,non_human,human,1,0,5,1 method,association,0.6727,1,human,,,,,0.862,,,,
+815734591,beautywithin4u2,female,human,non_human,1,0,5,1 method,regression,0.6728,0,,,,non_human,,,,,0.973,
+815724460,harry_f0ols,brand,non_human,human,1,0,5,1 method,association,0.6735,0,human,,,,,0.898,,,,
+815727261,dBlackHiPPyfan,brand,non_human,human,1,0,5,1 method,association,0.6735,0,human,,,,,0.861,,,,
+815736489,TravelHistory_,brand,non_human,human,1,0,5,1 method,association,0.6735,0,human,,,,,0.869,,,,
+815720443,always_vote,brand,non_human,human,1,0,5,1 method,association,0.6736,0,human,,,,,0.862,,,,
+815723154,BharatP95362736,female,human,non_human,1,0,5,1 method,clustering,0.6736,0,,,non_human,,,,,0.956,,
+815728973,karaokequeen85,female,human,non_human,1,0,5,1 method,regression,0.6736,0,,,,non_human,,,,,0.945,
+815731230,johnegolf,male,human,non_human,1,0,5,1 method,association,0.6737,0,non_human,,,,,0.801,,,,
+815725210,ProducersWEB,female,human,non_human,1,0,5,1 method,text,0.6739,0,,,,,non_human,,,,,0.979
+815736792,MattyPar23,female,human,non_human,1,0,5,1 method,association,0.6739,0,non_human,,,,,0.801,,,,
+815720725,partmentalsoul,brand,non_human,human,1,0,5,1 method,clustering,0.6741,0,,,human,,,,,0.917,,
+815721782,Adel_Chamber,brand,non_human,human,1,0,5,1 method,association,0.6741,0,human,,,,,0.854,,,,
+815729162,StarSignMakoto,brand,non_human,human,1,0,5,1 method,association,0.6743,0,human,,,,,0.898,,,,
+815734217,DivergentSan,brand,non_human,human,1,0,5,1 method,text,0.6743,0,,,,,human,,,,,0.976
+815731666,ClarenGary,brand,non_human,human,1,0,5,1 method,clustering,0.6745,0,,,human,,,,,0.917,,
+815729566,RevJAStafford,male,human,non_human,1,0,5,1 method,text,0.6746,0,,,,,non_human,,,,,0.85
+815720888,Isolated_Shadow,brand,non_human,human,1,0,5,1 method,association,0.6747,0,human,,,,,0.898,,,,
+815736301,balzavaulxh7,brand,non_human,human,1,0,5,1 method,classification,0.6747,0,,human,,,,,0.916,,,
+815720658,martiraulmartin,female,human,non_human,1,0,5,1 method,text,0.6748,0,,,,,non_human,,,,,0.894
+815729724,milton_book7,brand,non_human,human,1,0,5,1 method,association,0.6749,0,human,,,,,0.869,,,,
+815729946,N2fotoTed,male,human,non_human,1,0,5,1 method,association,0.675,0,non_human,,,,,0.816,,,,
+815723841,GabrielleForex,female,human,non_human,1,0,5,1 method,text,0.6751,0,,,,,non_human,,,,,0.927
+815727832,EdelmanGOAT,brand,non_human,human,1,0,5,1 method,association,0.6751,0,human,,,,,0.862,,,,
+815731321,GothGalaxyGirl,brand,non_human,human,1,0,5,1 method,association,0.6751,0,human,,,,,0.862,,,,
+815732095,ThaiLash_News,brand,non_human,human,1,0,5,1 method,association,0.6754,0,human,,,,,0.854,,,,
+815735980,Asahi_Chan86,brand,non_human,human,1,0,5,1 method,association,0.6755,0,human,,,,,0.862,,,,
+815720408,PornGaIleries,female,human,non_human,1,0,5,1 method,text,0.676,0,,,,,non_human,,,,,0.865
+815722950,BenoistDaily,female,human,non_human,1,0,5,1 method,text,0.6764,0,,,,,non_human,,,,,0.885
+815738834,cubbyforcakes,female,human,non_human,1,0,5,1 method,text,0.6764,0,,,,,non_human,,,,,0.885
+815719686,SchuckJH,brand,non_human,human,1,0,5,1 method,association,0.6765,0,human,,,,,0.869,,,,
+815719930,StevePowellUKIP,brand,non_human,human,1,0,5,1 method,association,0.6766,0,human,,,,,0.869,,,,
+815733121,AMTStatus,brand,non_human,human,1,0,5,1 method,association,0.6766,0,human,,,,,0.869,,,,
+815735222,CasNovak305,brand,non_human,human,1,0,5,1 method,clustering,0.6766,0,,,human,,,,,0.917,,
+815736009,pewdiepie_ITBot,brand,non_human,human,1,0,5,1 method,association,0.6766,0,human,,,,,0.898,,,,
+815721709,InstaDresden,brand,non_human,human,1,0,5,1 method,association,0.6767,0,human,,,,,0.909,,,,
+815722705,mike_merlino,male,human,non_human,1,0,5,1 method,text,0.6767,0,,,,,non_human,,,,,0.924
+815721517,JoArdell,male,human,non_human,1,0,5,1 method,regression,0.6768,0,,,,non_human,,,,,0.97,
+815730962,SmpBangers,brand,non_human,human,1,0,5,1 method,association,0.6769,0,human,,,,,0.909,,,,
+815733100,hell_ass_,brand,non_human,human,1,0,5,1 method,association,0.6769,0,human,,,,,0.862,,,,
+815731801,MRJJIZZLE,brand,non_human,human,1,0,5,1 method,association,0.677,0,human,,,,,0.861,,,,
+815719414,SteidlSteinberg,male,human,non_human,1,0,5,1 method,text,0.6771,0,,,,,non_human,,,,,0.927
+815733376,ShepherdThor,brand,non_human,human,1,0,5,1 method,association,0.6771,0,human,,,,,0.862,,,,
+815739142,Helz999,brand,non_human,human,1,0,5,1 method,association,0.6771,0,human,,,,,0.898,,,,
+815733651,pedrojsexton,female,human,non_human,1,0,5,1 method,regression,0.6772,0,,,,non_human,,,,,0.92,
+815729303,ajaw_,brand,non_human,human,1,0,5,1 method,association,0.6779,0,human,,,,,0.862,,,,
+815722152,Phislash,brand,non_human,human,1,0,5,1 method,text,0.6782,0,,,,,human,,,,,0.937
+815738529,FLSmallBz,male,human,non_human,1,0,5,1 method,text,0.6785,0,,,,,non_human,,,,,0.858
+815720383,ROYelHassan,brand,non_human,human,1,0,5,1 method,association,0.6789,0,human,,,,,0.873,,,,
+815723497,NakedGambling,brand,non_human,human,1,0,5,1 method,text,0.679,0,,,,,human,,,,,0.875
+815720135,ramomann,male,human,non_human,1,0,5,1 method,regression,0.6791,0,,,,non_human,,,,,0.926,
+815737087,e621_txt,brand,non_human,human,1,0,5,1 method,classification,0.6792,0,,human,,,,,0.928,,,
+815729808,BormanUk2015,male,human,non_human,1,0,5,1 method,regression,0.6794,0,,,,non_human,,,,,0.923,
+815727136,Ididntfart,brand,non_human,human,1,0,5,1 method,association,0.6796,0,human,,,,,0.869,,,,
+815731019,voidfangchest,brand,non_human,human,1,0,5,1 method,association,0.6796,0,human,,,,,0.869,,,,
+815734084,Narrator_Claire,brand,non_human,human,1,0,5,1 method,regression,0.6797,0,,,,human,,,,,0.936,
+815737381,JackRogersUSA,brand,non_human,human,1,0,5,1 method,association,0.6798,0,human,,,,,0.869,,,,
+815728719,SnowLover78,male,human,non_human,1,0,5,1 method,association,0.6801,0,non_human,,,,,0.801,,,,
+815733220,420_Alert,brand,non_human,human,1,0,5,1 method,association,0.6801,0,human,,,,,0.869,,,,
+815727217,lynx_3053,brand,non_human,human,1,0,5,1 method,association,0.6802,0,human,,,,,0.861,,,,
+815736836,JohnMcFandom,male,human,non_human,1,0,5,1 method,text,0.6802,0,,,,,non_human,,,,,0.881
+815720641,TF2SoldierBot,male,human,non_human,1,0,5,1 method,text,0.6804,0,,,,,non_human,,,,,0.868
+815730530,lisabailey307,female,human,non_human,1,0,5,1 method,regression,0.6807,0,,,,non_human,,,,,0.952,
+815738051,GiftsVitality,brand,non_human,human,1,0,5,1 method,association,0.6808,0,human,,,,,0.898,,,,
+815735399,thenipahhut,brand,non_human,human,1,0,5,1 method,text,0.6809,0,,,,,human,,,,,0.856
+815721459,Aranel91,male,human,non_human,1,0,5,1 method,association,0.6825,0,non_human,,,,,0.801,,,,
+815719794,MsBrooke_Lynn,brand,non_human,human,1,0,5,1 method,text,0.6829,0,,,,,human,,,,,0.861
+815738631,laulet,male,human,non_human,1,0,5,1 method,association,0.683,0,non_human,,,,,0.816,,,,
+815734381,MidlerFreak,female,human,non_human,1,0,5,1 method,text,0.6848,0,,,,,non_human,,,,,0.935
+815735123,Davidwash3r3,brand,non_human,human,1,0,5,1 method,clustering,0.6848,0,,,human,,,,,0.917,,
+815729716,E_BPR,brand,non_human,human,1,0,5,1 method,association,0.6852,0,human,,,,,0.861,,,,
+815722363,cmwealth,male,human,non_human,1,0,5,1 method,text,0.6853,0,,,,,non_human,,,,,0.864
+815719634,GemaVanbelle,male,human,non_human,1,0,5,1 method,text,0.6856,0,,,,,non_human,,,,,0.935
+815730979,rudetellzLBC,brand,non_human,human,1,0,5,1 method,clustering,0.6864,0,,,human,,,,,0.957,,
+815723479,CallBoys4Rent_,brand,non_human,human,1,0,5,1 method,association,0.6867,0,human,,,,,0.854,,,,
+815722043,AsxireGaming,brand,non_human,human,1,0,5,1 method,association,0.6879,0,human,,,,,0.873,,,,
+815720290,WilliamandSon,female,human,non_human,1,0,5,1 method,text,0.6881,0,,,,,non_human,,,,,0.893
+815727461,antelopeezer,brand,non_human,human,1,0,5,1 method,association,0.6882,0,human,,,,,0.869,,,,
+815726135,smashb1,brand,non_human,human,1,0,5,1 method,clustering,0.6899,0,,,human,,,,,0.917,,
+815724302,CorsoDavidEd,brand,non_human,human,1,0,5,1 method,association,0.6905,0,human,,,,,0.909,,,,
+815738009,Team_Christ77,brand,non_human,human,1,0,5,1 method,clustering,0.6916,0,,,human,,,,,0.917,,
+815721909,Dessy_Dragon,brand,non_human,human,1,0,5,1 method,association,0.6946,1,human,,,,,0.869,,,,
+815721108,roobiebot,brand,non_human,human,1,0,5,1 method,association,0.695,0,human,,,,,0.873,,,,
+815719817,blankyhanky15,brand,non_human,human,1,0,5,1 method,association,0.6971,0,human,,,,,0.869,,,,
+815726730,Rafurl,brand,non_human,human,1,0,5,1 method,text,0.6977,0,,,,,human,,,,,0.9
+815720833,adhipolice881,brand,non_human,human,1,0,5,1 method,text,0.6983,0,,,,,human,,,,,0.963
+815719264,lifessubatomic,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815719275,HighTechPlanet,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815719309,angie48534918,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815719351,iSpeak9ja,female,human,non_human,1,0,5,1 method,text,1.0,1,,,,,non_human,,,,,0.897
+815719360,lesatorr,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.885
+815719381,4qhks,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815719437,RamTechVCU,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815719489,LanitaWildey,male,human,non_human,1,0,5,1 method,classification,1.0,0,,non_human,,,,,0.922,,,
+815719561,Chargers_NEFL,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.925,,,,
+815719575,HaileyW22810137,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815719623,LeveragYourBook,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.869
+815719664,Bstbookpromos,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815719667,LiverpoolSailor,male,human,non_human,1,0,5,1 method,regression,1.0,0,,,,non_human,,,,,0.901,
+815719702,KitsonLA,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815719770,blankyhanky5,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815719805,OHS_SRC,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.925,,,,
+815719856,WZBC_Live,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815719873,MichealDayoung,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.863
+815719976,JaneDoe023,female,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.816,,,,
+815720034,PesadeliBot,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815720088,RONAinc,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815720102,Raya__Lovers,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.883
+815720139,gamesin,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.899
+815720169,Rob_Aitchison,male,human,non_human,1,0,5,1 method,classification,1.0,0,,non_human,,,,,0.918,,,
+815720238,craigsmithim,male,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.801,,,,
+815720271,Dragon_Ball_S_,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.957,,
+815720294,Charlietrypsin,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.86
+815720374,TheOffer,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815720381,intermtnsports,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815720404,SimcoeRedcoats,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.925,,,,
+815720405,northernrailorg,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815720450,AFlyswatter,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815720451,Dem5SOS_Updates,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815720481,seansramblings,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.92,,,
+815720517,PamelaW76653339,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815720552,35JOAN_Ansley02,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815720556,The_Tiders,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815720560,rekkanoken,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815720712,ALRAC30,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.924,,,
+815720721,VFNorthampton,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815720840,KYC_2020,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.906,,,
+815720897,bulexmagazine,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815721012,SJRTooting,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.907
+815721089,totalkillton,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.855
+815721110,drksportsnews,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.898,,,,
+815721114,ChrisAdamTweets,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.892
+815721127,KearnyMesaFIAT,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815721268,chicdecorstyles,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.925,,,,
+815721298,TLMRadioNL,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815721305,HealthItCaucus,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815721346,Chloe051581,male,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815721410,Mohamed80570137,male,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815721493,RBHorseRacing,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815721511,RepublicanDojo,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815721551,JungIeBot,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815721561,seattledot,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.913,,,
+815721568,45674x,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815721704,Unilag2Funaab,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.953
+815721769,lootcrate,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815721796,TheTimeBot,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815721978,ntfc_trust,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815722062,XSTROLOGY,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815722118,McDebida,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.914,,,
+815722191,snapchatsupport,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815722222,BackwoodzHipHop,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.907,,,
+815722235,teamstersonline,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815722244,Chelsea8Riley,female,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.801,,,,
+815722300,RC_Allaince,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815722319,ChloeGilchrist1,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815722401,TaibaDXB,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815722410,FLSouljas_5,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.905,,,
+815722419,SeraphinTravail,brand,non_human,human,1,0,5,1 method,regression,1.0,0,,,,human,,,,,0.909,
+815722434,X9_DP_71,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815722474,bpeculiarmusic,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815722537,OurCommonRoots,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815722567,166HAZEL51,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815722602,SteinbeckCenter,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815722616,704jthomas,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.912
+815722694,04_11_08,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815722707,robdempsey,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.924
+815722721,leahanneta,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815722733,unlockboot,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815722749,ThomasH29137281,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815722771,CJFlavell,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.884
+815722836,handbuiltcity,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815722857,ThatBoysGood,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815722860,Henrietta683A,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.88
+815722928,KenyaCrazyMedia,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815722957,VirginActiveUK,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815723018,cathytofine,female,human,non_human,1,0,5,1 method,association,1.0,1,non_human,,,,,0.816,,,,
+815723021,CosmopolitanNG,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815723030,thomasjones9000,male,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815723083,NHCUpdatesWW,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.909,,,,
+815723091,DirectorySootle,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.895
+815723102,aSEATaxiCab,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815723117,GQMagazine,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.957,,
+815723135,WindsorBoysSocc,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815723163,E9_UP_K8,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815723188,DY_IO_23,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815723237,MohammadNeshat,male,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.801,,,,
+815723313,michaelattackzo,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.857
+815723362,BenWarrener,male,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.801,,,,
+815723382,Blessman239,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.939,,,
+815723426,Torbay_Hour,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.864,,,,
+815723432,PatrioticGeek,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.9
+815723461,RevoLouTiontalk,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.866
+815723552,WaXPorno,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815723674,ISUPK_OREGON,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815723687,bouncestyle1,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.86
+815723797,iROCK109,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815723798,ebooks_chevaux,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.938
+815723918,BarbieBitchNM,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.916,,,
+815724090,LisaClosson,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.856
+815724092,RoloEdits,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815724144,PopKarma,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815724173,The_Dude_Razor,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815724178,CCBDeal,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815724317,GoldOnion,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.917,,,
+815724408,keystomarketing,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815724426,Postmates_Help,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815724438,ThatJoshGuy05,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.902,,,
+815724443,mlmnewsusa,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.972
+815724496,BlueRocVII,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815724518,100trains,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815724659,chaosmap,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.867
+815724698,Troptraditions,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815724745,deacon_smith,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815724898,am640,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.903,,,
+815724963,BrettLeeRetired,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.875
+815725073,Charlot02798732,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815725078,AudreyS23511436,male,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815725154,SMACKHighWA,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815725462,Sameer32160106,male,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815725537,iambnoone,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.93,,,
+815725550,SMACKHighCT,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815725623,LABconsignment,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815725629,TaniaOnTheScene,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.901
+815725732,karenfl79070153,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815725752,scarybotsla,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815725868,SXYVS,female,human,non_human,1,0,5,1 method,regression,1.0,1,,,,non_human,,,,,0.959,
+815725947,BARBARASCULLY2,female,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.816,,,,
+815725955,99designs,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815725958,SassyNinjaGuru,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.877
+815725965,SpaceMousey,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.865
+815725971,TheTodayShow,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815726010,Spronks1,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.899
+815726036,crushthebookie,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815726076,Kat134569,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815726077,Egyptouring,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815726079,1034SunFM,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.92,,,
+815726099,TennisAcademy01,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815726103,Convert,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.904,,,
+815726122,SISHorseRacing,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815726167,Animabotics,brand,non_human,human,1,0,5,1 method,regression,1.0,0,,,,human,,,,,0.9,
+815726196,KaylaAr09739181,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815726218,shorttalesbot,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815726241,BigBoxRadio,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.898,,,,
+815726292,booktitlebot,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815726298,Koran_Inggris,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815726446,HalleyConsults,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815726481,ogobogocom,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815726528,vaetasMKTG,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815726539,BI_Europe,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.957,,
+815726576,nanexllc,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.853
+815726652,lemonconcepts,brand,non_human,human,1,0,5,1 method,regression,1.0,0,,,,human,,,,,0.924,
+815726734,AllPetDogs,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815726780,BadCornstick,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.857
+815726832,Simoj1958James,male,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815726846,Jakub_IT,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.872
+815726855,AsdaServiceTeam,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815726871,ltsRealWords,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815726937,vaporware,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.949
+815726977,bose_58,female,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.816,,,,
+815726978,WKNC881Playlist,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815727013,FollowingjobCom,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815727017,4f8e24939bf9431,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815727051,ToriKellyFrance,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.923
+815727055,EventopediaUK,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.898,,,,
+815727066,CHIRPPlaylist,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815727080,TakeThatDarwin,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815727095,RLSELFMADEBOSS,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.868
+815727132,NowOnMKEOldies,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815727146,FightOn2Victory,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.925,,,,
+815727157,in_the_bagPR,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.925,,,,
+815727162,observer,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.898,,,,
+815727202,Ticketmaster,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815727286,190Manhattan,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.933,,,
+815727306,NnennaYvonneC,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.928
+815727312,MarkForrestShow,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.917
+815727317,TVRepublik,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815727410,UH_MVP,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815727663,Brandonuts_Game,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815727673,waddledeequeen,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815727709,josh111222333_,male,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815727739,NowOnWHUS,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815727756,MysticSwan,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.855
+815727794,IPOSniffer,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.947
+815727837,itstimetobloom,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.931
+815727900,WEAREMANDOWN,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.917
+815728057,JustEatUK,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815728071,Thadudej_,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.868
+815728118,DevilsTerrace,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815728239,AKB48Fans2,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815728286,SJ_Press,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.925,,,,
+815728287,lifeisawildidea,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.855
+815728361,Derrick79588764,male,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815728419,heynerpacheco,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.885
+815728427,475a97b4b7714c5,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815728468,FTVLive,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815728495,Cribone,male,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.816,,,,
+815728509,thepiperhull,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815728522,TandumEnt,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815728570,stwj30528,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.868,,,,
+815728601,areebavevo,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.887
+815728724,SamsaraFarm,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.859
+815728734,clarinety10,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.948,,,
+815728752,ItCouldBe_you,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.85
+815728776,TheTechScribe,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.877
+815728897,toyremedy,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815728912,superTV247,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815729003,voxnovo,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.857,,,,
+815729064,AnonymousKenya1,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.931
+815729077,illusionOFitALL,brand,non_human,human,1,0,5,1 method,regression,1.0,0,,,,human,,,,,0.947,
+815729108,CoastlneConsult,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815729250,ETAhand2mind,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815729284,Punkbusinesstv,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815729297,LorneEC3,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.871
+815729379,_LifeInSong_,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.966
+815729441,GAINGrantham,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815729480,Chickenify,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815729508,Mangal2,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.956,,,
+815729575,HyltonSandra,female,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.816,,,,
+815729577,Crimson_Chaos,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815729605,litlgib,male,human,non_human,1,0,5,1 method,regression,1.0,0,,,,non_human,,,,,0.971,
+815729691,History_Hit,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815729709,AnoudaBlogger,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.909,,,,
+815729732,wizandskinsfan,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.851
+815729770,DeThunderScoots,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815729826,VentureBoxing,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815729855,smallbiztrends,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.9
+815729897,Styles2blaze1,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.909,,,,
+815729926,904139Lynn,female,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.839,,,,
+815729988,frozenwarning,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815730159,joriestory,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815730174,Bengals_NEFL,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815730319,BeFitNow76,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.93,,,
+815730472,GoSnackGo,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.89
+815730551,thebigbrother9,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815730555,GMDancers,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815730622,insideccfc,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815730627,brennan_1299R5,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815730699,CannaworxInc,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815730700,MusicaMasMusic1,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815730718,HOLLISESTES,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815730860,bostoneventgirl,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815731002,Backspacebills,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815731017,RJRSafety,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.889
+815731023,Ryan_1438,male,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.81,,,,
+815731133,NaughtyToyss,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815731137,LynseyWard83,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.897
+815731184,c82b5001896b4ae,male,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815731194,LordOfBlackmail,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.881
+815731233,EpeeFreestyle,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.861
+815731303,FrankfurtFinanz,brand,non_human,human,1,0,5,1 method,regression,1.0,0,,,,human,,,,,0.905,
+815731400,Abyssal_Glory,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.934,,,
+815731437,home_business58,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.946
+815731477,sellynatorss,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815731513,GeorgiaTweetz,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.871
+815731534,COTemperature,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815731596,Gwemon,male,human,non_human,1,0,5,1 method,regression,1.0,0,,,,non_human,,,,,0.935,
+815731619,511nj495,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.934,,,
+815731620,Thyme1944648,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815731719,greysbot,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815731737,KLASManagement,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815731898,GLassdezignz,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815731904,Juspencesses52,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.902
+815731923,saaconsulting,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.915
+815731926,Dominos_UK,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815731931,PROforma_Micomm,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.924
+815731946,danwoodsearly,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.886
+815732027,iFayaz,male,human,non_human,1,0,5,1 method,regression,1.0,0,,,,non_human,,,,,0.936,
+815732030,GEAROTC,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815732170,dookyyy,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.931
+815732203,mattphillips78,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.914,,,
+815732207,BencaliMusic,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815732222,iPeytonManning,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.983
+815732230,AmazingFaaacts,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815732426,Biscuit33br,male,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.816,,,,
+815732453,Coffee__Agent,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.951
+815732551,LauraQu22469337,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815732581,Lazybotts,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815732625,thecbgazette,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815732641,sollen5252,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815732674,SeasideSignal,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815732781,TheRealChambong,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.861
+815732805,BishopIkedi1,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.894
+815732825,Defend_Israel,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815732863,hass67,male,human,non_human,1,0,5,1 method,regression,1.0,0,,,,non_human,,,,,0.906,
+815732902,scgovLibrary,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815732932,kracovame,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.891
+815733005,DIRTYSTORIES,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815733022,autohomer,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815733042,apocfilms,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815733055,GYSTclub,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815733066,Iovesays,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.985
+815733080,young_ent,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.909,,,,
+815733165,slouise_louise,female,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.801,,,,
+815733171,DjSix7Even,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.925,,,,
+815733200,Camswr_erf,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815733227,FreelanceWJ,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.957,,
+815733258,HornyLocals,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.96
+815733327,Ilusional_COD,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815733336,OSTtalk,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815733444,LushWeCare,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815733464,QuestionAll7,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815733514,CatT15978042,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815733562,3CountThursday,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815733582,SportsNewsBTS,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815733618,G2Room110,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.912,,,
+815733635,55002koyli,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.918,,,
+815733649,dronesweetie,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815733661,LIVESTOCKcanada,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815733715,Millie186025,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815733718,poor2016,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815733737,ejpmonline,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.926
+815733831,NewsWatch_99,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.945,,,
+815733891,lovelittlelush,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815733921,CottageOckman,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815734008,Shim_bop,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815734033,samsBellabob,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.898,,,,
+815734055,HansBrender,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.86
+815734078,novandogiantino,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815734090,ShortAndCrunch,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815734110,Noles247,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815734316,Speedfrog66,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.865
+815734319,dgilliam29,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.91
+815734324,HayleysCloset,female,human,non_human,1,0,5,1 method,regression,1.0,0,,,,non_human,,,,,0.968,
+815734343,ruthHotReviewTV,brand,non_human,human,1,0,5,1 method,association,1.0,1,human,,,,,0.861,,,,
+815734396,4ad228e64de5481,male,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815734400,3WHITNEY468,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815734415,SaltCreekCN,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815734426,JessieJane_21,female,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.827,,,,
+815734430,frank_ligtvoet,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.896
+815734437,KathNielsGlobal,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815734511,NightOwlsGaming,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.931,,,
+815734530,RadioColegial,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815734621,treadcomics,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815734724,QeenWoodes,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815734746,IUPUC,brand,non_human,human,1,0,5,1 method,regression,1.0,0,,,,human,,,,,0.91,
+815734772,AspireAcademy,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815734788,SDtechsupport,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.853,,,,
+815734800,NAmerBearCenter,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815735128,HaysheadNursery,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815735137,thmsm74,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.959
+815735146,GripenNews,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815735172,ProlanceNG,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815735294,TWDSAfrica,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815735349,thebestmashups,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.925,,,,
+815735354,SexyChallenges,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.879
+815735371,FarehamNetwork,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815735546,bsgcoins,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815735600,BaltNetRadio,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815735627,YO_SOY_DR,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815735660,TheMartinParty,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815735785,SachaIDK,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.949
+815735791,ShannaIDK,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.917
+815735801,NigeriaBlogger,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.965
+815735828,YvetteIDK,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.972
+815735832,GastroGays,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815735867,TheVelcroGamer,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.899
+815736168,MFM926,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815736285,MechieDeuce,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.888
+815736288,ABRanaali1,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.871
+815736297,MagPromo,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815736379,MS_Focus,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815736409,mindytho,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.852
+815736449,bjmdaughter,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.914
+815736462,GetYourTipsOut,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815736537,RadioJinWest,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815736686,Marieno33472165,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815736709,Liebebelieber,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.856
+815736739,alexinfernukua,male,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.801,,,,
+815736810,KSGGeog,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.909,,,,
+815736849,firstlady10000,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815736883,2675a24c0441400,male,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815736990,club_musica173,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815737027,BACCV,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815737072,jking962002,male,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815737079,Rejuvinateshop,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.96
+815737122,musicinfuse,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815737150,BancroftFeldman,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815737152,naaradanusha,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.918
+815737190,spidermanmsy,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.863
+815737337,KCSAR,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815737343,Bethanine28,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.923
+815737346,BlakeNextGen15,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815737365,AUSCITY_Forums,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815737377,drichards1302,male,human,non_human,1,0,5,1 method,association,1.0,0,non_human,,,,,0.816,,,,
+815737463,Abbsewing,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815737496,7NewsTraffic,male,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.874
+815737500,shirleyideas,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.851
+815737507,RarrDesigns,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815737550,CHVRCHESUK,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.909,,,,
+815737583,cecilenmstrass1,female,human,non_human,1,0,5,1 method,regression,1.0,0,,,,non_human,,,,,0.919,
+815737811,HotCamera2020,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815737814,HiawathaSchool,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815737905,volzhakovakris1,female,human,non_human,1,0,5,1 method,regression,1.0,0,,,,non_human,,,,,0.944,
+815737969,YoungPharaohEnt,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.962
+815738061,PopcornJulie,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.858
+815738063,TipsForYouDaily,brand,non_human,human,1,0,5,1 method,text,1.0,0,,,,,human,,,,,0.909
+815738069,AvdellasL,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.873
+815738075,Brawler_WF,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,
+815738177,IUNewsTalk,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815738207,NewsOnFire0,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.861,,,,
+815738427,ThorThe_God,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.864,,,,
+815738484,carpetscheshire,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.925,,,,
+815738488,senzeal,brand,non_human,human,1,0,5,1 method,clustering,1.0,0,,,human,,,,,0.917,,
+815738514,claire3222,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815738522,No1PaydayLoans,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.854,,,,
+815738704,AskAmex,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.873,,,,
+815738707,JAXSmallBiz,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.891
+815738769,feedmeCFC,brand,non_human,human,1,0,5,1 method,classification,1.0,0,,human,,,,,0.921,,,
+815738851,ToneItUp,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.862,,,,
+815738920,CowCandyCo,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815739196,Kie_0213,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815739348,5sosmeetupdayS,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.922,,,,
+815739361,johanna4892,female,human,non_human,1,0,5,1 method,clustering,1.0,0,,,non_human,,,,,0.956,,
+815739539,NaijaDiary,female,human,non_human,1,0,5,1 method,text,1.0,0,,,,,non_human,,,,,0.974
+815739562,PegassusBroker,brand,non_human,human,1,0,5,1 method,association,1.0,0,human,,,,,0.869,,,,

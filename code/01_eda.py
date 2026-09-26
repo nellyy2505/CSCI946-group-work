@@ -12,6 +12,8 @@ pd.set_option("display.max_columns", 30)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "raw" / "twitter_user_data.csv"
+OUT = ROOT / "data" / "output"
+OUT.mkdir(parents=True, exist_ok=True)
 NUMERIC = ["fav_number", "retweet_count", "tweet_count"]
 
 
@@ -30,6 +32,7 @@ print(summary)
 
 summary.loc[summary["missing"] > 0, "missing_%"].sort_values().plot.barh()
 plt.xlabel("missing (%)")
+plt.savefig(OUT / "fig_eda_missing.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 
@@ -55,6 +58,7 @@ for j, col in enumerate(NUMERIC):
     axes[1, j].hist(np.log1p(df[col]), bins=50)
     axes[1, j].set_title("log1p(" + col + ")")
 plt.tight_layout()
+plt.savefig(OUT / "fig_eda_numeric_distributions.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 print(np.log1p(df[NUMERIC]).corr().round(3))

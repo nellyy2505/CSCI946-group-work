@@ -8,12 +8,10 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib.pyplot as plt
 from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import FunctionTransformer, StandardScaler
-from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 pd.set_option("display.width", 200)
@@ -22,6 +20,9 @@ pd.set_option("display.max_columns", 30)
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "raw" / "twitter_user_data.csv"
 PROC = ROOT / "data" / "processed"
+OUT = ROOT / "data" / "output"
+PROC.mkdir(parents=True, exist_ok=True)
+OUT.mkdir(parents=True, exist_ok=True)
 DATE_FORMAT = "%m/%d/%y %H:%M"
 SEED = 7
 
@@ -203,6 +204,7 @@ print(pd.DataFrame({"raw": df[LOG_COLS].skew(), "log1p": np.log1p(df[LOG_COLS]).
 
 df["is_human"].map({1: "human", 0: "non-human"}).fillna("unknown").value_counts().plot.bar()
 plt.ylabel("records")
+plt.savefig(OUT / "fig_preprocess_class_balance.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 
@@ -217,6 +219,7 @@ ax.set_yticks(range(len(SCALED_COLS)), SCALED_COLS)
 fig.colorbar(image)
 plt.title("correlation between the numeric features")
 plt.tight_layout()
+plt.savefig(OUT / "fig_preprocess_feature_correlation.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 pairs = corr.abs().where(np.triu(np.ones(corr.shape), k=1).astype(bool)).stack()
@@ -231,6 +234,7 @@ for ax, col in zip(axes.ravel(), SCALED_COLS):
 for ax in axes.ravel()[len(SCALED_COLS):]:
     ax.axis("off")
 plt.tight_layout()
+plt.savefig(OUT / "fig_preprocess_feature_distributions.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 
@@ -241,6 +245,7 @@ print("flag rate by label:\n", labelled.groupby("is_human")[FLAG_COLS].mean().ro
 labelled.boxplot(column=["tweet_count", "fav_number", "account_age_days"],
                  by="is_human", figsize=(11, 4))
 plt.yscale("log")
+plt.savefig(OUT / "fig_preprocess_counts_by_label.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 fig, axes = plt.subplots(1, 3, figsize=(12, 3.5))
@@ -250,6 +255,7 @@ for ax, col in zip(axes, ["link_r", "link_g", "link_b"]):
     ax.set_title(col)
 axes[0].legend()
 plt.tight_layout()
+plt.savefig(OUT / "fig_preprocess_link_colour_by_label.png", dpi=120, bbox_inches="tight")
 plt.show()
 
 # most common words in the cleaned descriptions, by label

@@ -40,28 +40,30 @@ independent agrees with it — which is why we run five methods instead of one.
 ## 2. The shape of the whole project
 
 ```
-01_eda.py           diagnose the raw data
-02_preprocess.py    clean, engineer features, split  -> data/processed/*.csv
-                                │
-        ┌───────────────┬───────┴───────┬────────────────┐
-        │               │               │                │
-   03_association   04_clustering   05_classification   06_text
-     (Nelly)         (BunBoWei)        (?)               (?)
-        │               │               │                │
-        └───────────────┴───────┬───────┴────────────────┘
-                                │
-                      07_consensus.py
-                                │
-                   ranked list of suspect profiles
-                        = the Task 4 answer
+01_eda.py                  diagnose the raw data
+02_preprocess.py           clean, engineer features, split  -> data/processed/*.csv
+                                       │
+     ┌──────────────┬──────────────┬───┴──────────┬──────────────────┬───────────┐
+     │              │              │              │                  │           │
+03_association  04_clustering  05_classification  06_linear_regression  07_logistic  08_text
+  (Nelly)        (Binh)          (Nancy)          (Sun, negative result)  _regression  (Nelly)
+     │              │              │                                     (Sun)        │
+     └──────────────┴──────────────┴──────────────────┬──────────────────┴───────────┘
+                                                      │
+                                              09_consensus.py (Andrew)
+                                                      │
+                                     ranked list of suspect profiles = the Task 4 answer
 ```
 
 **Every method is an independent voter.** They reach their answer by different mechanisms, which is
 the whole point: a profile flagged by one method is a guess, a profile flagged by three is a finding.
 
-We already have evidence this works. Clustering flagged 279 profiles, association rules flagged 960,
-and **163 appear on both lists** from completely unrelated evidence. Where two methods agree, 72% of
-the profiles are ones the crowd was also unsure about — against 48% for either method alone.
+We already have evidence this works. Clustering flagged 279 profiles, association rules flagged 827,
+and **159 appear on both lists** from completely unrelated evidence. Where the two agree, 68% of
+the profiles are ones the crowd was also unsure about — against 59% (rules) and 57% (clustering)
+alone, and 26% of all labelled profiles. With all five methods voting (2026-09-26 rerun): 1,295
+candidates, 513 nominated by two or more methods, and crowd uncertainty climbs with every extra
+vote — 45% at one method, 64% at two, 79% at three, 84% at four, 100% for the 14 flagged by all five.
 
 ---
 
@@ -123,27 +125,34 @@ lab scripts' layout — numbered sections, top to bottom, `plt.show()` per figur
 
 ## 4. The output contract — this is the important bit
 
-**Every method writes one CSV with the same columns.** If we all do this, `07_consensus.py` is
-twenty lines instead of a week of arguing.
+**Every voting method writes two CSVs with the same first columns.** `09_consensus.py` reads the
+flagged file for labelled profiles and only the unknown rows of the predictions file.
 
-`data/output/<method>_flagged.csv`
+`data/output/<method>_predictions.csv` — every profile the method has an opinion about, labelled or unknown.
 
 | column | type | meaning |
 |---|---|---|
 | `_unit_id` | int | the profile — the join key |
 | `says` | str | `"human"` or `"non_human"` — what your method thinks it should be |
 | `score` | float 0–1 | your method's confidence in that call |
+| `recorded` | str | `"human"`, `"non_human"` or `"unknown"` — the `label` column from `02` |
 
-Three columns. That is everything `07_consensus.py` needs to tally votes. Example:
+Supervised methods cover all 18,715 rows: labelled rows out-of-fold (`cross_val_predict`), unknown
+rows from a refit on every labelled row. Clustering covers rows in one-sided clusters. Association
+rules cover rows matched by at least one strong rule, the strongest rule deciding `says`.
+
+`data/output/<method>_flagged.csv` — the labelled rows of the predictions file where `says` differs
+from `recorded` and `score` clears the method's threshold. Same four columns plus `gender`, `name`,
+`gender:confidence`. A flagged row is always also a prediction row with the same `says` and `score`.
 
 ```csv
-_unit_id,says,score
-815719226,non_human,0.93
-815719411,human,0.88
+_unit_id,says,score,recorded
+815719226,non_human,0.93,human
+815719411,human,0.88,unknown
 ```
 
-Add whatever extra columns are useful to you (`name`, `gender`, `recorded`, cluster id, the rule
-that fired) — they are ignored by the consensus step. The three above are the only ones that must
+Add whatever extra columns are useful to you (cluster id, the rule that fired, the model's raw
+probability) — they are ignored by the consensus step. The four above are the only ones that must
 be there, and must be spelled exactly like that.
 
 When the report needs a reason for a particular candidate, read it off your method's own output —
@@ -174,7 +183,7 @@ score = np.where(says == "human", cluster_human_rate, 1 - cluster_human_rate)
 
 **These numbers are not comparable across methods.** A rule confidence of 0.925 and a logistic
 probability of 0.925 do not mean the same thing — they come from different mechanisms with
-different calibration. So in `07_consensus.py`:
+different calibration. So in `09_consensus.py`:
 
 > **Count votes first. Use `score` only to rank within a method, and as a tie-breaker.**
 
@@ -237,22 +246,15 @@ an item so rules can conclude with it.
 0.7953 decision tree vs 0.8052 logistic), because it is unsupervised and does not optimise for the
 label. That is a *justified method selection* result, not a failure — say it plainly.
 
-### BunBoWei — Clustering (`04_clustering.py`) ✅ done
+### Binh — Clustering (`04_clustering.py`) ✅ done
 
-**Lab 3.** k-means and hierarchical, plus Gaussian mixture and DBSCAN as a robustness check.
+**Lab 3.** k-means and hierarchical (four linkages), plus DBSCAN as a robustness check.
 
 - Cluster on behaviour features only. Colour was tested and dropped: it gives the tightest clusters
   (silhouette 0.588) but carries almost no label information (`human_rate_spread` 0.057).
 - Flag rule: profile sits in a one-sided cluster but carries the opposite label.
 
-**Two things to fix before submission:**
-1. `K_FINE = 12` and `PURE_NON_HUMAN = 0.35` are set by hand and drive the entire output. Sweeping
-   them moves the flag count between 279 and 1,474 — and one cluster sits at 0.352, two thousandths
-   from the cut. Either justify them from a diagnostic or report the count as a range.
-2. `adjusted_rand_score` against a 2-class label understates every algorithm, because ARI penalises
-   splitting one class across four clusters. Use the existing `human_rate_spread` for that comparison.
-
-### (unassigned) — Classification (`05_classification.py`)
+### Nancy — Classification (`05_classification.py`) ✅ done
 
 **Lab 4.** Decision tree, KNN, naive Bayes, MLP — plus logistic regression, so five algorithms in
 one loop.
@@ -275,10 +277,11 @@ for name, clf in [("logistic",      LogisticRegression(max_iter=2000, class_weig
 - Use `ttest_ind` on two score arrays to say whether a difference between algorithms is *real*,
   exactly as Lab 4 does. A 0.004 gap is noise.
 - Flag rule: `(prob >= 0.9) & (label == brand)` or `(prob <= 0.1) & (label == human)`.
-- **Worth testing:** train only on the 13,119 rows where `gender:confidence == 1.0`, then predict on
-  all 17,678. A cleaner teacher should give a sharper detector. Untested — measure it.
+- **Measured (Task 6 of the script):** training the best model only on the 13,119 rows where
+  `gender:confidence == 1.0` and scoring all 17,678 out-of-sample; the script prints both accuracies
+  side by side. Cite the printed pair in the report rather than a number copied here.
 
-### (unassigned) — Regression (`04_regression.py`, needs rework)
+### Sun — Regression (`06_linear_regression.py`, `07_logistic_regression.py`) ✅ done
 
 **Lab 5**, which is *two* tasks: linear regression **and** logistic regression.
 
@@ -290,15 +293,15 @@ The current file predicts `gender:confidence` with Ridge and a random forest and
 That target is 74% the single value 1.0, so it is not a continuous quantity and linear regression is
 misspecified from the start. Keep that experiment — a documented negative result earns marks — but:
 
-- State the verdict explicitly. Right now the file prints R² = 0.05 and draws no conclusion.
-- Add logistic regression on `is_human` as the regression that *does* fit.
-- Add RFE feature selection (Lab 5 Describe 10) — refit on 3/4/5 features and compare.
-- **Fix the leak:** the current file picks the best model on the *test* set and never loads
-  `twitter_validation.csv`. Select on validation; touch test once.
-- Drop the mislabel list built from residuals — it is `gender:confidence` re-sorted
-  (`corr(|residual|, target) = −0.842`).
+- `06_linear_regression.py` keeps the Ridge / random-forest experiment on `gender:confidence` as a
+  documented negative result and prints `corr(|residual|, gender:confidence)` to show why residuals
+  are not a mislabel list. It does not vote.
+- `07_logistic_regression.py` is the regression that fits a categorical outcome: fit on train, choose
+  full vs RFE on validation, test once, then out-of-fold verdicts for every labelled row with the
+  chosen configuration. It casts the **regression** vote; classification's vote goes to the best
+  Lab 4 model, so logistic regression never votes twice.
 
-### Text (`06_text.py`) ✅ done
+### Nelly — Text (`08_text.py`) ✅ done
 
 **Lab 7.** nltk tokenising and stop words, conditional frequency distribution, TF-IDF, gensim LDA.
 
@@ -320,13 +323,13 @@ consensus. `desc_clean` and `text_clean` were already lower-cased and stripped i
 
 ## 6. What happens after everyone is done
 
-### Step 1 — `07_consensus.py`
+### Step 1 — `09_consensus.py`
 
-Concatenate the four or five `*_flagged.csv` files on `_unit_id` and pivot:
+Concatenate the five `*_flagged.csv` files on `_unit_id` and pivot:
 
 ```
-_unit_id   name        gender  crowd_conf  rules  clustering  classification  text  votes
-815719226  Sunglare    brand      0.672      1        1             1           0      3
+_unit_id   name        gender  crowd_conf  rules  clustering  classification  regression  text  votes
+815719226  Sunglare    brand      0.672      1        1             1              1        0      4
 ...
 ```
 
@@ -336,10 +339,10 @@ Rank by `votes` descending, then `crowd_conf` ascending. **That table is the Tas
 
 Check the flags against evidence no model used. The current numbers, for reference:
 
-| | flagged | all labelled |
-|---|---|---|
-| below full crowd confidence | 76.5% | 25.8% |
-| `label_conflict` | 1.5% | 0.4% |
+| | nominated by 2+ methods (513) | all candidates (1,295) | all labelled |
+|---|---|---|---|
+| below full crowd confidence | 72.5% | 56.0% | 25.8% |
+| `label_conflict` | 1.0% | 1.2% | 0.4% |
 
 Caution: `label_conflict` has a base rate of 0.4%, so on a subset of 250 profiles you would expect
 **one**. It is too rare to validate anything on small groups — `gender:confidence` is the only
@@ -347,8 +350,8 @@ corroborating signal dense enough to be useful.
 
 ### Step 3 — the unknown profiles
 
-The 1,037 rows the crowd could not label still get a prediction from every method. Where the methods
-agree, that is a suggested label. Smaller deliverable, but it is the second half of Task 4
+The 1,037 rows the crowd could not label still get a prediction from every method, read from each
+method's `*_predictions.csv`. Where the methods agree, that is a suggested label. Smaller deliverable, but it is the second half of Task 4
 ("amend non-human and human profiles").
 
 ### Step 4 — the report
@@ -419,14 +422,10 @@ changes accuracy by ±0.004. The problem was never too many features — it was 
 
 ## 8. Open questions for the team
 
-1. **Does classification fold the text features in?** Text alone (0.8187) already beats the
-   structured features (0.8052), and combined they reach 0.8377. But if `05` uses text too it stops
-   being independent of `06` and the consensus double-counts. Suggest `05` stays structured-only and
-   we report the combined number separately as the best single model.
-2. **Filename collision.** The clustering and regression branches both add `code/04_*.py`. Renumber
-   before merging — suggest `04_clustering`, `05_classification`, `06_regression`, `07_text`.
-3. **Pick one model configuration and stick to it.** Some numbers above use
-   `class_weight="balanced"` and some do not. They differ by ~2 points. Decide before anyone writes
-   prose, or the report will contradict itself.
-4. **Who owns `07_consensus.py` and the report skeleton?** It cannot start until the output contract
-   in §4 is agreed, but it should not wait until everyone is finished either.
+1. **Resolved — classification stays structured-only** (`05`), text-only is `08`; the combined
+   structured + TF-IDF number is reported separately as the best single model.
+2. **Resolved — file names** are one script per lab, numbered in pipeline order (§2).
+3. **Still open — one model configuration.** `05`'s logistic row uses `class_weight="balanced"`;
+   `07` uses the plain model, as Lab 5 does. Whoever writes the regression section cites `07`'s
+   numbers; the classification comparison table cites `05`'s and says the settings differ.
+4. **Resolved — `09_consensus.py` is Andrew's** (`CONSENSUS_SPEC.md`).

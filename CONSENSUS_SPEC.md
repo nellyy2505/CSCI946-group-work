@@ -10,7 +10,7 @@ This stage combines independent evidence rather than retraining or relabelling p
 - `data/processed/twitter_full.csv`: one row per `_unit_id`, containing `is_human`,
   `gender:confidence`, name and label-conflict metadata.
 - One `data/output/<method>_flagged.csv` per participating method. Every row has
-  `_unit_id`, `says` (`human` or `non_human`) and `score` in `[0, 1]`.
+  `_unit_id`, `says` (`human` or `non_human`), `score` in `[0, 1]` and `recorded`.
 - Each method emits at most one nomination for a profile. A missing row is an
   **abstention**, not a vote for its recorded label.
 - Classification may compare several models internally, but only its selected
@@ -19,11 +19,9 @@ This stage combines independent evidence rather than retraining or relabelling p
   Recheck the selected model if classification is rerun. Text and structured
   classification use different feature views; their overlap should still be
   explained in the report.
-- For unknown profiles, `data/output/<method>_predictions.csv` may supply
-  `_unit_id`, `says`, and `score`. The script reads only its unknown rows;
-  labelled profiles continue to use the method's flagged file. Nelly is
-  updating `APPROACH.md` and method exports, so confirm final filenames and
-  columns when those changes land.
+- For unknown profiles, `data/output/<method>_predictions.csv` supplies `_unit_id`, `says`,
+  `score` and `recorded` for every profile the method has an opinion about (see `APPROACH.md §4`).
+  The script reads only its unknown rows; labelled profiles continue to use the flagged file.
 
 ## Decision rule
 
@@ -53,6 +51,6 @@ This stage combines independent evidence rather than retraining or relabelling p
   labelled profiles at each nomination count and fraction with crowd confidence
   below one. The figure shows an association, not confirmed labelling accuracy.
 
-Run `python code/07_consensus.py` from the repository root after the methods.
-Use `--methods association clustering classification text` to name the intended
+Run `python code/09_consensus.py` from the repository root after the methods.
+Use `--methods association clustering classification regression text` to name the intended
 voters, or `--min-votes 2` to export only corroborated candidates.

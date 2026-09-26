@@ -1,0 +1,1017 @@
+_unit_id,name,gender,recorded,says,votes,opposing_votes,available_methods,review_tier,methods,gender:confidence,label_conflict,association_says,classification_says,clustering_says,regression_says,text_says,association_score,classification_score,clustering_score,regression_score,text_score
+815719423,YaldaaOmar,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3408,0,human,human,human,human,human,0.861,0.894,0.957,0.838,0.665
+815719427,valharryo,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6556,0,human,human,human,human,human,0.898,0.968,0.957,0.948,0.569
+815719559,_skybee,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6642,0,human,human,human,human,human,0.862,0.985,0.957,0.97,0.898
+815719753,dangzb,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6659,0,human,human,human,human,human,0.869,0.975,0.957,0.98,0.694
+815720075,mendesislife2,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6777,0,human,human,human,human,human,0.925,0.908,0.917,0.925,0.787
+815720295,dablecis,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3395,0,human,human,human,human,human,0.873,0.982,0.957,0.89,0.858
+815720598,pootcha2108,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3499,0,human,human,human,human,human,0.925,0.989,0.917,0.987,0.591
+815720624,o0SLAVIK0o1,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3442,0,human,human,human,human,human,0.925,0.997,0.917,0.989,0.618
+815720923,_Youngnigga13,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.674,0,human,human,human,human,human,0.925,0.976,0.917,0.963,0.923
+815721031,Hanan_05,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6531,0,human,human,human,human,human,0.925,0.989,0.957,0.972,0.95
+815721245,MadMistB,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3512,0,human,human,human,human,human,0.88,0.815,0.917,0.753,0.981
+815721308,elbertos,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6752,0,human,human,human,human,human,0.869,0.988,0.957,0.961,0.705
+815721685,sandyphysics,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6811,0,human,human,human,human,human,0.873,0.929,0.917,0.903,0.677
+815721708,ricky_raw,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,human,human,human,human,human,0.869,0.971,0.957,0.964,0.826
+815721943,TeddyMisog,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3372,0,human,human,human,human,human,0.88,0.889,0.917,0.855,0.677
+815722144,khari_lemuel,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6651,0,human,human,human,human,human,0.873,0.962,0.957,0.907,0.876
+815722284,tinyjems,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6884,0,human,human,human,human,human,0.873,0.905,0.957,0.894,0.768
+815723162,gleecatsversion,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.659,0,human,human,human,human,human,0.922,0.874,0.917,0.858,0.791
+815723565,babyrosehs,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,human,human,human,human,human,0.861,0.936,0.957,0.922,0.758
+815723766,01905gnlb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6359,0,non_human,non_human,non_human,non_human,non_human,0.846,0.973,0.956,0.927,0.997
+815723863,dmfa21114,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6642,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.927,0.994
+815724079,jasp32052,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6537,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.924,0.994
+815724188,83708slhd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6774,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815724270,82937slhb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6544,0,non_human,non_human,non_human,non_human,non_human,0.846,0.972,0.956,0.949,0.994
+815724309,27258stwd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815724333,08003jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6485,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.922,0.994
+815724356,06510jcsb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6499,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.922,0.994
+815724360,26155stwa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6647,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815724433,04775lktc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6664,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815724434,26141stwa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6503,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815724444,27208stwd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6591,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815724450,01902gnlb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6509,0,non_human,non_human,non_human,non_human,non_human,0.846,0.973,0.956,0.927,0.997
+815724458,82936slhb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815724467,04865lktb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.926,0.994
+815724551,06258jcsa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6571,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.922,0.994
+815724596,06080jcsa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6455,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.922,0.994
+815724619,06712jcsb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6634,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.922,0.994
+815724682,05403lktb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6351,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.922,0.994
+815724728,82939slhb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6481,0,non_human,non_human,non_human,non_human,non_human,0.846,0.972,0.956,0.949,0.994
+815724740,Rxbun,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6615,0,human,human,human,human,human,0.898,0.954,0.957,0.951,0.532
+815724827,26003stwa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6561,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815724862,06107jcsa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6538,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.941,0.994
+815724882,26178stwa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6723,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815724890,04091trda,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6633,0,non_human,non_human,non_human,non_human,non_human,0.846,0.984,0.956,0.92,0.994
+815724904,06912jcsb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6577,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.927,0.994
+815724946,04489lktc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6628,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815724959,02917trdc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6745,0,non_human,non_human,non_human,non_human,non_human,0.846,0.984,0.956,0.92,0.994
+815724997,05839lkta,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6631,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.927,0.994
+815724999,83322slhb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6611,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815725004,06518jcsb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6556,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.927,0.994
+815725009,06716jcsb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6628,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.922,0.994
+815725017,06888jcsb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6866,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.925,0.994
+815725054,82930slhb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.627,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815725057,zandrac274,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6586,0,non_human,non_human,non_human,non_human,non_human,0.846,0.971,0.956,0.935,0.994
+815725064,82229slha,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6565,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.926,0.994
+815725072,07932jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.927,0.994
+815725074,08070gnlb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6599,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.927,0.994
+815725113,27331stwd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6728,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815725115,02667gnlc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6576,0,non_human,non_human,non_human,non_human,non_human,0.846,0.984,0.956,0.92,0.994
+815725138,03904trdb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6441,0,non_human,non_human,non_human,non_human,non_human,0.846,0.984,0.956,0.92,0.994
+815725195,83262slhb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6621,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815725208,06091jcsa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6565,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.927,0.994
+815725219,SnejaTheKing,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6604,0,human,human,human,human,human,0.925,0.988,0.917,0.98,0.811
+815725252,27239stwd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6351,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815725336,04062trda,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6341,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.925,0.994
+815725355,dmfa26205,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.988,0.956,0.931,0.994
+815725372,01852gnlb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6543,0,non_human,non_human,non_human,non_human,non_human,0.846,0.974,0.956,0.928,0.997
+815725375,jamiet_afc,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3537,0,human,human,human,human,human,0.869,0.985,0.917,0.945,0.729
+815725404,07976jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6719,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815725409,savage_twelvie,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6667,0,human,human,human,human,human,0.898,0.97,0.957,0.919,0.793
+815725415,05470lkta,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6685,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.927,0.994
+815725440,03230trdc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6623,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.921,0.994
+815725469,02630gnlc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6473,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.921,0.994
+815725487,26534stwb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6649,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815725493,Awennn,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3527,0,human,human,human,human,human,0.873,0.992,0.957,0.961,0.665
+815725530,03302trdb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6527,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815725531,25958stwa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6669,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815725538,02472gnlc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6526,0,non_human,non_human,non_human,non_human,non_human,0.846,0.984,0.956,0.92,0.994
+815725561,stwa29218,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.925,0.994
+815725566,06235jcsa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6581,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.926,0.994
+815725582,01036gnla,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.974,0.956,0.927,0.997
+815725597,6tripe,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6748,0,human,human,human,human,human,0.88,0.871,0.917,0.911,0.645
+815725611,06607jcsb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6587,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.926,0.994
+815725687,82901slha,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6587,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815725812,ruggi281,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6755,0,non_human,non_human,non_human,non_human,non_human,0.846,0.975,0.956,0.94,0.994
+815725846,27306stwd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6667,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815725849,27325stwd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6546,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815725863,83233slhb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6492,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815725875,04932lktb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6474,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.921,0.994
+815725894,83601slhb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6601,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815725906,02475gnlc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6474,0,non_human,non_human,non_human,non_human,non_human,0.846,0.984,0.956,0.92,0.994
+815725913,04669lktc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6648,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.921,0.994
+815725952,slhb28444,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6633,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.932,0.994
+815725957,07111jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6615,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815725968,26238stwa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815726006,GiveBackMySkull,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6485,0,human,human,human,human,human,0.898,0.929,0.957,0.877,0.885
+815726007,04488lktc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6748,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.925,0.994
+815726025,04076trda,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.653,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.921,0.994
+815726031,07827jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6566,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815726032,04085trda,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.666,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.921,0.994
+815726033,05055lktb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6819,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.926,0.994
+815726034,01810gnlb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6528,0,non_human,non_human,non_human,non_human,non_human,0.846,0.974,0.956,0.928,0.997
+815726054,07755jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.652,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815726107,06042jcsa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6516,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.922,0.994
+815726118,83812slhd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6664,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815726132,26327stwb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6755,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815726133,02714gnlc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6468,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815726144,05862lkta,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6641,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.922,0.994
+815726192,04772lktc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6538,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.926,0.994
+815726207,07051jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6633,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.926,0.994
+815726312,25979stwa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6707,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815726316,05482lkta,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6585,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815726329,stwa29166,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6478,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.926,0.994
+815726353,gnlc21638,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6444,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815726355,26501stwb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.682,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815726358,05651lkta,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6588,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815726396,02190gnlc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6732,0,non_human,non_human,non_human,non_human,non_human,0.846,0.972,0.956,0.95,0.994
+815726400,07110jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6377,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815726424,02113gnlb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6617,0,non_human,non_human,non_human,non_human,non_human,0.846,0.979,0.956,0.931,0.997
+815726426,83114slhb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6508,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.927,0.994
+815726453,26062stwa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6838,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815726468,slhd28581,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6631,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.926,0.994
+815726470,yeahitsmario,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6559,0,human,human,human,human,human,0.925,0.978,0.957,0.971,0.749
+815726473,05091lktb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6474,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.922,0.994
+815726511,07704jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6731,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815726520,celsxo,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3462,0,human,human,human,human,human,0.898,0.977,0.957,0.949,0.62
+815726525,04220trda,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6691,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.925,0.994
+815726543,83281slhb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6609,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815726574,27278stwd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6564,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815726593,stwd29673,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6641,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.926,0.994
+815726637,02659gnlc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.66,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.927,0.994
+815726658,27248stwd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.658,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815726660,slha28265,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6702,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.926,0.994
+815726672,penn32079,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6524,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.923,0.994
+815726742,06020lkta,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6359,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815726803,05086lktb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.645,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.922,0.994
+815726885,06359jcsa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6701,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815726898,lakl31636,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6542,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.925,0.994
+815726932,04785lktc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.922,0.994
+815726983,stwg30085,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6668,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.926,0.994
+815727009,07934jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815727018,04530lktc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.922,0.994
+815727021,83540slhb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6777,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815727031,hayalidny,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6583,0,human,human,human,human,human,0.88,0.942,0.917,0.877,0.618
+815727042,26058stwa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6466,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815727049,stwc29516,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6625,0,non_human,non_human,non_human,non_human,non_human,0.846,0.98,0.956,0.918,0.994
+815727061,26257stwb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6557,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815727150,03871trdb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6459,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.921,0.994
+815727247,05544lkta,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6452,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.926,0.994
+815727311,jill_royson,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6677,0,human,human,human,human,human,0.88,0.953,0.917,0.93,0.579
+815727344,03293trdb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6625,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.925,0.994
+815727371,02891trdc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6653,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.921,0.994
+815727428,07753jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3367,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815727439,83236slhb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.988,0.956,0.929,0.994
+815727476,27351stwd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6598,0,non_human,non_human,non_human,non_human,non_human,0.846,0.988,0.956,0.93,0.994
+815727482,03872trdb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6474,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.921,0.994
+815727528,06612jcsb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6755,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815727540,02584gnlc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6717,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.921,0.994
+815727565,stwd29601,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6444,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.926,0.994
+815727593,07417jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6379,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815727596,russell000x,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.973,0.956,0.937,0.994
+815727604,08090gnlb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6745,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815727615,26041stwa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6646,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815727620,_SVNORITA,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3444,0,human,human,human,human,human,0.898,0.991,0.957,0.912,0.663
+815727645,VicClassified,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,human,human,human,human,human,0.925,0.99,0.957,0.972,0.826
+815727679,07423jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6818,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815727680,26180stwa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.646,0,non_human,non_human,non_human,non_human,non_human,0.846,0.988,0.956,0.93,0.994
+815727700,9tjones9,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6677,0,human,human,human,human,human,0.869,0.981,0.917,0.943,0.938
+815727705,03274trdb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.65,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815727706,83239slhb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.654,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815727783,05744lkta,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6681,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815727793,VeryPhanny,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.334,0,human,human,human,human,human,0.88,0.983,0.917,0.94,0.586
+815727798,06488jcsb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6412,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815727850,05633lkta,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.942,0.994
+815727963,03589trdb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6455,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815727986,27237stwd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6672,0,non_human,non_human,non_human,non_human,non_human,0.846,0.988,0.956,0.929,0.994
+815728049,04780lktc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6745,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.922,0.994
+815728070,edam74,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,human,human,human,human,human,0.925,0.993,0.957,0.981,0.581
+815728093,26537stwb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6713,0,non_human,non_human,non_human,non_human,non_human,0.846,0.988,0.956,0.93,0.994
+815728102,04287trda,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6694,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.922,0.994
+815728112,83830slhd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6398,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.925,0.994
+815728126,04492lktc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6621,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.922,0.994
+815728151,07733jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6701,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815728156,04478lktc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.667,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.926,0.994
+815728191,82243slha,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.671,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815728255,stwb29409,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6585,0,non_human,non_human,non_human,non_human,non_human,0.846,0.988,0.956,0.932,0.994
+815728260,dmfa26263,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.988,0.956,0.932,0.994
+815728330,cuss31805,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6694,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.924,0.994
+815728414,07052jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815728429,06611jcsb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6753,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815728445,04217trda,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6559,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.926,0.994
+815728488,06231jcsa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.654,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.927,0.994
+815728510,blac31516,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6489,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.925,0.994
+815728517,slhf22748,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6581,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815728527,02877trdc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6536,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.925,0.994
+815728562,83864slhd,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6605,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.926,0.994
+815728566,dmfa26250,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6442,0,non_human,non_human,non_human,non_human,non_human,0.846,0.988,0.956,0.932,0.994
+815728567,savt31406,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6491,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.925,0.994
+815728587,04547lktc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6668,0,non_human,non_human,non_human,non_human,non_human,0.846,0.97,0.956,0.948,0.994
+815728588,dmfa26241,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.988,0.956,0.932,0.994
+815728593,Ite_chill,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6719,0,human,human,human,human,human,0.925,0.992,0.957,0.981,0.638
+815728640,The_Shy_Sheep,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6425,0,human,human,human,human,human,0.88,0.931,0.917,0.907,0.956
+815728654,slhf22802,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6587,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815728659,03289trdb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6663,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.925,0.994
+815728663,07601jcsc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6669,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815728667,02860trdc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6501,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.925,0.994
+815728669,02634gnlc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6518,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.921,0.994
+815728698,gnlc21562,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6508,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815728699,slhf29143,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6666,0,non_human,non_human,non_human,non_human,non_human,0.846,0.988,0.956,0.932,0.994
+815728737,deso31743,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.924,0.994
+815728750,06493jcsb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.667,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815728756,dmfa20857,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6679,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815728757,stwd29655,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6591,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815728862,stwa29209,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6597,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.926,0.994
+815728866,02859trdc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6471,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.925,0.994
+815728919,gnlc21635,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.676,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.929,0.994
+815728980,06471jcsb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6663,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815728984,08042gnla,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6734,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815728989,05494lkta,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6474,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.927,0.994
+815729049,06335jcsa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815729118,Shammaahh,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6666,0,human,human,human,human,human,0.869,0.993,0.957,0.931,0.876
+815729121,slhf29135,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6565,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.931,0.994
+815729138,Avansies,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6757,0,human,human,human,human,human,0.898,0.981,0.957,0.951,0.624
+815729141,slhf22903,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.928,0.994
+815729220,01702gnlb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.846,0.976,0.956,0.929,0.997
+815729221,04021trda,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6525,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.922,0.994
+815729224,06230jcsa,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6596,0,non_human,non_human,non_human,non_human,non_human,0.846,0.987,0.956,0.927,0.994
+815729236,jesa31546,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6561,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.925,0.994
+815729240,04940lktb,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6502,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.923,0.994
+815729315,08041gnla,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6484,0,non_human,non_human,non_human,non_human,non_human,0.846,0.986,0.956,0.924,0.994
+815729349,02902trdc,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6607,0,non_human,non_human,non_human,non_human,non_human,0.846,0.985,0.956,0.921,0.994
+815729460,XxClayHall115xX,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3434,0,human,human,human,human,human,0.925,0.984,0.917,0.97,0.82
+815729465,daissygee19,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3497,0,human,human,human,human,human,0.869,0.987,0.917,0.963,0.745
+815729479,TEENAGEVlBES,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6765,0,human,human,human,human,human,0.898,0.96,0.957,0.919,0.945
+815730302,karbdashian,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6711,0,human,human,human,human,human,0.862,0.965,0.957,0.897,0.7
+815730343,kimokumo,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6515,0,human,human,human,human,human,0.862,0.974,0.957,0.93,0.58
+815731760,BornToChill,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6496,0,human,human,human,human,human,0.898,0.986,0.957,0.969,0.822
+815732126,cool_and_iknow,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6848,0,human,human,human,human,human,0.873,0.933,0.957,0.916,0.819
+815732275,divaddelgado,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6704,0,human,human,human,human,human,0.898,0.977,0.957,0.962,0.874
+815732459,kennemesies,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6504,0,human,human,human,human,human,0.861,0.875,0.917,0.859,0.938
+815732827,6d6y,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6559,0,human,human,human,human,human,0.861,0.96,0.917,0.956,0.731
+815732995,ozzyway1,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6791,0,human,human,human,human,human,0.88,0.941,0.917,0.899,0.736
+815733128,flowrcrownlouis,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6572,0,human,human,human,human,human,0.898,0.966,0.957,0.936,0.863
+815733129,_MUBEEN_,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6821,0,human,human,human,human,human,0.869,0.959,0.957,0.939,0.936
+815733234,Fallykay,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3488,0,human,human,human,human,human,0.861,0.976,0.917,0.951,0.62
+815733399,jespertje66,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,human,human,human,human,human,0.909,0.981,0.917,0.938,0.62
+815733517,l1iee,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,human,human,human,human,human,0.869,0.958,0.917,0.911,0.553
+815733544,bebeazizz,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,human,human,human,human,human,0.862,0.979,0.957,0.956,0.948
+815733755,AudeBordetti,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6446,0,human,human,human,human,human,0.873,0.976,0.957,0.928,0.986
+815734077,himeshite,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6713,0,human,human,human,human,human,0.869,0.929,0.957,0.919,0.567
+815734592,Sejo_DahGr8,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.685,0,human,human,human,human,human,0.873,0.973,0.957,0.939,0.931
+815734626,ourswansongs,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.675,0,human,human,human,human,human,0.898,0.987,0.957,0.973,0.909
+815734646,smokinhoodx,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3379,0,human,human,human,human,human,0.925,0.985,0.957,0.984,0.942
+815734685,SketchBolt,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3418,0,human,human,human,human,human,0.873,0.966,0.957,0.936,0.825
+815734723,stopth3world,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6686,0,human,human,human,human,human,0.898,0.961,0.957,0.953,0.748
+815735042,zionfromyigo,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.344,0,human,human,human,human,human,0.925,0.969,0.917,0.951,0.984
+815735143,lychee_le,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6722,0,human,human,human,human,human,0.861,0.913,0.917,0.907,0.813
+815735646,AnnaPm6277,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3546,0,human,human,human,human,human,0.862,0.92,0.917,0.855,0.919
+815735751,SwaglordSeru,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,human,human,human,human,human,0.873,0.544,0.917,0.732,0.699
+815735922,RebaFluff,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6793,0,human,human,human,human,human,0.869,0.928,0.917,0.919,0.9
+815736082,Josh_Riet,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6664,0,human,human,human,human,human,0.925,0.91,0.917,0.938,0.915
+815736218,Fellbrew,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3374,0,human,human,human,human,human,0.925,0.972,0.917,0.951,0.97
+815736257,kristaferanka,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6774,0,human,human,human,human,human,0.862,0.968,0.957,0.956,0.9
+815736517,BookwormGhost,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6745,0,human,human,human,human,human,0.898,0.979,0.917,0.935,0.767
+815736546,Graziaclar,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6643,0,human,human,human,human,human,0.898,0.941,0.957,0.889,0.85
+815737005,SkullYami,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6779,0,human,human,human,human,human,0.898,0.987,0.957,0.967,0.936
+815737200,haultiers,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.6627,0,human,human,human,human,human,0.898,0.974,0.957,0.944,0.719
+815737342,Warpcorps,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3367,0,human,human,human,human,human,0.869,0.974,0.917,0.896,0.919
+815737894,nmellowulf,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.3403,0,human,human,human,human,human,0.88,0.834,0.917,0.874,0.901
+815738140,Gwenbot_ebooks,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.676,0,human,human,human,human,human,0.88,0.789,0.917,0.839,0.96
+815738255,newgroundstier,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,human,human,human,human,human,0.862,0.974,0.917,0.953,0.917
+815739089,pengay2424g,unknown,,non_human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,non_human,non_human,non_human,non_human,non_human,0.84,0.943,0.956,0.9,0.557
+815739422,Khxtun,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",1.0,0,human,human,human,human,human,0.898,0.975,0.957,0.948,0.919
+815739484,Adele213,unknown,,human,5,0,5,3+ methods,"association, classification, clustering, regression, text",0.345,0,human,human,human,human,human,0.925,0.994,0.957,0.992,0.894
+815719318,ashcfc17,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6671,0,,human,human,human,human,,0.899,0.917,0.873,0.553
+815719470,ThoughtsByLydia,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6637,0,human,human,,human,human,0.925,0.9,,0.936,0.853
+815719616,declanmurney,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3517,0,human,human,,human,human,0.925,0.945,,0.981,0.732
+815719718,ink_dr0pl3ts,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6643,0,human,human,,human,human,0.862,0.887,,0.832,0.776
+815719799,AlNorii29,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6705,0,human,human,,human,human,0.925,0.958,,0.957,0.966
+815719815,blankyhanky22,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6633,0,non_human,non_human,,non_human,non_human,0.841,0.735,,0.904,0.583
+815719838,SamuelBass,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3392,0,human,human,,human,human,0.862,0.876,,0.848,0.882
+815719850,dmack_,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3412,0,human,human,,human,human,0.925,0.946,,0.934,0.884
+815719861,lyrusi,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3389,0,human,human,,human,human,0.869,0.71,,0.82,0.805
+815719898,Odd_Hack,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, regression",0.6561,0,human,human,human,human,non_human,0.898,0.938,0.957,0.937,0.51
+815719910,Eribott,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",1.0,0,,human,human,human,human,,0.877,0.957,0.746,0.613
+815719917,defencelessliam,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6656,0,human,human,,human,human,0.88,0.729,,0.724,0.777
+815719928,gureshincrisis,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.671,0,human,human,,human,human,0.898,0.873,,0.909,0.916
+815720233,forceohwakens,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6792,0,,human,human,human,human,,0.922,0.957,0.907,0.697
+815720292,cyli,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6686,0,human,human,,human,human,0.861,0.918,,0.954,0.73
+815720302,marco99724962,unknown,,non_human,4,0,5,3+ methods,"classification, clustering, regression, text",0.65,0,,non_human,non_human,non_human,non_human,,0.687,0.956,0.91,0.763
+815720395,BookStannis,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3473,0,human,human,,human,human,0.862,0.861,,0.839,0.743
+815720428,JermaBot,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3361,0,human,human,,human,human,0.873,0.557,,0.628,0.966
+815720440,xTordX,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3459,0,human,human,,human,human,0.862,0.899,,0.92,0.939
+815720485,cyberwolf1655,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6653,0,human,human,,human,human,0.88,0.796,,0.894,0.829
+815720538,zherayw,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3471,0,human,human,,human,human,0.925,0.936,,0.957,0.881
+815720550,or_shamai,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6797,0,human,human,,human,human,0.869,0.81,,0.865,0.67
+815720682,anovicekong,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6683,0,,human,human,human,human,,0.857,0.917,0.83,0.706
+815720691,_EarlTrancy,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3398,0,human,human,,human,human,0.88,0.848,,0.848,0.619
+815720733,louskir,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6676,0,,human,human,human,human,,0.942,0.957,0.922,0.52
+815720745,KashwekaNyambe,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.869,0.722,,0.86,0.765
+815721005,JezzBear,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3441,0,human,human,,human,human,0.925,0.759,,0.883,0.928
+815721201,Volleybirb,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6401,0,human,human,,human,human,0.862,0.661,,0.721,0.937
+815721225,FitzroviaW1,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6769,0,non_human,non_human,,non_human,non_human,0.839,0.865,,0.986,0.539
+815721256,BreathingHell1,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3469,0,human,human,,human,human,0.873,0.813,,0.744,0.988
+815721327,KillsForLove,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6824,0,human,human,,human,human,0.873,0.737,,0.697,0.587
+815721332,Perpetual_Khaos,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6591,0,,human,human,human,human,,0.809,0.917,0.782,0.652
+815721442,m_rtv,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6748,0,human,human,,human,human,0.862,0.91,,0.962,0.624
+815721500,HowardsHungry,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6765,0,human,human,,human,human,0.861,0.646,,0.677,0.821
+815721513,DaveWuzzHere,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6679,0,human,human,,human,human,0.862,0.934,,0.874,0.786
+815721570,AmnahThunyan,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,1,human,human,,human,human,0.861,0.917,,0.951,0.549
+815721632,DaCapCityPrinze,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3433,0,human,human,,human,human,0.925,0.863,,0.922,0.875
+815721748,Thesigan_Raju,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.909,0.895,,0.921,0.785
+815721764,Godsh0t,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3404,0,human,human,,human,human,0.873,0.845,,0.825,0.544
+815721846,cmrwdk,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.334,0,human,human,,human,human,0.869,0.894,,0.908,0.54
+815721848,Yiveldda,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6845,0,human,human,,human,human,0.862,0.755,,0.784,0.811
+815721945,obviousstalker_,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.869,0.9,,0.883,0.819
+815722288,dirtydanielaxo,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3383,0,human,human,,human,human,0.898,0.928,,0.91,0.507
+815722304,pineapplecakes,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6497,0,human,human,,human,human,0.862,0.921,,0.953,0.629
+815722306,GWIS__LLC,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6607,0,non_human,non_human,,non_human,non_human,0.839,0.895,,0.977,0.693
+815722405,castlextown,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3359,0,human,human,,human,human,0.854,0.719,,0.656,0.922
+815722412,kiraactus,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6638,0,,human,human,human,human,,0.932,0.917,0.916,0.776
+815722663,Cobi_Jon,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, regression",0.6768,0,human,human,human,human,non_human,0.898,0.982,0.957,0.942,0.682
+815722678,JrWarwick,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3439,0,human,human,,human,human,0.862,0.57,,0.644,0.929
+815722776,OreoPurr,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6599,0,human,human,,human,human,0.925,0.866,,0.883,0.846
+815722829,AriJBiebTaySwft,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6661,0,human,human,,human,human,0.869,0.622,,0.792,0.585
+815722954,TwirrahEmpire,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6684,0,human,human,,human,human,0.861,0.786,,0.801,0.738
+815722988,sefdsx,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6618,0,human,human,,human,human,0.861,0.7,,0.715,0.746
+815722997,FavMeRyuko,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6684,0,human,human,,human,human,0.862,0.786,,0.781,0.533
+815723118,bangtanbitch,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3509,0,human,human,,human,human,0.862,0.91,,0.926,0.706
+815723161,PeeZ_NutZ,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.3448,0,,human,human,human,human,,0.929,0.957,0.878,0.571
+815723194,rhexsus,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6665,0,human,human,,human,human,0.88,0.723,,0.684,0.912
+815723277,luke_berlioux,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6607,0,,human,human,human,human,,0.814,0.917,0.826,0.841
+815723394,RahmanNoodle66,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3542,0,human,human,,human,human,0.869,0.939,,0.926,0.951
+815723443,Kanderia_Ku,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6696,0,human,human,,human,human,0.925,0.944,,0.948,0.769
+815723448,VoidlesSoul,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6954,0,human,human,,human,human,0.898,0.901,,0.858,0.925
+815723478,sugardadpxyne,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6629,0,,human,human,human,human,,0.685,0.917,0.728,0.579
+815723526,angahith,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6554,0,,human,human,human,human,,0.913,0.917,0.938,0.603
+815723606,DillyDivine,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6512,0,human,human,,human,human,0.898,0.957,,0.931,0.868
+815723668,Twillz6,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6383,0,,human,human,human,human,,0.867,0.917,0.844,0.545
+815723751,Otter_Silly,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.862,0.832,,0.81,0.728
+815723764,Grimreaper8814,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6645,0,human,human,,human,human,0.869,0.908,,0.897,0.776
+815723801,MrRupertBear,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6632,0,human,human,,human,human,0.862,0.895,,0.802,0.664
+815723958,Dzasta_1,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6582,0,,human,human,human,human,,0.867,0.917,0.821,0.794
+815724040,mygrls7,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6804,0,,human,human,human,human,,0.904,0.917,0.884,0.628
+815724114,DeviantGoddess,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.862,0.898,,0.874,0.814
+815724249,The301st,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.674,0,human,human,,human,human,0.898,0.952,,0.94,0.59
+815724254,ZulaikhaAriff,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6802,0,human,human,,human,human,0.862,0.952,,0.882,0.537
+815724403,dawnjerrene,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6588,0,human,human,,human,human,0.862,0.81,,0.874,0.87
+815724451,GKSRgtbt,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6554,0,non_human,non_human,,non_human,non_human,0.846,0.957,,0.96,0.999
+815724506,WWEJPDiamond,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3433,0,human,human,,human,human,0.898,0.939,,0.886,0.911
+815724586,emmybeezyk,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6552,0,human,human,,human,human,0.862,0.903,,0.73,0.853
+815724601,maxqnz,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6784,0,human,human,,human,human,0.869,0.857,,0.888,0.9
+815724678,__wrxsub__,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, regression",0.6752,0,human,human,human,human,non_human,0.869,0.706,0.917,0.719,0.601
+815724725,Zallah__,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.925,0.938,,0.91,0.963
+815724811,sous_hassoun,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6664,0,,human,human,human,human,,0.872,0.917,0.877,0.648
+815724893,_Helst_,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3695,0,human,human,,human,human,0.898,0.873,,0.895,0.846
+815724894,Maskinen92,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6761,0,human,human,,human,human,0.861,0.918,,0.929,0.531
+815725053,DomainerAnon,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6599,0,human,human,,human,human,0.869,0.815,,0.9,0.938
+815725096,laurxstyles,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3447,0,human,human,,human,human,0.88,0.754,,0.716,0.85
+815725188,Hakunamavodka_,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, regression",0.3432,0,human,human,human,human,non_human,0.898,0.974,0.957,0.925,0.574
+815725247,Mpumi_Dope,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6642,0,human,human,,human,human,0.925,0.882,,0.894,0.682
+815725256,elfpupy,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6873,0,human,human,,human,human,0.925,0.944,,0.933,0.611
+815725265,BKIgtbt,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6702,0,non_human,non_human,,non_human,non_human,0.846,0.956,,0.959,0.999
+815725284,louirrie,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.3521,0,,human,human,human,human,,0.888,0.957,0.894,0.658
+815725394,alsoMike,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.341,0,human,human,,human,human,0.898,0.911,,0.933,0.669
+815725503,GBCIgtbt,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6631,0,non_human,non_human,,non_human,non_human,0.846,0.963,,0.963,0.999
+815725522,natangram,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, regression",0.6792,0,human,human,human,human,non_human,0.861,0.814,0.917,0.81,0.527
+815725972,CAVMgtbt,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6444,0,non_human,non_human,,non_human,non_human,0.846,0.951,,0.955,0.999
+815726000,BKEgtbt,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6615,0,non_human,non_human,,non_human,non_human,0.846,0.947,,0.953,0.999
+815726152,pellicott1,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3473,0,human,human,,human,human,0.869,0.716,,0.773,0.885
+815726232,chaliceoftears,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6972,0,human,human,,human,human,0.862,0.753,,0.8,0.944
+815726284,addictofmatt,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6794,0,human,human,,human,human,0.898,0.91,,0.865,0.585
+815726306,Marduk021374,unknown,,human,4,1,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,non_human,human,human,0.861,0.802,0.956,0.756,0.73
+815726330,ChristianArth13,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6877,0,human,human,,human,human,0.869,0.654,,0.713,0.724
+815726334,janepet35,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6567,0,non_human,non_human,,non_human,non_human,0.846,0.959,,0.94,0.994
+815726344,7XH3qd1pAPZQOX1,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6692,0,human,human,,human,human,0.88,0.848,,0.692,0.738
+815726523,roolbrittania,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6575,0,,human,human,human,human,,0.662,0.917,0.728,0.833
+815726608,BronyDestined,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6497,0,human,human,,human,human,0.88,0.793,,0.812,0.664
+815726750,ghost___cat,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.869,0.929,,0.935,0.556
+815726811,EddieSlain,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.3406,0,,human,human,human,human,,0.758,0.917,0.798,0.772
+815726822,Turbo9879,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6845,0,human,human,,human,human,0.862,0.857,,0.899,0.941
+815726841,LaytonNZA,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.673,0,human,human,,human,human,0.925,0.969,,0.933,0.813
+815726910,kmillermaster,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6714,0,,human,human,human,human,,0.7,0.917,0.708,0.719
+815727100,cnettles2k12,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6645,0,human,human,,human,human,0.869,0.928,,0.909,0.789
+815727164,Knightsexual,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6591,0,human,human,,human,human,0.862,0.789,,0.809,0.869
+815727223,kirstyhall01,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3456,0,human,human,,human,human,0.925,0.975,,0.955,0.739
+815727269,Original310h,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.3493,0,,human,human,human,human,,0.972,0.957,0.917,0.983
+815727686,SL4V4Z4R,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3551,0,human,human,,human,human,0.861,0.843,,0.706,0.937
+815728034,Ohwaawaa,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, regression",0.343,0,human,human,human,human,non_human,0.925,0.948,0.917,0.931,0.607
+815728215,Tekin0816,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3552,0,human,human,,human,human,0.862,0.933,,0.862,0.598
+815728362,babyfrills,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3347,0,human,human,,human,human,0.862,0.825,,0.881,0.762
+815728484,CrestfallenJay,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6572,0,,human,human,human,human,,0.834,0.917,0.857,0.697
+815728505,BriAckland,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6645,0,human,human,,human,human,0.909,0.917,,0.954,0.795
+815728609,destinyraauhl,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.3403,0,,human,human,human,human,,0.914,0.957,0.897,0.867
+815728688,art_control,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, regression",0.6624,0,human,human,human,human,non_human,0.854,0.901,0.957,0.905,0.555
+815728712,DWSNgtbt,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6647,0,non_human,non_human,,non_human,non_human,0.846,0.953,,0.957,0.999
+815728713,GOURGElST,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6738,0,human,human,,human,human,0.898,0.944,,0.924,0.72
+815728778,BelairePappa,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3429,0,human,human,,human,human,0.898,0.802,,0.838,0.625
+815728795,GmeshKingOfUruk,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6833,0,human,human,,human,human,0.869,0.725,,0.75,0.731
+815728857,CTOgtbt,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6611,0,non_human,non_human,,non_human,non_human,0.846,0.956,,0.96,0.998
+815728887,ChasinMyDreamsx,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6658,0,,human,human,human,human,,0.915,0.957,0.873,0.793
+815728954,saltIess,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, regression",0.6648,0,human,human,human,human,non_human,0.88,0.965,0.917,0.935,0.738
+815728963,NiallnLouisrbae,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3431,0,human,human,,human,human,0.925,0.925,,0.93,0.69
+815729043,trohmemes,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6674,0,human,human,,human,human,0.862,0.7,,0.772,0.903
+815729204,HNSNgtbt,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6818,0,non_human,non_human,,non_human,non_human,0.846,0.963,,0.963,0.998
+815729299,Smallnobody,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6502,0,human,human,,human,human,0.869,0.815,,0.869,0.525
+815729461,frickfracklvke,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6578,0,human,human,,human,human,0.925,0.983,,0.977,0.729
+815729478,TheTweetingZed,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3466,0,human,human,,human,human,0.862,0.859,,0.902,0.81
+815729589,oikawamomosuke,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6558,0,human,human,,human,human,0.862,0.855,,0.875,0.956
+815729668,waterhauler,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.675,0,human,human,,human,human,0.862,0.85,,0.92,0.602
+815729887,falcoIombardi,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3456,0,human,human,,human,human,0.88,0.665,,0.718,0.836
+815729935,tiyalene,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.862,0.955,,0.921,0.808
+815730029,DarkArfs,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6829,0,human,human,,human,human,0.862,0.882,,0.897,0.74
+815730054,frightfursheep,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6641,0,human,human,,human,human,0.862,0.943,,0.901,0.555
+815730057,LilSaintDee,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6703,0,human,human,,human,human,0.862,0.956,,0.821,0.931
+815730313,BandsMyWeakness,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6903,0,human,human,,human,human,0.862,0.761,,0.833,0.774
+815730317,NephilimGlee30,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.34,0,human,human,,human,human,0.925,0.987,,0.986,0.827
+815730346,StarlightMcKenz,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.3416,0,,human,human,human,human,,0.906,0.957,0.911,0.778
+815730347,Thewill247x,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3529,0,human,human,,human,human,0.862,0.831,,0.877,0.575
+815730365,OdinCSGO,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",1.0,0,,human,human,human,human,,0.654,0.917,0.777,0.936
+815730406,recoil47,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,non_human,non_human,,non_human,non_human,0.816,0.51,,0.902,0.553
+815730408,denimblob,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",1.0,0,,human,human,human,human,,0.911,0.917,0.853,0.854
+815730444,Q_Country1029,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,non_human,non_human,,non_human,non_human,0.841,0.857,,0.955,0.698
+815730460,idkbria,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6685,0,human,human,,human,human,0.898,0.961,,0.966,0.929
+815730485,rosa_the_red,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.338,0,human,human,,human,human,0.862,0.907,,0.914,0.787
+815730540,30_Helens,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3453,0,human,human,,human,human,0.862,0.921,,0.933,0.772
+815730564,saintjehan,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6591,0,human,human,,human,human,0.862,0.932,,0.908,0.943
+815730588,_Black1D_,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6709,0,human,human,,human,human,0.869,0.899,,0.924,0.804
+815730727,zquadfather,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3355,0,human,human,,human,human,0.862,0.97,,0.88,0.983
+815730767,xxforgetmexx,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6792,0,human,human,,human,human,0.898,0.917,,0.904,0.817
+815731178,VerbObject,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6799,0,human,human,,human,human,0.873,0.632,,0.715,0.965
+815731210,PsychedelicFlys,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.644,0,human,human,,human,human,0.862,0.937,,0.895,0.73
+815731283,Prima_Materia_,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6682,0,human,human,,human,human,0.862,0.92,,0.863,0.902
+815731308,MontlakeMan,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.669,0,human,human,,human,human,0.861,0.841,,0.925,0.716
+815731391,GSD_MDPhD,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6798,0,human,human,,human,human,0.869,0.846,,0.881,0.92
+815731497,LumiaW,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3479,0,human,human,,human,human,0.861,0.852,,0.852,0.674
+815731554,TheGrassLizard,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6674,0,,human,human,human,human,,0.587,0.917,0.659,0.814
+815731661,Haruuumoon,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6513,0,human,human,,human,human,0.869,0.943,,0.929,0.919
+815731698,fizzybizzle,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6722,0,human,human,,human,human,0.862,0.842,,0.884,0.883
+815732070,Pomes_Porn,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.3544,0,non_human,non_human,,non_human,non_human,0.816,0.741,,0.897,0.915
+815732161,neksted,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,non_human,non_human,,non_human,non_human,0.839,0.868,,0.958,0.543
+815732202,uryattudoudattu,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,non_human,non_human,,non_human,non_human,0.84,0.836,,0.932,0.557
+815732219,Mug_Punter_NI,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",1.0,0,,human,human,human,human,,0.824,0.917,0.844,0.75
+815732255,Astraldesigner,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3574,0,human,human,,human,human,0.862,0.669,,0.782,0.643
+815732311,maiagillian,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6735,0,human,human,,human,human,0.862,0.913,,0.942,0.717
+815732405,petitepinkgirls,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6599,0,human,human,,human,human,0.925,0.947,,0.93,0.926
+815732573,7mjslove,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.909,0.906,,0.869,0.732
+815732593,jadehill2001,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.873,0.863,,0.89,0.917
+815732698,musingsofaraven,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3493,0,human,human,,human,human,0.925,0.988,,0.964,0.803
+815732714,cathazclawz,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6523,0,human,human,,human,human,0.869,0.58,,0.693,0.962
+815732733,itsZaddyHOE,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6476,0,human,human,,human,human,0.925,0.726,,0.824,0.918
+815732752,monbrielle,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6538,0,human,human,,human,human,0.862,0.885,,0.931,0.911
+815732885,DyingTethra,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6609,0,human,human,,human,human,0.873,0.766,,0.743,0.942
+815732903,trillballins,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.336,0,human,human,,human,human,0.869,0.961,,0.949,0.852
+815732910,pavel071985,unknown,,non_human,4,0,5,3+ methods,"classification, clustering, regression, text",1.0,0,,non_human,non_human,non_human,non_human,,0.576,0.956,0.939,0.531
+815732957,shikyu99,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6604,0,human,human,,human,human,0.864,0.81,,0.891,0.818
+815732992,pdlmma,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6733,0,human,human,,human,human,0.861,0.873,,0.868,0.842
+815733020,Timelord30021,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6773,0,human,human,,human,human,0.898,0.928,,0.937,0.952
+815733070,cm_happy_bot,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.869,0.695,,0.711,0.751
+815733198,_Ahty,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6726,0,human,human,,human,human,0.862,0.912,,0.899,0.971
+815733335,DAraGon96,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6543,0,,human,human,human,human,,0.915,0.957,0.884,0.857
+815733525,Kiqoseven,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, regression",0.6621,0,human,human,human,human,non_human,0.862,0.975,0.957,0.958,0.777
+815733533,thegiveawaybot1,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.691,0,non_human,non_human,,non_human,non_human,0.839,0.933,,0.979,0.55
+815733565,diapphire,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6631,0,human,human,,human,human,0.862,0.779,,0.861,0.849
+815733575,scattermoon,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.862,0.872,,0.804,0.837
+815733792,bot_salty,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6761,0,human,human,,human,human,0.925,0.764,,0.736,0.751
+815733830,LeAnhTony,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6506,0,,human,human,human,human,,0.948,0.917,0.9,0.65
+815733869,phan_mean,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, text",0.6711,0,human,human,human,non_human,human,0.88,0.511,0.917,0.853,0.817
+815734031,iljc3,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6709,0,human,human,,human,human,0.861,0.827,,0.787,0.882
+815734125,xelmahdi,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.862,0.814,,0.843,0.523
+815734242,Gida152,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, regression",0.6669,0,human,human,human,human,non_human,0.925,0.973,0.917,0.967,0.515
+815734296,AccioStarKid,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6613,0,,human,human,human,human,,0.928,0.957,0.949,0.804
+815734333,tidma_kvh,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.3491,0,,human,human,human,human,,0.677,0.917,0.707,0.903
+815734352,JahKnoTK,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3462,0,human,human,,human,human,0.925,0.942,,0.902,0.871
+815734387,kenhhina,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.3402,0,,human,human,human,human,,0.753,0.917,0.845,0.572
+815734391,kurihiru,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.898,0.856,,0.845,0.633
+815734497,rachaelgriffin6,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, regression",0.3425,0,human,human,human,human,non_human,0.925,0.985,0.957,0.981,0.586
+815734539,Sam_Talks_Crap,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6712,0,human,human,,human,human,0.862,0.931,,0.91,0.576
+815734552,Fungidelic,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3394,0,human,human,,human,human,0.862,0.838,,0.846,0.917
+815734610,illlegal17,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6759,0,human,human,,human,human,0.898,0.92,,0.885,0.849
+815734652,mcmahon_josie,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.346,0,human,human,,human,human,0.861,0.728,,0.84,0.706
+815734696,espinosaurusex,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.898,0.936,,0.904,0.927
+815734811,_suggcupcake_,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3521,0,human,human,,human,human,0.862,0.863,,0.874,0.745
+815734812,sudIOSGamer,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3363,0,human,human,,human,human,0.869,0.655,,0.76,0.666
+815734816,kirkwaIIs,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3428,0,human,human,,human,human,0.88,0.892,,0.883,0.551
+815734861,ZACHISGOD,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.869,0.894,,0.926,0.89
+815734917,SaekoKiller,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.862,0.741,,0.865,0.786
+815734935,coccocacola,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6597,0,non_human,non_human,,non_human,non_human,0.84,0.843,,0.929,0.644
+815735185,FireEmblemSoren,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6633,0,human,human,,human,human,0.862,0.802,,0.72,0.814
+815735269,hyuugaclan,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6596,0,human,human,,human,human,0.862,0.766,,0.855,0.693
+815735351,RRipcords,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6512,0,human,human,,human,human,0.854,0.771,,0.783,0.764
+815735407,historianess,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6722,0,,human,human,human,human,,0.967,0.957,0.935,0.787
+815735416,estelledaviesjo,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.671,0,human,human,,human,human,0.922,0.921,,0.837,0.898
+815735460,LilAquaticBat,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3436,0,human,human,,human,human,0.862,0.926,,0.871,0.537
+815735587,timothysdrake,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3402,0,human,human,,human,human,0.88,0.853,,0.786,0.771
+815735606,Pink_Panda203,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6784,0,human,human,,human,human,0.909,0.895,,0.868,0.768
+815735779,Dehzis,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6658,0,human,human,,human,human,0.898,0.845,,0.904,0.772
+815735830,grandejuicy,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3556,0,human,human,,human,human,0.862,0.973,,0.955,0.765
+815735913,kawaiinishi,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3601,0,human,human,,human,human,0.864,0.933,,0.893,0.721
+815735971,calumsmybubble,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3524,0,human,human,,human,human,0.898,0.933,,0.907,0.644
+815735993,OpusDye,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6598,0,human,human,,human,human,0.925,0.966,,0.925,0.823
+815736031,AraVulletoRosa,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.862,0.798,,0.665,0.731
+815736194,Procyon9Z,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6785,0,,human,human,human,human,,0.9,0.917,0.911,0.685
+815736222,Deexjay,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3466,0,human,human,,human,human,0.862,0.882,,0.93,0.809
+815736260,Whatsherface72,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6541,0,,human,human,human,human,,0.935,0.917,0.896,0.779
+815736354,shuchan22,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6594,0,human,human,,human,human,0.862,0.914,,0.925,0.893
+815736358,7GoBananas,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6638,0,human,human,,human,human,0.925,0.98,,0.963,0.954
+815736455,BIEBERSXRMADRID,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3488,0,human,human,,human,human,0.88,0.765,,0.731,0.745
+815736505,hirokiyuus,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6894,0,human,human,,human,human,0.898,0.926,,0.909,0.671
+815736590,ThePimpinPuppet,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6758,0,,human,human,human,human,,0.824,0.917,0.808,0.589
+815736610,declan_forster,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6474,0,,human,human,human,human,,0.872,0.917,0.894,0.741
+815736683,Itanduofores,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3537,0,human,human,,human,human,0.862,0.887,,0.937,0.756
+815736706,patmonger,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6821,0,human,human,,human,human,0.869,0.914,,0.92,0.874
+815736812,nxrryquxxn,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3349,0,human,human,,human,human,0.862,0.933,,0.923,0.833
+815736917,Edmo_and_Jacko,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, regression",0.6838,0,human,human,human,human,non_human,0.925,0.94,0.917,0.95,0.846
+815736969,thephantomshot,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3471,0,human,human,,human,human,0.862,0.799,,0.848,0.891
+815736971,radmadeline,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6711,0,,human,human,human,human,,0.895,0.917,0.899,0.757
+815737146,Yaherrell13,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6522,0,human,human,,human,human,0.862,0.887,,0.824,0.872
+815737397,Yorkie1200,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3446,0,human,human,,human,human,0.869,0.841,,0.827,0.659
+815737413,han_harden,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6599,0,human,human,,human,human,0.909,0.616,,0.781,0.861
+815737416,irl_mahoushoujo,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.861,0.94,,0.915,0.719
+815737446,rafelle1819,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3419,0,human,human,,human,human,0.869,0.966,,0.96,0.53
+815737447,Kats_Bot,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6769,0,human,human,,human,human,0.873,0.68,,0.672,0.576
+815737451,m28246491,unknown,,human,4,1,5,3+ methods,"association, classification, regression, text",0.6894,0,human,human,non_human,human,human,0.925,0.975,0.956,0.984,0.574
+815737464,jhertz1222,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3392,0,human,human,,human,human,0.869,0.925,,0.957,0.704
+815737472,Redneck1656,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.356,0,human,human,,human,human,0.925,0.982,,0.974,0.957
+815737626,zendisy,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.869,0.664,,0.612,0.85
+815737717,solluxtxt,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6966,0,human,human,,human,human,0.898,0.805,,0.803,0.78
+815737736,nurdanyldz18,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3405,0,human,human,,human,human,0.862,0.832,,0.8,0.766
+815737738,klimeow,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",1.0,0,,human,human,human,human,,0.958,0.957,0.934,0.937
+815737792,crypticxniall,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6843,0,human,human,,human,human,0.862,0.92,,0.889,0.95
+815737808,pesserine,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6676,0,,human,human,human,human,,0.805,0.917,0.817,0.604
+815737932,228_amor,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6576,0,non_human,non_human,,non_human,non_human,0.84,0.859,,0.912,0.556
+815737933,ArkhamKnight19,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6682,0,human,human,,human,human,0.862,0.935,,0.873,0.962
+815738104,ElenkaPenina,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3275,0,human,human,,human,human,0.925,0.78,,0.792,0.714
+815738131,logichole,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3586,0,human,human,,human,human,0.862,0.854,,0.878,0.637
+815738211,LoliPBNightcore,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6686,0,human,human,,human,human,0.861,0.774,,0.824,0.806
+815738229,dannyyonce,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6707,0,human,human,,human,human,0.862,0.922,,0.896,0.752
+815738242,MORE2CENTS,unknown,,human,4,1,5,3+ methods,"association, classification, clustering, text",0.6573,0,human,human,human,non_human,human,0.869,0.703,0.917,0.688,0.703
+815738263,_hxmmie,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3413,0,human,human,,human,human,0.869,0.873,,0.835,0.599
+815738294,Sabrooooooo,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6662,0,,human,human,human,human,,0.932,0.917,0.912,0.859
+815738298,kit69bh,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6555,0,human,human,,human,human,0.869,0.893,,0.883,0.927
+815738509,TheFattHatt,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.6504,0,,human,human,human,human,,0.815,0.917,0.86,0.527
+815738549,miniONIONS4,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,non_human,non_human,,non_human,non_human,0.84,0.887,,0.928,0.557
+815738574,dr_funtimes,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.869,0.949,,0.913,0.718
+815738892,jaden_kenson,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6752,0,human,human,,human,human,0.869,0.95,,0.953,0.915
+815738916,aceclark91,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6694,0,non_human,non_human,,non_human,non_human,0.84,0.919,,0.932,0.557
+815738995,ThcVRCHXTCKT,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6548,0,human,human,,human,human,0.861,0.82,,0.731,0.792
+815739028,splatling,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.862,0.7,,0.853,0.563
+815739034,singitsa_uchia,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.3379,0,,human,human,human,human,,0.703,0.917,0.694,0.853
+815739323,gallvaich,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6712,0,human,human,,human,human,0.898,0.979,,0.927,0.883
+815739401,KerryCherry0380,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.3412,0,human,human,,human,human,0.925,0.967,,0.975,0.791
+815739413,connor_hatstat,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",0.3449,0,,human,human,human,human,,0.79,0.917,0.808,0.804
+815739436,NoHoesKolby,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6765,0,human,human,,human,human,0.862,0.82,,0.885,0.871
+815739438,judgementduck,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6884,0,human,human,,human,human,0.925,0.901,,0.959,0.797
+815739445,Zoetjetoch,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.6758,0,human,human,,human,human,0.869,0.917,,0.905,0.83
+815739463,foreverLiberal,unknown,,human,4,0,5,3+ methods,"classification, clustering, regression, text",1.0,0,,human,human,human,human,,0.918,0.957,0.901,0.621
+815739479,venator14,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",0.677,0,human,human,,human,human,0.869,0.891,,0.914,0.904
+815739507,Anointed_Mouf,unknown,,human,4,0,5,3+ methods,"association, classification, regression, text",1.0,0,human,human,,human,human,0.862,0.897,,0.788,0.94
+815739543,oelz_d,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.6725,0,non_human,non_human,,non_human,non_human,0.81,0.817,,0.939,0.564
+815739581,KerryLangevin,unknown,,non_human,4,0,5,3+ methods,"association, classification, regression, text",0.352,0,non_human,non_human,,non_human,non_human,0.839,0.821,,0.973,0.586
+815719245,GourlayLynn,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3527,0,,human,,human,human,,0.817,,0.832,0.785
+815719342,johnnywhygull,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",0.3502,0,non_human,non_human,,non_human,human,0.838,0.874,,0.971,0.592
+815719371,sevpiehl,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6656,0,,human,,human,human,,0.829,,0.864,0.561
+815719390,tslong2108,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6725,0,,human,,human,human,,0.926,,0.89,0.645
+815719449,aozora_always,unknown,,human,3,1,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,non_human,0.862,0.884,,0.93,0.534
+815719480,MidAtlantcWoman,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3407,0,,human,,human,human,,0.84,,0.852,0.623
+815719633,CursedUHC,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6615,0,human,human,,human,non_human,0.869,0.859,,0.822,0.577
+815719641,SayAbd,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6771,0,,human,,human,human,,0.911,,0.909,0.901
+815719717,Tiramiswhat,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6867,0,,human,,human,human,,0.767,,0.831,0.803
+815719763,DaMidnighter,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.891,,0.789,0.78
+815719767,osijek69,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6359,0,,human,,human,human,,0.66,,0.548,0.586
+815719772,ML_M_hunter,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6607,0,,non_human,,non_human,non_human,,0.56,,0.558,0.563
+815719801,Clockwerk95M,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6704,0,,non_human,,non_human,non_human,,0.654,,0.953,0.704
+815719811,blankyhanky3,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6595,0,human,human,,human,non_human,0.869,0.794,,0.816,0.583
+815719813,little__nialler,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6744,0,human,human,,human,non_human,0.869,0.653,,0.725,0.583
+815719825,blankyhanky20,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6674,0,human,human,,human,non_human,0.869,0.684,,0.755,0.583
+815719842,blankyhanky1,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.3443,0,human,human,,human,non_human,0.869,0.669,,0.735,0.583
+815719915,firmly_grasp_it,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.93,,0.885,0.71
+815719974,HemiGoesHam,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3482,0,,human,,human,human,,0.752,,0.848,0.762
+815720004,SamSouthpaw,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6709,0,,human,,human,human,,0.815,,0.763,0.927
+815720184,dlDominican,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6555,0,,non_human,,non_human,non_human,,0.886,,0.982,0.938
+815720191,Kaelath_The_Red,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.672,0,,human,,human,human,,0.653,,0.795,0.798
+815720226,lsperoni96,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6651,0,,non_human,,non_human,non_human,,0.742,,0.961,0.788
+815720275,iBearHD,unknown,,human,3,1,5,3+ methods,"classification, clustering, regression",0.6882,0,,human,human,human,non_human,,0.828,0.917,0.867,0.607
+815720277,Helyoz1,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.7033,0,,non_human,,non_human,non_human,,0.796,,0.971,0.704
+815720341,kimberlyvelasc7,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.3429,0,human,human,,human,non_human,0.925,0.976,,0.97,0.536
+815720427,alit_en,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.3439,0,human,human,,human,non_human,0.873,0.839,,0.776,0.919
+815720457,LaudrupsHair,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3379,0,,human,,human,human,,0.795,,0.781,0.964
+815720582,Almaz_Khaltamze,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6351,0,,human,,human,human,,0.622,,0.678,0.75
+815720604,angeldeloceano,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6469,0,,human,,human,human,,0.669,,0.754,0.758
+815720683,Baldsaint,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3538,0,,human,,human,human,,0.943,,0.926,0.946
+815720847,StemCellMarket,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.3539,0,,non_human,,non_human,non_human,,0.75,,0.68,0.503
+815720848,aphrodi_en,unknown,,human,3,1,5,3+ methods,"association, regression, text",1.0,0,human,non_human,,human,human,0.873,0.569,,0.505,0.573
+815720868,VanityGames,unknown,,human,3,1,5,3+ methods,"association, classification, text",0.6738,0,human,human,,non_human,human,0.854,0.547,,0.55,0.791
+815720883,obbarey2,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,non_human,,non_human,non_human,,0.648,,0.615,0.581
+815721011,VergneFan,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6636,0,,human,,human,human,,0.906,,0.895,0.777
+815721013,pueblakin,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.3531,0,,non_human,,non_human,non_human,,0.823,,0.826,0.906
+815721036,BlameEbro,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.346,0,,human,,human,human,,0.501,,0.55,0.537
+815721040,Coco_4711,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6777,0,,human,,human,human,,0.902,,0.89,0.602
+815721079,jotdragon,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6727,0,,human,,human,human,,0.841,,0.885,0.9
+815721284,MizzleLive,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6593,0,,human,,human,human,,0.798,,0.731,0.775
+815721292,Calgor_Blackpaw,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6626,0,,human,,human,human,,0.588,,0.62,0.586
+815721314,TechnoHornist,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6642,0,,human,,human,human,,0.618,,0.657,0.678
+815721317,RebekahMacd,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6434,0,,human,,human,human,,0.811,,0.756,0.752
+815721320,followback642,unknown,,human,3,2,5,3+ methods,"association, regression, text",0.6648,0,human,non_human,non_human,human,human,0.869,0.577,0.956,0.702,0.533
+815721348,nighttime_lies,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3572,0,,human,,human,human,,0.702,,0.758,0.758
+815721350,typhoonfilsy,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.927,,0.973,0.923
+815721357,KithinjiKinoti,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6578,0,,human,,human,human,,0.584,,0.669,0.924
+815721368,Chris_Wilde,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6645,0,,human,,human,human,,0.799,,0.761,0.972
+815721383,kmkash,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6825,0,,human,,human,human,,0.963,,0.946,0.816
+815721464,larrypetal,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.658,0,,non_human,,non_human,non_human,,0.59,,0.513,0.542
+815721506,RandomNobody86,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6776,0,human,human,,human,non_human,0.869,0.87,,0.936,0.514
+815721510,CPMacL2008,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6784,0,human,human,,human,non_human,0.869,0.831,,0.903,0.639
+815721559,TheStossa,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6513,0,,human,,human,human,,0.604,,0.708,0.886
+815721631,islamchechen12,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6595,0,,non_human,,non_human,non_human,,0.576,,0.934,0.712
+815721656,Ace_999666,unknown,,human,3,1,5,3+ methods,"classification, regression, text",0.3489,0,,human,non_human,human,human,,0.83,0.956,0.838,0.769
+815721698,Darkdrome7,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.3395,0,human,human,,human,non_human,0.862,0.875,,0.825,0.54
+815721760,Noor_Nadal,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3555,0,,human,,human,human,,0.718,,0.768,0.966
+815721840,Br0ly__,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6663,0,,human,,human,human,,0.754,,0.705,0.845
+815721849,KamuiSongstress,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6692,0,,human,,human,human,,0.563,,0.674,0.679
+815721885,Dstaoirs,unknown,,human,3,2,5,3+ methods,"classification, clustering, text",1.0,0,non_human,human,human,non_human,human,0.801,0.673,0.917,0.767,0.663
+815721891,GrCheeseSamurai,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6723,0,,human,,human,human,,0.827,,0.776,0.601
+815721983,XyanHeiress,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.661,,0.637,0.779
+815722162,Jmiller0sgo1992,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3455,0,,human,,human,human,,0.903,,0.87,0.673
+815722168,HFMike,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.913,,0.909,0.717
+815722258,beginnerquad,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",1.0,0,non_human,non_human,,non_human,human,0.839,0.89,,0.982,0.751
+815722270,LilBossIsLife,unknown,,non_human,3,1,5,3+ methods,"association, regression, text",0.6913,0,non_human,human,,non_human,non_human,0.839,0.546,,0.803,0.621
+815722299,UTAUGizmoBot,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.3586,0,human,human,,human,non_human,0.869,0.647,,0.694,0.844
+815722323,danhowlterphil,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6771,0,,human,,human,human,,0.806,,0.862,0.895
+815722349,slimeshark,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6609,0,,human,,human,human,,0.727,,0.694,0.691
+815722416,enakibot,unknown,,non_human,3,1,5,3+ methods,"classification, regression, text",1.0,0,human,non_human,,non_human,non_human,0.869,0.621,,0.559,0.879
+815722644,xxx44static,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6688,0,,human,,human,human,,0.807,,0.77,0.528
+815722661,Gideon_Boots,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.663,,0.673,0.591
+815722683,brileereif,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6698,0,,human,,human,human,,0.8,,0.852,0.848
+815722688,imLuna_thecat,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.681,0,,human,,human,human,,0.679,,0.678,0.97
+815722722,candxtommo,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3431,0,,human,,human,human,,0.7,,0.638,0.66
+815722723,rainbovideo,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6647,0,,human,,human,human,,0.602,,0.715,0.756
+815722765,NicheMarketway,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6788,0,human,human,,human,non_human,0.854,0.573,,0.518,0.9
+815722779,ConArtCritic,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6539,0,,human,,human,human,,0.948,,0.888,0.65
+815722781,MacylainAlfred,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",0.6541,0,non_human,non_human,,non_human,human,0.816,0.749,,0.951,0.51
+815722782,MissMyrtle2,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6642,0,human,human,,human,non_human,0.869,0.863,,0.757,0.583
+815723007,InstaTweep,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6747,0,,human,,human,human,,0.754,,0.733,0.562
+815723050,merlinwebwizard,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.894,,0.887,0.571
+815723133,isentoisento1,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",0.6628,0,non_human,non_human,,non_human,human,0.841,0.54,,0.805,0.737
+815723145,AWDtwit,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6415,0,human,human,,human,non_human,0.862,0.807,,0.8,0.525
+815723180,NerfMagnetic,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6503,0,,human,,human,human,,0.58,,0.627,0.571
+815723182,TKinBA21,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6833,0,,human,,human,human,,0.884,,0.727,0.931
+815723190,DoctorOfFizz,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6761,0,,human,,human,human,,0.818,,0.775,0.89
+815723211,dekisa23,unknown,,human,3,2,5,3+ methods,"classification, clustering, text",0.6629,0,non_human,human,human,non_human,human,0.801,0.832,0.917,0.611,0.549
+815723346,caballist69,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3466,0,,human,,human,human,,0.907,,0.884,0.712
+815723561,z4nd4r,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6693,0,,human,,human,human,,0.882,,0.929,0.852
+815723584,COURTESYONWHEEL,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.3471,0,,non_human,,non_human,non_human,,0.848,,0.775,0.862
+815723632,CromwellStuff,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.671,0,,human,,human,human,,0.689,,0.617,0.777
+815723835,PapoCircular,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6894,0,,non_human,,non_human,non_human,,0.816,,0.969,0.748
+815723982,Lilamedusa,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3472,0,,human,,human,human,,0.587,,0.627,0.976
+815724029,KingGalaxxy,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6817,0,,human,,human,human,,0.713,,0.759,0.831
+815724248,MinivanMojo,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6732,0,,human,,human,human,,0.83,,0.867,0.893
+815724287,HomerOpines,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6601,0,,human,,human,human,,0.835,,0.792,0.683
+815724289,r60451,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6576,0,,human,,human,human,,0.939,,0.891,0.74
+815724388,JamesSm33040861,unknown,,non_human,3,1,5,3+ methods,"classification, clustering, regression",0.3358,0,,non_human,non_human,non_human,human,,0.834,0.956,0.953,0.807
+815724480,Lundin77,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3574,0,,human,,human,human,,0.854,,0.773,0.756
+815724689,mudebenufyce,unknown,,non_human,3,1,5,3+ methods,"classification, regression, text",0.346,0,human,non_human,,non_human,non_human,0.861,0.55,,0.519,0.545
+815724754,beep_roadrunner,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6734,0,,human,,human,human,,0.639,,0.662,0.563
+815725201,xukolaxekuza,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6609,0,,non_human,,non_human,non_human,,0.522,,0.503,0.537
+815725268,lostinmyminds,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6787,0,,human,,human,human,,0.944,,0.943,0.744
+815725445,Edge1A,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6721,0,,human,,human,human,,0.778,,0.776,0.664
+815725497,queen_sams,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",0.6662,0,non_human,non_human,,non_human,human,0.816,0.709,,0.944,0.67
+815725553,commiemjp,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3486,0,,human,,human,human,,0.921,,0.932,0.845
+815725567,Lethal_Chef,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3449,0,,human,,human,human,,0.809,,0.803,0.869
+815725993,olufemisp,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6684,0,,human,,human,human,,0.849,,0.832,0.882
+815726327,b0redb0t,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",1.0,0,non_human,non_human,,non_human,human,0.827,0.688,,0.54,0.517
+815726389,SoggyHunger,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3403,0,,human,,human,human,,0.576,,0.67,0.68
+815726519,chaska_nyawi,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6691,0,,human,,human,human,,0.713,,0.749,0.672
+815726558,Spats07,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6593,0,,human,,human,human,,0.799,,0.773,0.915
+815726569,00_tube8,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.3383,0,,non_human,,non_human,non_human,,0.796,,0.747,0.701
+815726586,unknown_nichole,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",0.3512,0,non_human,non_human,,non_human,human,0.816,0.713,,0.944,0.725
+815726595,TumCollow,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",0.6417,0,non_human,non_human,,non_human,human,0.816,0.585,,0.847,0.768
+815726621,luest3,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6722,0,,human,,human,human,,0.76,,0.771,0.574
+815726807,Le_Musician,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3469,0,,human,,human,human,,0.765,,0.807,0.9
+815726924,foodpornism,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6732,0,,human,,human,human,,0.738,,0.628,0.728
+815726944,Anonsayshi,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6651,0,human,human,,human,non_human,0.898,0.909,,0.903,0.525
+815726979,uncle2u,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3519,0,,human,,human,human,,0.802,,0.786,0.696
+815727045,GunenaChristian,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3419,0,,human,,human,human,,0.932,,0.845,0.687
+815727138,JonathonPearso3,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6518,0,,non_human,,non_human,non_human,,0.795,,0.971,0.704
+815727239,abufayezm,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6645,0,human,human,,human,non_human,0.861,0.775,,0.822,0.619
+815727315,ShaneSaunders88,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3447,0,,human,,human,human,,0.857,,0.777,0.73
+815727427,yeptrade,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6528,0,,non_human,,non_human,non_human,,0.715,,0.7,0.626
+815727432,Shamalamal,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6796,0,,human,,human,human,,0.811,,0.84,0.633
+815727550,gruntmaster6000,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6578,0,,human,,human,human,,0.867,,0.682,0.602
+815727588,dahmartins,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3438,0,,human,,human,human,,0.902,,0.916,0.828
+815727629,BNshizzle,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3638,0,,human,,human,human,,0.91,,0.937,0.772
+815727748,mab8663Panto,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6709,0,,human,,human,human,,0.872,,0.875,0.798
+815727804,MattLune,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6609,0,,human,,human,human,,0.71,,0.671,0.813
+815727819,xTHOUTRANCYx,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6886,0,,human,,human,human,,0.874,,0.838,0.622
+815727826,walktherotties,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6609,0,,human,,human,human,,0.884,,0.84,0.835
+815727936,DoubleDiggur,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6792,0,human,human,,human,non_human,0.869,0.765,,0.83,0.648
+815727946,That_One_Werido,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3576,0,,human,,human,human,,0.828,,0.825,0.67
+815727972,bonnievanak,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3477,0,,human,,human,human,,0.747,,0.771,0.823
+815727995,rico____,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6748,0,,human,,human,human,,0.877,,0.56,0.711
+815728048,kimcyu,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6686,0,,human,,human,human,,0.791,,0.862,0.58
+815728065,CasterImhotep,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6567,0,,human,,human,human,,0.519,,0.656,0.681
+815728227,Alisair17,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6704,0,,human,,human,human,,0.725,,0.72,0.835
+815728360,graveyardjpg,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.794,,0.79,0.775
+815728416,Camalange,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.3446,0,human,human,,human,non_human,0.862,0.912,,0.861,0.592
+815728526,allmars23,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6612,0,,non_human,,non_human,non_human,,0.759,,0.966,0.704
+815728546,louptyloups,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6595,0,human,human,,human,non_human,0.862,0.847,,0.834,0.695
+815728758,kavatzatron,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6679,0,,non_human,,non_human,non_human,,0.804,,0.967,0.757
+815728802,johnpri73850456,unknown,,human,3,1,5,3+ methods,"classification, regression, text",0.3514,0,,human,non_human,human,human,,0.784,0.956,0.936,0.809
+815728815,Going__Galt,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.3395,0,,non_human,,non_human,non_human,,0.756,,0.739,0.742
+815728934,Sound_Of_Brunel,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6759,0,,human,,human,human,,0.647,,0.709,0.701
+815728935,ponybutts,unknown,,human,3,1,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,non_human,0.873,0.684,,0.647,0.774
+815729011,Keihaku65,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6685,0,,human,,human,human,,0.799,,0.816,0.656
+815729423,Vitalba_90,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.668,0,,human,,human,human,,0.817,,0.864,0.865
+815729501,darkme31,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.928,,0.916,0.896
+815729519,DaveDukesdave,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6593,0,,human,,human,human,,0.646,,0.673,0.569
+815729526,SIGMAKLlM,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6854,0,,human,,human,human,,0.937,,0.92,0.968
+815729607,nachik_387,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6779,0,,human,,human,human,,0.898,,0.851,0.696
+815729689,Codiekitty,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6676,0,,human,,human,human,,0.664,,0.749,0.974
+815729820,Aileine,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6651,0,human,human,,human,non_human,0.869,0.832,,0.885,0.656
+815729827,_hopelessmess,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6595,0,,human,,human,human,,0.61,,0.615,0.978
+815729839,HostofFate,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.849,,0.766,0.877
+815729843,underprop,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6806,0,,human,,human,human,,0.663,,0.812,0.882
+815729902,heterodoxgeek,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6894,0,,non_human,,non_human,non_human,,0.735,,0.735,0.551
+815729993,wearemadeofstar,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6868,0,,non_human,,non_human,non_human,,0.859,,0.924,0.96
+815730061,HiHoney333,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.68,0,,human,,human,human,,0.871,,0.868,0.663
+815730123,Nelgumford,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6724,0,,human,,human,human,,0.725,,0.703,0.662
+815730138,LogicalNegro,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3372,0,,human,,human,human,,0.967,,0.912,0.949
+815730141,smol_and_tol,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.901,,0.87,0.906
+815730152,youngDAD2,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.647,0,,human,,human,human,,0.899,,0.889,0.924
+815730190,monforteivan,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.3389,0,,non_human,,non_human,non_human,,0.842,,0.861,0.929
+815730271,LittleTitch89,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3374,0,,human,,human,human,,0.694,,0.71,0.965
+815730323,jjremoval,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3498,0,,human,,human,human,,0.658,,0.681,0.615
+815730331,mongang7777,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3372,0,,human,,human,human,,0.857,,0.779,0.916
+815730416,Optimalternativ,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6475,0,,human,,human,human,,0.719,,0.726,0.772
+815730436,KeybzOnTheTrack,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6818,0,,human,,human,human,,0.617,,0.654,0.914
+815730513,Wegoforgold,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6585,0,,non_human,,non_human,non_human,,0.765,,0.713,0.786
+815730570,Malamute_Dad,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6589,0,,human,,human,human,,0.815,,0.93,0.879
+815730636,wyn_7,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6764,0,,human,,human,human,,0.788,,0.741,0.615
+815730662,Insanekoy0te,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6613,0,,human,,human,human,,0.934,,0.939,0.742
+815730688,retweet_love_qt,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.3503,0,,non_human,,non_human,non_human,,0.938,,0.954,0.96
+815730954,wolfcrane,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6935,0,,human,,human,human,,0.745,,0.829,0.835
+815731043,typologianista,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.891,,0.921,0.832
+815731056,POSH_JOCK,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6722,0,,human,,human,human,,0.878,,0.901,0.977
+815731128,SloanAsloan1976,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6822,0,,human,,human,human,,0.897,,0.76,0.629
+815731130,Cleetsauce,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.666,0,,human,,human,human,,0.852,,0.799,0.907
+815731176,Faizfag,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6594,0,,human,,human,human,,0.824,,0.769,0.642
+815731429,Cloudy_Cakes,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6591,0,,human,,human,human,,0.657,,0.683,0.911
+815731430,ade_kunle_,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6793,0,,human,,human,human,,0.866,,0.832,0.766
+815731442,Saraa8_,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.802,,0.847,0.702
+815731470,mimbo68,unknown,,human,3,1,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,non_human,0.869,0.973,,0.971,0.609
+815731475,MrGoogol,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3353,0,,human,,human,human,,0.958,,0.954,0.806
+815731590,ladytzadikkim,unknown,,human,3,1,5,3+ methods,"association, classification, text",0.684,0,human,human,,non_human,human,0.869,0.719,,0.755,0.881
+815731720,cloverbot9000,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.929,,0.906,0.747
+815731742,Darkhours,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3555,0,,human,,human,human,,0.675,,0.762,0.83
+815731786,lilniggademon,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3499,0,,human,,human,human,,0.633,,0.621,0.871
+815731832,swissyellow,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6643,0,human,human,,human,non_human,0.869,0.901,,0.895,0.65
+815731842,_Brett__,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6579,0,,human,,human,human,,0.888,,0.887,0.851
+815731928,g4ll4xi,unknown,,human,3,1,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,non_human,0.898,0.961,,0.956,0.591
+815732069,Powellym9,unknown,,human,3,1,5,3+ methods,"association, classification, text",0.6832,0,human,human,,non_human,human,0.869,0.577,,0.809,0.752
+815732072,carol563,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6617,0,,human,,human,human,,0.901,,0.925,0.604
+815732362,KobeBryant_Fan,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.3445,0,,non_human,,non_human,non_human,,0.801,,0.883,0.762
+815732367,luluxcv,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6645,0,,human,,human,human,,0.809,,0.868,0.857
+815732377,cowboys_fan09,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6684,0,,human,,human,human,,0.775,,0.779,0.7
+815732399,SoccerMomSyd,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6708,0,,human,,human,human,,0.827,,0.889,0.766
+815732404,Melhex1,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6695,0,,human,,human,human,,0.9,,0.879,0.522
+815732513,ragtopdays,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6822,0,,human,,human,human,,0.755,,0.697,0.835
+815732557,hewhoasreturned,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6674,0,,human,,human,human,,0.823,,0.859,0.793
+815732614,Altafkazi,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6777,0,,human,,human,human,,0.927,,0.919,0.502
+815732734,JIZLO,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6689,0,,human,,human,human,,0.821,,0.853,0.52
+815732851,NascarFreak_3,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.686,0,,human,,human,human,,0.551,,0.548,0.641
+815732904,fogeybot,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6629,0,,human,,human,human,,0.83,,0.826,0.667
+815732933,basilbottler,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3426,0,,human,,human,human,,0.836,,0.812,0.521
+815733024,r3spawnFTW,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6644,0,,human,,human,human,,0.75,,0.808,0.878
+815733029,bopbop_simsim,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3424,0,,human,,human,human,,0.843,,0.825,0.621
+815733048,LinearVibes,unknown,,human,3,1,5,3+ methods,"association, classification, text",0.6745,0,human,human,,non_human,human,0.857,0.537,,0.835,0.811
+815733103,kursadturksen,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",0.6713,0,non_human,non_human,,non_human,human,0.816,0.645,,0.904,0.679
+815733116,nastasyagolovu1,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",1.0,0,non_human,non_human,,non_human,human,0.816,0.786,,0.955,0.603
+815733170,TitorTau,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.736,,0.716,0.586
+815733225,BoyPeer7,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",0.6742,0,non_human,non_human,,non_human,human,0.816,0.686,,0.932,0.629
+815733282,PirateOfTheSeas,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6604,0,human,human,,human,non_human,0.873,0.649,,0.682,0.604
+815733311,MacDoga,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.663,0,,non_human,,non_human,non_human,,0.573,,0.635,0.693
+815733326,mlp_Myriyan,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3529,0,,human,,human,human,,0.66,,0.711,0.891
+815733334,MayaDoga,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.3459,0,,non_human,,non_human,non_human,,0.53,,0.592,0.693
+815733393,SunMayaR,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.678,0,,non_human,,non_human,non_human,,0.53,,0.592,0.693
+815733410,Jan_Toah,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3405,0,,human,,human,human,,0.843,,0.819,0.837
+815733428,lavellans,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6626,0,human,human,,human,non_human,0.862,0.719,,0.741,0.676
+815733439,muse_no_brasil,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3356,0,,human,,human,human,,0.912,,0.909,0.534
+815733534,oconeeredneck,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6714,0,,human,,human,human,,0.771,,0.747,0.561
+815733573,KrysUrb,unknown,,human,3,1,5,3+ methods,"classification, regression, text",0.3507,0,non_human,human,,human,human,0.801,0.655,,0.643,0.669
+815733638,TheTacitVoice,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6534,0,,human,,human,human,,0.708,,0.728,0.622
+815733720,SJSkatiea,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6666,0,,human,,human,human,,0.732,,0.806,0.6
+815733725,_Keewy_,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6732,0,,human,,human,human,,0.596,,0.617,0.653
+815733795,crazynwildbaby,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.777,,0.66,0.513
+815733822,suzi187,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6817,0,,human,,human,human,,0.947,,0.894,0.657
+815733857,JisooBlackCat,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.741,,0.748,0.911
+815733898,steyb76,unknown,,human,3,2,5,3+ methods,"classification, clustering, text",0.6938,0,non_human,human,human,non_human,human,0.801,0.612,0.917,0.782,0.758
+815733925,FiveWayRevenge,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6752,0,,human,,human,human,,0.523,,0.529,0.911
+815734173,carlyebaines,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6769,0,,human,,human,human,,0.783,,0.819,0.79
+815734245,lemotquitue,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6427,0,,human,,human,human,,0.664,,0.728,0.857
+815734257,calmdowndarlin,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6779,0,,human,,human,human,,0.706,,0.64,0.574
+815734349,sloane_m,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3516,0,,human,,human,human,,0.681,,0.759,0.835
+815734358,ZodiacNein,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6627,0,,human,,human,human,,0.878,,0.813,0.524
+815734395,NetherGamesRBLX,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.3365,0,human,human,,human,non_human,0.861,0.536,,0.53,0.511
+815734412,BramhallHatter,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6734,0,,human,,human,human,,0.711,,0.667,0.689
+815734505,Glaeken55,unknown,,human,3,1,5,3+ methods,"classification, clustering, regression",0.6677,0,,human,human,human,non_human,,0.93,0.917,0.813,0.506
+815734525,pittsburghsux75,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.853,,0.725,0.596
+815734763,JiOyce,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",0.646,0,non_human,non_human,,non_human,human,0.84,0.817,,0.96,0.572
+815734824,ancientkir,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6572,0,human,human,,human,non_human,0.869,0.677,,0.746,0.54
+815734836,photoshop998,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6703,0,,non_human,,non_human,non_human,,0.672,,0.861,0.935
+815734953,CaptByDefault,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6526,0,human,human,,human,non_human,0.898,0.802,,0.801,0.68
+815735012,maiden16_qc,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6573,0,,human,,human,human,,0.877,,0.874,0.665
+815735043,dandloulion,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6685,0,,human,,human,human,,0.81,,0.744,0.712
+815735091,BuncyTheFrog,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6503,0,,human,,human,human,,0.885,,0.828,0.805
+815735125,29_Aurora,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6587,0,,human,,human,human,,0.894,,0.846,0.722
+815735167,Hemagaj,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",1.0,0,non_human,non_human,,non_human,human,0.816,0.563,,0.89,0.804
+815735204,demons,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6904,0,,human,,human,human,,0.681,,0.592,0.775
+815735251,lncarnatedEvil,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6881,0,,human,,human,human,,0.64,,0.676,0.783
+815735335,DatGirl_ICEY,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3478,0,,human,,human,human,,0.939,,0.901,0.939
+815735382,TigarisMC,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.551,,0.617,0.576
+815735396,xLawso42x,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6708,0,,human,,human,human,,0.737,,0.709,0.863
+815735420,eyeseeusee,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6651,0,,human,,human,human,,0.898,,0.777,0.771
+815735465,skyfulloufstars,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3498,0,,human,,human,human,,0.83,,0.877,0.957
+815735548,SqueakyKiki78,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3488,0,,human,,human,human,,0.881,,0.755,0.719
+815735595,trust_worthy1,unknown,,human,3,1,5,3+ methods,"association, classification, regression",1.0,0,human,human,,human,non_human,0.873,0.792,,0.89,0.553
+815735626,thecarterclanEE,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.3466,0,human,human,,human,non_human,0.925,0.942,,0.944,0.506
+815735632,xnotanummyet,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6696,0,,human,,human,human,,0.805,,0.866,0.7
+815735644,ashrafyavar1,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.694,,0.675,0.52
+815735756,myth61589545,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.3507,0,,non_human,,non_human,non_human,,0.63,,0.835,0.546
+815735838,Tygati,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.921,,0.916,0.727
+815735893,GliesanXatu,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.641,,0.761,0.525
+815735939,Villafanblog,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6556,0,,human,,human,human,,0.746,,0.829,0.524
+815735940,Warden_AoS,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.889,,0.739,0.662
+815735961,babygurlnatalii,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6492,0,,human,,human,human,,0.843,,0.842,0.727
+815735966,CoreTentacle,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6776,0,,human,,human,human,,0.846,,0.892,0.905
+815735974,tiertanas,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6727,0,,human,,human,human,,0.676,,0.76,0.765
+815736067,albertl05,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3475,0,,human,,human,human,,0.806,,0.745,0.607
+815736094,Falantino1,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6404,0,,human,,human,human,,0.631,,0.604,0.765
+815736210,pavskies,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.644,0,,human,,human,human,,0.878,,0.856,0.596
+815736324,iamdluhansa,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6822,0,,human,,human,human,,0.887,,0.734,0.523
+815736359,Aforextreme,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6611,0,,human,,human,human,,0.894,,0.915,0.728
+815736385,geofamilyguyfan,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6864,0,,human,,human,human,,0.775,,0.65,0.557
+815736468,annikboney,unknown,,non_human,3,2,5,3+ methods,"association, classification, regression",0.6603,0,non_human,non_human,human,non_human,human,0.839,0.528,0.917,0.82,0.707
+815736559,Ygflass,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6651,0,,human,,human,human,,0.714,,0.678,0.811
+815736604,AKissForAFish,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6351,0,human,human,,human,non_human,0.88,0.904,,0.895,0.78
+815736637,S9Aberrance,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6558,0,,human,,human,human,,0.841,,0.849,0.703
+815736666,bogel888,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3453,0,,human,,human,human,,0.978,,0.954,0.787
+815736767,DanawenzelG,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6742,0,,human,,human,human,,0.64,,0.692,0.803
+815736869,mtmccmm,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.3462,0,,non_human,,non_human,non_human,,0.8,,0.814,0.546
+815736898,technosparkle,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6659,0,,human,,human,human,,0.535,,0.737,0.761
+815736915,videosurvival,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.35,0,,non_human,,non_human,non_human,,0.785,,0.805,0.558
+815736958,faustroll,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6833,0,,human,,human,human,,0.868,,0.903,0.872
+815737006,ao_JURUgiul,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.3559,0,human,human,,human,non_human,0.862,0.777,,0.777,0.58
+815737121,OkamiNoTsume,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6779,0,,human,,human,human,,0.805,,0.802,0.947
+815737159,armaina,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6567,0,,human,,human,human,,0.874,,0.807,0.721
+815737221,Leeshie_PoP,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6641,0,,human,,human,human,,0.973,,0.955,0.777
+815737308,alexpkoch16,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",0.6726,0,non_human,non_human,,non_human,human,0.841,0.531,,0.833,0.764
+815737371,jhfhhdhds,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6789,0,,human,,human,human,,0.798,,0.825,0.827
+815737373,samisimps,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6617,0,,human,,human,human,,0.94,,0.936,0.627
+815737728,CK_Kirbi,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,0,,human,,human,human,,0.788,,0.795,0.932
+815737730,choichanyeoI,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.6457,0,human,human,,human,non_human,0.898,0.962,,0.969,0.537
+815737785,PepePeadro,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3493,0,,human,,human,human,,0.66,,0.709,0.667
+815737832,ShirokumaOkami,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.667,0,,human,,human,human,,0.77,,0.779,0.673
+815737883,klahnen,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3497,0,,human,,human,human,,0.821,,0.87,0.823
+815737943,Moom_Radio,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3446,0,,human,,human,human,,0.884,,0.832,0.5
+815737978,4rca,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.667,0,,human,,human,human,,0.954,,0.915,0.781
+815738111,carolcoppie,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6499,0,,human,,human,human,,0.826,,0.797,0.713
+815738178,soycows,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6678,0,,human,,human,human,,0.817,,0.914,0.547
+815738228,Chota_Qureshi,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6403,0,,human,,human,human,,0.511,,0.715,0.932
+815738248,vjlioi1017,unknown,,non_human,3,1,5,3+ methods,"association, classification, regression",0.6717,0,non_human,non_human,,non_human,human,0.81,0.545,,0.876,0.766
+815738284,keniarivas8,unknown,,human,3,0,5,3+ methods,"classification, regression, text",1.0,1,,human,,human,human,,0.686,,0.818,0.769
+815738398,PhotoMeli,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6839,0,,human,,human,human,,0.807,,0.812,0.793
+815738401,Nthabisheng,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3488,0,,human,,human,human,,0.85,,0.808,0.759
+815738418,margih99,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3414,0,,human,,human,human,,0.929,,0.912,0.608
+815738438,leezkenjeydin,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6486,0,,human,,human,human,,0.514,,0.614,0.607
+815738464,DolejsiHazel,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6651,0,,human,,human,human,,0.955,,0.949,0.653
+815738613,nhice_nhiz,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6619,0,,human,,human,human,,0.854,,0.841,0.605
+815738618,OnlyMichaelJ,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3491,0,,human,,human,human,,0.591,,0.637,0.509
+815738719,fawnIings,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6721,0,,human,,human,human,,0.95,,0.899,0.678
+815738811,Purdom_L,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6621,0,,human,,human,human,,0.665,,0.826,0.76
+815738839,beemergal0927,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3358,0,,human,,human,human,,0.88,,0.852,0.597
+815738925,Relle_MonRoe,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3527,0,,human,,human,human,,0.595,,0.654,0.912
+815739014,Chidiukwu_com,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.3527,0,,non_human,,non_human,non_human,,0.881,,0.921,0.879
+815739114,ExaltedInigo,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6587,0,,human,,human,human,,0.89,,0.841,0.754
+815739195,s4nt4tweet,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.643,0,,human,,human,human,,0.881,,0.845,0.725
+815739214,snurpknuffle,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6779,0,,human,,human,human,,0.924,,0.929,0.921
+815739254,RichardLionhea,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3466,0,,human,,human,human,,0.592,,0.561,0.846
+815739273,Deer_Head_Xiris,unknown,,human,3,1,5,3+ methods,"association, classification, regression",0.3453,0,human,human,,human,non_human,0.862,0.597,,0.7,0.671
+815739294,TinyTitties4,unknown,,non_human,3,0,5,3+ methods,"classification, regression, text",0.6568,0,,non_human,,non_human,non_human,,0.776,,0.834,0.582
+815739327,mcholic11,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6866,0,,human,,human,human,,0.626,,0.661,0.778
+815739345,suckatsports,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6734,0,,human,,human,human,,0.847,,0.8,0.852
+815739405,NuFlailsAbout,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3493,0,,human,,human,human,,0.676,,0.548,0.92
+815739480,hossinahmadi22,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6594,0,,human,,human,human,,0.684,,0.611,0.574
+815739541,ramblejamble,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.3446,0,,human,,human,human,,0.528,,0.657,0.695
+815739554,astonwest,unknown,,human,3,0,5,3+ methods,"classification, regression, text",0.6615,0,,human,,human,human,,0.871,,0.906,0.899
+815719341,Onmeed,unknown,,human,2,1,5,2 methods,"classification, regression",0.3357,0,,human,,human,non_human,,0.705,,0.721,0.766
+815719540,Riski11000,unknown,,human,2,1,5,2 methods,"classification, text",0.3369,0,,human,,non_human,human,,0.652,,0.514,0.796
+815719703,StreetFur,unknown,,human,2,1,5,2 methods,"classification, regression",1.0,0,,human,,human,non_human,,0.717,,0.67,0.552
+815719733,ashalizir,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6588,0,,non_human,,non_human,human,,0.681,,0.546,0.545
+815719747,lifemotivatn,unknown,,human,2,1,5,2 methods,"classification, regression",0.6681,0,,human,,human,non_human,,0.689,,0.63,0.697
+815719762,Binkenstein,unknown,,human,2,1,5,2 methods,"classification, regression",0.6762,0,,human,,human,non_human,,0.805,,0.794,0.713
+815719964,mitsuxtsuba,unknown,,human,2,1,5,2 methods,"regression, text",0.6967,0,,non_human,,human,human,,0.534,,0.584,0.531
+815720166,iamarux,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6787,0,,non_human,,non_human,human,,0.753,,0.956,0.653
+815720355,trice_bhelle,unknown,,human,2,1,5,2 methods,"classification, regression",0.689,0,,human,,human,non_human,,0.715,,0.686,0.643
+815720449,Begaria,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6864,0,,non_human,,non_human,human,,0.54,,0.504,0.6
+815720649,Moonthralling,unknown,,non_human,2,1,5,2 methods,"regression, text",0.6862,0,,human,,non_human,non_human,,0.562,,0.547,0.891
+815721099,grannygettnwise,unknown,,human,2,1,5,2 methods,"classification, text",0.6623,0,,human,,non_human,human,,0.511,,0.867,0.66
+815721104,urbansoulz,unknown,,human,2,1,5,2 methods,"classification, regression",0.6838,0,,human,,human,non_human,,0.585,,0.647,0.624
+815721136,mejashtv,unknown,,non_human,2,1,5,2 methods,"classification, text",0.6712,0,,non_human,,human,non_human,,0.56,,0.551,0.759
+815721250,kaibacest_txt,unknown,,human,2,1,5,2 methods,"classification, regression",0.6534,0,,human,,human,non_human,,0.502,,0.583,0.596
+815721403,sarebstare,unknown,,non_human,2,1,5,2 methods,"classification, text",0.6732,0,,non_human,,human,non_human,,0.515,,0.619,0.578
+815721448,djdugchant,unknown,,human,2,1,5,2 methods,"regression, text",0.3479,0,,non_human,,human,human,,0.675,,0.556,0.856
+815722108,ChizobaObiefula,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6658,0,,non_human,,non_human,human,,0.643,,0.987,0.727
+815722247,Zuasibel,unknown,,human,2,1,5,2 methods,"classification, regression",0.669,0,,human,,human,non_human,,0.923,,0.974,0.602
+815722484,eduabraza,unknown,,non_human,2,1,5,2 methods,"classification, regression",1.0,0,,non_human,,non_human,human,,0.621,,0.51,0.668
+815722559,Jenner757,unknown,,human,2,1,5,2 methods,"classification, regression",0.6639,0,,human,,human,non_human,,0.793,,0.758,0.615
+815722582,TheImitatingOne,unknown,,human,2,1,5,2 methods,"classification, text",1.0,0,,human,,non_human,human,,0.565,,0.534,0.588
+815722620,Ateraether,unknown,,human,2,1,5,2 methods,"classification, text",0.6538,0,,human,,non_human,human,,0.543,,0.522,0.878
+815722897,TheRealDeeKay86,unknown,,human,2,1,5,2 methods,"classification, text",0.3375,0,,human,,non_human,human,,0.766,,0.68,0.934
+815723074,GreatNegrodamus,unknown,,human,2,1,5,2 methods,"classification, regression",0.685,0,,human,,human,non_human,,0.851,,0.825,0.504
+815723138,b1dina,unknown,,non_human,2,1,5,2 methods,"classification, regression",1.0,0,,non_human,,non_human,human,,0.792,,0.972,0.597
+815723178,Pooja991,unknown,,human,2,1,5,2 methods,"classification, regression",0.3592,0,,human,,human,non_human,,0.798,,0.663,0.557
+815723879,SEXY_P4L,unknown,,non_human,2,1,5,2 methods,"regression, text",0.6728,0,,human,,non_human,non_human,,0.543,,0.624,0.737
+815723983,NoJihad,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6582,0,,non_human,,non_human,human,,0.641,,0.667,0.547
+815724221,KeikoTakamura,unknown,,human,2,1,5,2 methods,"classification, regression",0.6644,0,,human,,human,non_human,,0.76,,0.802,0.734
+815724453,BtGbtex,unknown,,human,2,1,5,2 methods,"classification, regression",0.6385,0,,human,,human,non_human,,0.628,,0.648,0.526
+815724658,Lbczmusicjunky,unknown,,human,2,1,5,2 methods,"classification, regression",0.3322,0,,human,,human,non_human,,0.771,,0.792,0.888
+815725406,SudupeReviewer,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.3615,0,,non_human,,non_human,human,,0.76,,0.835,0.561
+815725675,Blazing_Glaceon,unknown,,human,2,1,5,2 methods,"regression, text",0.3538,0,,non_human,,human,human,,0.525,,0.663,0.724
+815725989,zaloxypazife,unknown,,human,2,1,5,2 methods,"classification, regression",0.6745,0,,human,,human,non_human,,0.694,,0.686,0.658
+815726271,violotto,unknown,,human,2,1,5,2 methods,"classification, regression",0.3603,0,,human,,human,non_human,,0.56,,0.702,0.561
+815726857,kampalaSqoop,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6553,0,,non_human,,non_human,human,,0.826,,0.975,0.671
+815727225,dryborg,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6789,0,,non_human,,non_human,human,,0.628,,0.566,0.605
+815727594,dietrick,unknown,,non_human,2,1,5,2 methods,"classification, text",0.3431,0,,non_human,,human,non_human,,0.606,,0.597,0.894
+815727647,rhuid,unknown,,non_human,2,1,5,2 methods,"regression, text",0.3375,0,,human,,non_human,non_human,,0.519,,0.58,0.947
+815728266,feros_vazquez,unknown,,human,2,1,5,2 methods,"classification, regression",0.6551,0,,human,,human,non_human,,0.811,,0.81,0.621
+815728886,Neferblade,unknown,,human,2,1,5,2 methods,"classification, regression",0.6684,0,,human,,human,non_human,,0.646,,0.603,0.547
+815729070,nietschze_1,unknown,,human,2,1,5,2 methods,"classification, regression",0.6841,0,,human,,human,non_human,,0.877,,0.81,0.578
+815729283,chandri,unknown,,human,2,1,5,2 methods,"classification, regression",0.6547,0,,human,,human,non_human,,0.716,,0.728,0.525
+815729376,pessimism,unknown,,human,2,1,5,2 methods,"classification, regression",0.6654,0,,human,,human,non_human,,0.829,,0.898,0.855
+815729777,Coalie00,unknown,,human,2,1,5,2 methods,"classification, regression",0.6957,0,,human,,human,non_human,,0.813,,0.769,0.641
+815729994,greer_bobby,unknown,,human,2,1,5,2 methods,"classification, regression",0.3559,0,,human,,human,non_human,,0.697,,0.709,0.546
+815730245,VrsOk,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6623,0,,non_human,,non_human,human,,0.757,,0.954,0.595
+815730321,djwade91,unknown,,human,2,1,5,2 methods,"regression, text",0.6765,0,,non_human,,human,human,,0.571,,0.58,0.878
+815730526,foramotherslove,unknown,,human,2,1,5,2 methods,"classification, regression",0.3491,0,,human,,human,non_human,,0.672,,0.613,0.592
+815730607,cjn54,unknown,,human,2,1,5,2 methods,"classification, text",0.6587,0,,human,,non_human,human,,0.645,,0.841,0.856
+815730611,Bhaloo79,unknown,,human,2,1,5,2 methods,"classification, text",0.6722,0,,human,,non_human,human,,0.743,,0.504,0.552
+815730732,Baddlandsmgc,unknown,,human,2,1,5,2 methods,"classification, regression",0.6652,0,,human,,human,non_human,,0.656,,0.66,0.545
+815730754,unaltraporta,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.676,0,,non_human,,non_human,human,,0.742,,0.969,0.71
+815730973,SilverJotun,unknown,,human,2,1,5,2 methods,"regression, text",0.3372,0,,non_human,,human,human,,0.574,,0.555,0.579
+815730984,EyeAmSMF,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6707,0,,non_human,,non_human,human,,0.525,,0.572,0.951
+815731144,roofiriyuzaki,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.3543,0,,non_human,,non_human,human,,0.537,,0.645,0.968
+815731367,PinkieFanClub,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6638,0,,non_human,,non_human,human,,0.691,,0.732,0.751
+815731474,CrusheyyPOO,unknown,,human,2,1,5,2 methods,"regression, text",0.3376,0,,non_human,,human,human,,0.523,,0.577,0.816
+815731556,RBStalin,unknown,,human,2,1,5,2 methods,"classification, regression",0.6744,0,,human,,human,non_human,,0.864,,0.775,0.773
+815731630,Johanne_69968,unknown,,human,2,1,5,2 methods,"classification, regression",0.3579,0,,human,,human,non_human,,0.603,,0.737,0.501
+815731757,ReaperX12191,unknown,,human,2,1,5,2 methods,"classification, regression",0.6705,0,,human,,human,non_human,,0.958,,0.879,0.626
+815731765,BritishSennen,unknown,,human,2,1,5,2 methods,"classification, regression",0.6624,0,,human,,human,non_human,,0.745,,0.682,0.539
+815731915,Regalchangeling,unknown,,human,2,1,5,2 methods,"regression, text",0.6976,0,,non_human,,human,human,,0.606,,0.592,0.848
+815732159,eviralis1,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.656,0,,non_human,,non_human,human,,0.825,,0.989,0.784
+815732186,Teridax,unknown,,human,2,1,5,2 methods,"classification, regression",0.6948,0,,human,,human,non_human,,0.752,,0.71,0.566
+815732445,sk__671,unknown,,human,2,1,5,2 methods,"classification, regression",0.6714,0,,human,,human,non_human,,0.707,,0.728,0.544
+815732451,ArsenalKnight22,unknown,,human,2,1,5,2 methods,"classification, regression",0.635,0,,human,,human,non_human,,0.708,,0.705,0.792
+815732855,derraero,unknown,,human,2,1,5,2 methods,"regression, text",0.6755,0,,non_human,,human,human,,0.518,,0.55,0.815
+815733173,ImperialMasters,unknown,,human,2,1,5,2 methods,"classification, regression",0.6634,0,,human,,human,non_human,,0.766,,0.805,0.937
+815733743,TrainSiulator,unknown,,human,2,1,5,2 methods,"classification, regression",1.0,0,,human,,human,non_human,,0.749,,0.706,0.57
+815733825,eerian_sadow,unknown,,human,2,1,5,2 methods,"classification, regression",1.0,0,,human,,human,non_human,,0.871,,0.8,0.529
+815734080,TDGUpdates,unknown,,non_human,2,1,5,2 methods,"classification, text",0.3526,0,,non_human,,human,non_human,,0.568,,0.605,0.793
+815734328,PaganTrillanie,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.3392,0,,non_human,,non_human,human,,0.595,,0.558,0.843
+815734346,Tania_and_Bunny,unknown,,human,2,1,5,2 methods,"classification, regression",0.672,0,,human,,human,non_human,,0.71,,0.728,0.604
+815734518,KuurusSicarius,unknown,,human,2,1,5,2 methods,"regression, text",0.6668,0,,non_human,,human,human,,0.562,,0.617,0.798
+815734637,geovinc__,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6817,0,,non_human,,non_human,human,,0.722,,0.941,0.673
+815734638,AdefemiTayo,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6642,0,,non_human,,non_human,human,,0.605,,0.903,0.878
+815734648,noellemaddenlp,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6825,0,,non_human,,non_human,human,,0.523,,0.724,0.738
+815734993,byHoRRoR,unknown,,human,2,1,5,2 methods,"regression, text",0.6625,0,,non_human,,human,human,,0.565,,0.593,0.528
+815735683,valuablequotees,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6599,0,,non_human,,non_human,human,,0.528,,0.531,0.576
+815735806,NgeBacood,unknown,,non_human,2,1,5,2 methods,"regression, text",0.678,0,,human,,non_human,non_human,,0.541,,0.555,0.509
+815735953,retweetguybot,unknown,,human,2,1,5,2 methods,"classification, regression",0.6601,0,,human,,human,non_human,,0.752,,0.676,0.516
+815735992,Ninja__Noodles,unknown,,human,2,1,5,2 methods,"classification, regression",0.6756,0,,human,,human,non_human,,0.651,,0.73,0.558
+815736128,EmperorShaohao,unknown,,human,2,1,5,2 methods,"classification, regression",0.6709,0,,human,,human,non_human,,0.731,,0.796,0.523
+815736231,SHAZAMThe4z,unknown,,non_human,2,1,5,2 methods,"classification, text",0.3581,0,,non_human,,human,non_human,,0.581,,0.505,0.585
+815736464,jcalabra,unknown,,human,2,1,5,2 methods,"classification, regression",0.6811,0,,human,,human,non_human,,0.545,,0.661,0.622
+815736526,JDP_53,unknown,,human,2,1,5,2 methods,"classification, regression",0.6758,0,,human,,human,non_human,,0.837,,0.851,0.865
+815736643,VortexPv_P,unknown,,non_human,2,1,5,2 methods,"classification, text",1.0,0,,non_human,,human,non_human,,0.628,,0.607,0.629
+815736891,BenjahBen,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6866,0,,non_human,,non_human,human,,0.774,,0.962,0.762
+815737173,SlutOfUnova,unknown,,human,2,1,5,2 methods,"regression, text",0.6623,0,,non_human,,human,human,,0.533,,0.517,0.551
+815737296,Show_Boobies,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6838,0,,non_human,,non_human,human,,0.693,,0.767,0.836
+815737310,4Ravenwan,unknown,,non_human,2,1,5,2 methods,"regression, text",0.6766,0,,human,,non_human,non_human,,0.609,,0.521,0.799
+815737512,PaxBritannica66,unknown,,human,2,1,5,2 methods,"classification, regression",0.661,0,,human,,human,non_human,,0.901,,0.905,0.699
+815738108,RTAReVive,unknown,,human,2,1,5,2 methods,"classification, regression",0.6456,0,,human,,human,non_human,,0.719,,0.759,0.559
+815738447,LizQuenKingdom1,unknown,,human,2,1,5,2 methods,"classification, regression",0.6769,0,,human,,human,non_human,,0.529,,0.607,0.557
+815738476,lizquendrawing,unknown,,human,2,1,5,2 methods,"classification, regression",0.6871,0,,human,,human,non_human,,0.633,,0.668,0.557
+815738478,lizquenexchange,unknown,,human,2,1,5,2 methods,"classification, regression",0.6595,0,,human,,human,non_human,,0.6,,0.641,0.557
+815738558,nnrahbar,unknown,,human,2,1,5,2 methods,"regression, text",0.6822,0,,non_human,,human,human,,0.532,,0.545,0.82
+815738587,lq7_camouflage,unknown,,human,2,1,5,2 methods,"classification, regression",1.0,0,,human,,human,non_human,,0.678,,0.738,0.557
+815738609,ChangLovesQuen,unknown,,human,2,1,5,2 methods,"classification, regression",0.6817,0,,human,,human,non_human,,0.6,,0.64,0.557
+815738643,bakekang_ka,unknown,,human,2,1,5,2 methods,"classification, regression",0.6742,0,,human,,human,non_human,,0.771,,0.765,0.557
+815738708,rokxx,unknown,,human,2,1,5,2 methods,"classification, regression",0.6533,0,,human,,human,non_human,,0.669,,0.692,0.603
+815738715,xagnes13,unknown,,human,2,1,5,2 methods,"classification, regression",0.6501,0,,human,,human,non_human,,0.645,,0.766,0.573
+815738793,CastilloChariz,unknown,,human,2,1,5,2 methods,"classification, regression",0.6568,0,,human,,human,non_human,,0.715,,0.732,0.557
+815738818,lizquenmoney,unknown,,human,2,1,5,2 methods,"classification, regression",0.6557,0,,human,,human,non_human,,0.549,,0.597,0.557
+815738823,lizquen12Sg,unknown,,non_human,2,1,5,2 methods,"classification, text",0.6829,0,,non_human,,human,non_human,,0.607,,0.558,0.69
+815738856,lizaquenm,unknown,,human,2,1,5,2 methods,"classification, regression",0.6496,0,,human,,human,non_human,,0.703,,0.724,0.557
+815738908,BestGUYfriendMo,unknown,,human,2,1,5,2 methods,"classification, regression",0.6734,0,,human,,human,non_human,,0.675,,0.703,0.557
+815738910,LeezaMari17,unknown,,non_human,2,1,5,2 methods,"classification, text",0.3527,0,,non_human,,human,non_human,,0.504,,0.642,0.557
+815738919,lizquenforms,unknown,,human,2,1,5,2 methods,"classification, regression",0.3428,0,,human,,human,non_human,,0.556,,0.602,0.557
+815738975,HRHQuen,unknown,,human,2,1,5,2 methods,"classification, regression",0.3426,0,,human,,human,non_human,,0.554,,0.651,0.613
+815738980,jhonadelacruz73,unknown,,human,2,1,5,2 methods,"classification, regression",0.6711,0,,human,,human,non_human,,0.642,,0.756,0.557
+815738984,lizquendance,unknown,,human,2,1,5,2 methods,"classification, regression",0.6844,0,,human,,human,non_human,,0.633,,0.668,0.557
+815739036,CRobin9,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.6619,0,,non_human,,non_human,human,,0.755,,0.951,0.58
+815739086,lq5_camouflage,unknown,,human,2,1,5,2 methods,"classification, regression",0.6688,0,,human,,human,non_human,,0.647,,0.715,0.557
+815739088,miniONIONS9,unknown,,human,2,1,5,2 methods,"classification, regression",0.6598,0,,human,,human,non_human,,0.658,,0.724,0.557
+815739129,FyrizS,unknown,,human,2,1,5,2 methods,"classification, regression",0.3484,0,,human,,human,non_human,,0.606,,0.645,0.557
+815739143,4_everlq,unknown,,human,2,1,5,2 methods,"classification, regression",0.6643,0,,human,,human,non_human,,0.611,,0.688,0.557
+815739308,nairalanding,unknown,,non_human,2,1,5,2 methods,"classification, regression",0.3372,0,,non_human,,non_human,human,,0.683,,0.577,0.772
+815739346,khuma_th,unknown,,human,2,1,5,2 methods,"classification, regression",1.0,0,,human,,human,non_human,,0.869,,0.837,0.647
