@@ -1,0 +1,16 @@
+signal,labelled_profiles,non_human_pct
+first-person word in the description,4061,12.0
+first-person word in the tweet,6149,11.6
+emoji in the tweet,1853,6.2
+favourites in the top quarter (3368 or more),4466,12.2
+organisation word in the description,2020,73.6
+official in the description,193,82.9
+updates in the description,183,94.5
+Weather Channel in the tweet,1137,99.6
+default image,1354,92.7
+"default image, no description, no favourites",1091,96.2
+no favourites,2765,76.3
+no description,3105,48.4
+link in the description,1167,47.0
+retweet,579,33.0
+all labelled profiles,17678,30.6

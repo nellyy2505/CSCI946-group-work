@@ -1,5 +1,4 @@
-# CSCI446/946 Big Data Analytics - Assignment 2
-# 04 - Clustering
+# 04_clustering.py — k-means, hierarchical and DBSCAN on the behaviour features; one-sided clusters vote
 
 from pathlib import Path
 
@@ -10,8 +9,7 @@ from scipy.cluster.hierarchy import linkage, dendrogram, cut_tree
 from scipy.spatial.distance import pdist
 import matplotlib.pyplot as plt
 
-import warnings
-warnings.filterwarnings("ignore")
+plt.rcParams.update({"font.size": 11})   # figures are placed at 4-6.2 in wide in the report
 
 pd.set_option("display.width", 200)
 pd.set_option("display.max_columns", 30)
@@ -19,7 +17,7 @@ pd.set_option("display.max_columns", 30)
 ROOT = Path(__file__).resolve().parent.parent
 PROC = ROOT / "data" / "processed"
 OUT = ROOT / "data" / "output"
-OUT.mkdir(exist_ok=True)
+OUT.mkdir(parents=True, exist_ok=True)
 SEED = 7
 SAMPLE = 5000          # sample size for hierarchical clustering and DBSCAN
 K_RANGE = range(1, 16)
@@ -43,7 +41,8 @@ COLOUR = ["link_r", "link_g", "link_b", "sidebar_r", "sidebar_g", "sidebar_b",
 BEHAVIOUR = ACTIVITY + CONTENT + PROFILE
 
 
-# load data - unsupervised, so the whole file is used (features already z-scored in 02)
+# 1. Load
+# unsupervised, so the whole file is used (features already z-scored in 02)
 df = pd.read_csv(PROC / "twitter_full.csv")
 labelled = df["is_human"].notna()
 truth = df.loc[labelled, "is_human"]
@@ -51,11 +50,12 @@ print("Twitter dataset size:", df.shape)
 print("labelled:", labelled.sum(), "| human rate:", round(truth.mean(), 3))
 
 
+# 2. Feature choice
 # check for highly correlated features
 corr = df[BEHAVIOUR].corr().abs()
 pairs = corr.where(np.triu(np.ones(corr.shape), k=1).astype(bool)).stack()
 print("\nbehaviour attributes correlated above 0.7:\n", pairs[pairs > 0.7].round(2))
-# two pairs at 0.76 (count vs per-day rate) - both kept, the rate adjusts for account age
+# count and per-day rate are correlated but both kept: the rate adjusts for account age
 
 # compare feature sets by how much the human rate differs between clusters
 spread = {}
@@ -74,18 +74,20 @@ X = df[FEATURES]
 print("\nclustering on", len(FEATURES), "behaviour attributes:", FEATURES)
 
 
+# 3. Choosing k
 # WSS for k = 1 to 15 to look for the elbow (n_init=10 keeps the best of 10 starts)
 wss = []
 for k in K_RANGE:
     km = KMeans(n_clusters=k, n_init=10, random_state=SEED)
     km.fit(X)
     wss.append(km.inertia_)
+plt.figure(figsize=(4.8, 3.6))
 plt.plot(list(K_RANGE), wss, marker="o")
 plt.axvline(K_MAIN, color="red", linestyle="--")
 plt.xlabel("Number of Clusters")
 plt.ylabel("Within Sum of Squares")
 plt.title("WSS for k = 1 to 15")
-plt.savefig(OUT / "fig_clustering_wss.png", dpi=120, bbox_inches="tight")
+plt.savefig(OUT / "fig_clustering_wss.png", dpi=150, bbox_inches="tight")
 plt.show()
 
 # no sharp elbow - compare k-1, k, k+1 on cluster sizes and closest centroids
@@ -101,7 +103,8 @@ for k in [K_MAIN - 1, K_MAIN, K_MAIN + 1]:
 # k=4 has the most separated centroids and no tiny cluster
 
 
-# final k-means, each cluster described by its mean feature values
+# 4. Final k-means
+# each cluster described by its mean feature values
 km = KMeans(n_clusters=K_MAIN, n_init=10, random_state=SEED)
 km.fit(X)
 df["cluster"] = km.predict(X)
@@ -111,21 +114,22 @@ print("\ncluster sizes:\n", df["cluster"].value_counts().sort_index())
 cluster_mean = df.groupby(["cluster"])[FEATURES].agg("mean")
 print("\ncluster means:\n", cluster_mean.T.round(2))
 
-fig, ax = plt.subplots(figsize=(7, 8))
+fig, ax = plt.subplots(figsize=(6, 7.5))
 image = ax.imshow(cluster_mean.T, cmap="coolwarm", vmin=-1.5, vmax=1.5, aspect="auto")
 ax.set_xticks(range(K_MAIN), ["cluster " + str(c) for c in cluster_mean.index])
 ax.set_yticks(range(len(FEATURES)), FEATURES)
 for i in range(len(FEATURES)):
     for j in range(K_MAIN):
-        ax.text(j, i, round(cluster_mean.iloc[j, i], 2), ha="center", va="center", fontsize=7)
+        ax.text(j, i, round(cluster_mean.iloc[j, i], 2), ha="center", va="center", fontsize=10)
 fig.colorbar(image, label="mean value")
 plt.title("what each cluster looks like")
 plt.tight_layout()
-plt.savefig(OUT / "fig_clustering_cluster_means.png", dpi=120, bbox_inches="tight")
+plt.savefig(OUT / "fig_clustering_cluster_means.png", dpi=150, bbox_inches="tight")
 plt.show()
 
 
-# spread inside each cluster - a mean can hide a mix of highs and lows
+# 5. Spread inside each cluster
+# a mean can hide a mix of highs and lows
 DESCRIBE = ["tweet_count", "tweets_per_day", "fav_number", "text_n_urls", "text_n_hashtags"]
 for cluster in range(K_MAIN):
     print("\ndescribe cluster labeled " + str(cluster) + ": \n",
@@ -133,7 +137,7 @@ for cluster in range(K_MAIN):
 
 RAW_COUNTS = ["tweet_count", "tweets_per_day", "fav_number", "favs_per_day"]
 BOX = RAW_COUNTS + ["account_age_days", "text_len", "desc_len"]
-fig, axes = plt.subplots(2, 4, figsize=(15, 7))
+fig, axes = plt.subplots(4, 2, figsize=(7.4, 10))
 for ax, col in zip(axes.ravel(), BOX):
     ax.boxplot([df.loc[df["cluster"] == c, col] for c in range(K_MAIN)], showfliers=False)
     ax.set_xticks(range(1, K_MAIN + 1), range(K_MAIN))
@@ -148,34 +152,36 @@ for ax, col in zip(axes.ravel(), BOX):
 axes.ravel()[-1].axis("off")
 plt.suptitle("spread of each attribute inside each cluster (outliers hidden)")
 plt.tight_layout()
-plt.savefig(OUT / "fig_clustering_spread.png", dpi=120, bbox_inches="tight")
+plt.savefig(OUT / "fig_clustering_spread.png", dpi=150, bbox_inches="tight")
 plt.show()
 
 
-# crowd label mix per cluster - the clustering never saw the label
+# 6. Label mix per cluster
+# the clustering never saw the label
 mix = pd.crosstab(df["cluster"], df["is_human"].map({1: "human", 0: "non_human"}))
 mix["human_rate"] = (mix["human"] / mix.sum(axis=1)).round(3)
 mix["unlabelled"] = df.loc[~labelled, "cluster"].value_counts().sort_index()
 print("\nlabel mix per cluster (human rate of the whole data:", round(truth.mean(), 3), ")")
 print(mix)
 
-fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+fig, axes = plt.subplots(1, 2, figsize=(7.4, 3.8))
 mix[["non_human", "human"]].plot.bar(stacked=True, ax=axes[0], rot=0, color=LABEL_COLOURS)
 axes[0].set_ylabel("profiles")
-axes[0].set_title("how the labels fall in each cluster")
+axes[0].set_title("how the labels fall\nin each cluster")
 axes[1].bar(mix.index, mix["human_rate"], color=LABEL_COLOURS["human"])
 axes[1].set_xticks(mix.index)   # one tick per cluster, not a number scale
 axes[1].axhline(truth.mean(), color="red", linestyle="--", label="rate of the whole data")
 axes[1].set_xlabel("cluster")
 axes[1].set_ylabel("human rate")
-axes[1].set_title("share of each cluster labelled human")
-axes[1].legend()
+axes[1].set_title("share of each cluster\nlabelled human")
+axes[1].legend(loc="upper center", bbox_to_anchor=(0.5, -0.2))
 plt.tight_layout()
-plt.savefig(OUT / "fig_clustering_label_mix.png", dpi=120, bbox_inches="tight")
+plt.savefig(OUT / "fig_clustering_label_mix.png", dpi=150, bbox_inches="tight")
 plt.show()
 
 
-# plot the most distinct features in pairs, one colour per cluster
+# 7. Pair plots
+# the most distinct features in pairs, one colour per cluster
 distinct = (cluster_mean.max() - cluster_mean.min()) / cluster_mean.abs().max()
 print("\nhow different each attribute is between clusters:\n",
       distinct.sort_values(ascending=False).round(2))
@@ -184,11 +190,11 @@ top = list(distinct.sort_values(ascending=False).index[:4])
 by_size = df["cluster"].value_counts().index
 CLUSTER_COLOURS = ["tab:purple", "tab:green", "tab:red", "tab:olive"]
 
-fig, axs = plt.subplots(2, 3, figsize=(15, 9))
+fig, axs = plt.subplots(3, 2, figsize=(7.4, 10))
 i2, j2 = 0, 0
 for i in range(len(top) - 1):
     for j in range(i + 1, len(top)):
-        if j2 > 2:
+        if j2 > 1:
             j2 = 0
             i2 += 1
         for c in by_size:
@@ -197,16 +203,16 @@ for i in range(len(top) - 1):
                                 color=CLUSTER_COLOURS[c], label="cluster " + str(c))
         centres = km.cluster_centers_[:, [FEATURES.index(top[i]), FEATURES.index(top[j])]]
         axs[i2, j2].scatter(centres[:, 0], centres[:, 1], c="black", marker="X", s=120)
-        axs[i2, j2].set_title("{} vs {}".format(top[i], top[j]))
+        axs[i2, j2].set_title("{}\nvs {}".format(top[i], top[j]))
         j2 += 1
 axs[0, 0].legend(markerscale=4)
-plt.suptitle("clusters on the four most distinct attributes (black X = centroid)")
+plt.suptitle("clusters on the four most distinct attributes\n(black X = centroid)")
 plt.tight_layout()
-plt.savefig(OUT / "fig_clustering_pairs.png", dpi=120, bbox_inches="tight")
+plt.savefig(OUT / "fig_clustering_pairs.png", dpi=150, bbox_inches="tight")
 plt.show()
 
 # most distinct pair, coloured by cluster then by crowd label
-fig, axes = plt.subplots(1, 2, figsize=(13, 5.5))
+fig, axes = plt.subplots(1, 2, figsize=(7.4, 4))
 for c in by_size:
     hit = df["cluster"] == c
     axes[0].scatter(df.loc[hit, top[0]], df.loc[hit, top[1]], s=4, alpha=0.3,
@@ -223,11 +229,12 @@ for ax in axes:
     ax.set_xlabel(top[0])
     ax.set_ylabel(top[1])
 plt.tight_layout()
-plt.savefig(OUT / "fig_clustering_vs_label.png", dpi=120, bbox_inches="tight")
+plt.savefig(OUT / "fig_clustering_vs_label.png", dpi=150, bbox_inches="tight")
 plt.show()
 
 
-# hierarchical clustering on a sample - pairwise distances for all 18,715 profiles are too large
+# 8. Hierarchical clustering
+# on a sample: pairwise distances for all 18,715 profiles are too large
 part = np.random.RandomState(SEED).choice(len(df), SAMPLE, replace=False)
 sample = df.iloc[part].copy()
 dist = pdist(sample[FEATURES], "euclidean")
@@ -244,13 +251,13 @@ for method in ["single", "complete", "average", "centroid"]:
 # at 4 clusters every linkage gives one big group plus outliers, so cut complete linkage lower
 linkage_matrix = linkage(dist, method="complete")
 cut = (linkage_matrix[-K_TREE, 2] + linkage_matrix[-K_TREE + 1, 2]) / 2
-plt.figure(figsize=(15, 7))
+plt.figure(figsize=(7.4, 4))
 dendrogram(linkage_matrix, truncate_mode="lastp", p=40, no_labels=True, color_threshold=cut)
 plt.axhline(cut, color="red", linestyle="--", label="cut into " + str(K_TREE) + " clusters")
 plt.ylabel("merge distance")
 plt.title("complete linkage dendrogram (" + str(SAMPLE) + " profiles)")
 plt.legend()
-plt.savefig(OUT / "fig_clustering_dendrogram.png", dpi=120, bbox_inches="tight")
+plt.savefig(OUT / "fig_clustering_dendrogram.png", dpi=150, bbox_inches="tight")
 plt.show()
 
 sample["tree_cluster"] = cut_tree(linkage_matrix, n_clusters=K_TREE).ravel()
@@ -265,7 +272,8 @@ print("\nhierarchical cluster (rows) vs k-means cluster (columns):")
 print(pd.crosstab(sample["tree_cluster"], sample["cluster"]))
 
 
-# DBSCAN - try a range of radii (Eps) with MinPts = 20
+# 9. DBSCAN
+# try a range of radii (Eps) with MinPts = 20
 MIN_PTS = 20
 for eps in [0.5, 1.0, 1.5, 2.0, 2.5, 3.0]:
     dbscan = DBSCAN(eps=eps, min_samples=MIN_PTS).fit(sample[FEATURES])
@@ -276,7 +284,7 @@ for eps in [0.5, 1.0, 1.5, 2.0, 2.5, 3.0]:
 # small Eps -> mostly noise, large Eps -> one cluster: no separate dense groups
 dbscan = DBSCAN(eps=2.0, min_samples=MIN_PTS).fit(sample[FEATURES])
 noise = dbscan.labels_ == -1
-plt.figure()
+plt.figure(figsize=(4.8, 3.6))
 plt.scatter(sample.loc[~noise, top[0]], sample.loc[~noise, top[1]], s=4, alpha=0.4,
             label="in a cluster")
 plt.scatter(sample.loc[noise, top[0]], sample.loc[noise, top[1]], s=4, alpha=0.6,
@@ -285,11 +293,12 @@ plt.xlabel(top[0])
 plt.ylabel(top[1])
 plt.title("DBSCAN, Eps = 2.0, MinPts = " + str(MIN_PTS))
 plt.legend(markerscale=4)
-plt.savefig(OUT / "fig_clustering_dbscan.png", dpi=120, bbox_inches="tight")
+plt.savefig(OUT / "fig_clustering_dbscan.png", dpi=150, bbox_inches="tight")
 plt.show()
 
 
-# finer clusters to judge single profiles - first check k and the purity cut-offs
+# 10. Finer clusters
+# to judge single profiles; first check k and the purity cut-offs
 sweep = []
 for k in [8, 10, 12, 14, 16]:
     km = KMeans(n_clusters=k, n_init=10, random_state=SEED)
@@ -319,7 +328,8 @@ print(rate.sort_values("human_rate").round(3))
 print("one-sided clusters:", (rate["leans"] != "mixed").sum(), "of", K_FINE)
 
 
-# flag profiles in a one-sided cluster that carry the opposite label
+# 11. Flags
+# profiles in a one-sided cluster that carry the opposite label
 leaning = rate[rate["leans"] != "mixed"]
 suspect = df["fine_cluster"].map(leaning["leans"]).where(labelled)
 cluster_says = suspect.map({"human": 1, "non_human": 0})
@@ -341,26 +351,71 @@ print(flagged["gender"].value_counts())
 print(flagged.groupby("cluster_says")[["cluster_human_rate", "gender:confidence"]].mean().round(3))
 
 
+def flag_set(model):
+    # the flag rule above, applied to another k-means run
+    groups = pd.Series(model.predict(X), index=df.index)
+    rate = truth.groupby(groups[labelled]).agg("mean")
+    says = groups.map(pd.Series(np.where(rate >= PURE_HUMAN, 1,
+                                         np.where(rate <= PURE_NON_HUMAN, 0, np.nan)), index=rate.index))
+    return set(df.loc[labelled & says.notna() & (says != df["is_human"]), "_unit_id"])
+
+
+# seed check: k-means only finds a local optimum, so rerun once with another seed and compare flags
+other = flag_set(KMeans(n_clusters=K_FINE, n_init=10, random_state=SEED + 1).fit(X))
+this = set(flagged["_unit_id"])
+print("seed check - flagged with seed", SEED, ":", len(this), "| seed", SEED + 1, ":", len(other),
+      "| Jaccard:", round(len(this & other) / len(this | other), 3))
+
+
+# 12. Crowd confidence
 # check the flags against crowd confidence, which the clustering never used
 print("\ncrowd confidence, flagged vs all labelled profiles:")
 print(pd.DataFrame({"flagged": flagged["gender:confidence"].describe(),
                     "all": df.loc[labelled, "gender:confidence"].describe()}).round(3))
-print("below full confidence - flagged:", round((flagged["gender:confidence"] < 1).mean(), 3),
-      "| all:", round((df.loc[labelled, "gender:confidence"] < 1).mean(), 3))
 
-plt.figure(figsize=(8, 4))
+
+def below_full(rows):
+    # share of the rows the crowd was not fully sure about
+    return (df.loc[rows, "gender:confidence"] < 1).mean()
+
+
+# baseline: recorded brands are unsure more often than humans, so also compare with the same label mix
+unsure_by_label = {name: below_full(df["label"] == name) for name in ["human", "non_human"]}
+mix = flagged["recorded"].value_counts(normalize=True)
+nominated = below_full(flagged.index)
+expected = sum(mix.get(name, 0) * unsure_by_label[name] for name in unsure_by_label)
+print("below full crowd confidence - nominated: %.3f | all labelled with the same recorded-label mix: "
+      "%.3f | all labelled: %.3f" % (nominated, expected, below_full(labelled)))
+
+fig, axes = plt.subplots(1, 2, figsize=(7.4, 4.2))
 # bars as % of each group, so different-sized groups can be compared
-confidence = [flagged["gender:confidence"], df.loc[labelled, "gender:confidence"]]
-plt.hist(confidence, bins=20, weights=[np.full(len(c), 100 / len(c)) for c in confidence],
-         label=["flagged by clustering", "all labelled profiles"])
-plt.xlabel("gender:confidence")
-plt.ylabel("% of profiles in the group")
-plt.title("the crowd was less sure about the profiles the clusters flagged")
-plt.legend()
-plt.savefig(OUT / "fig_clustering_crowd_confidence.png", dpi=120, bbox_inches="tight")
+groups = [flagged["gender:confidence"], df.loc[labelled, "gender:confidence"]]
+axes[0].hist(groups, bins=20, weights=[np.full(len(g), 100 / len(g)) for g in groups],
+             color=["tab:red", "grey"], label=["nominated by clustering", "all labelled profiles"])
+axes[0].set_xlabel("gender:confidence")
+axes[0].set_ylabel("% of the group")
+axes[0].set_title("crowd confidence, nominated vs all")
+axes[0].legend(loc="upper center", bbox_to_anchor=(0.5, -0.22))
+# middle bar: the same recorded-label mix as the nominations, split by recorded label
+axes[1].bar(0, nominated, color="tab:red")
+bottom = 0
+for name in ["human", "non_human"]:
+    part = mix.get(name, 0) * unsure_by_label[name]
+    axes[1].bar(1, part, bottom=bottom, color=LABEL_COLOURS[name], label="recorded " + name)
+    bottom += part
+axes[1].bar(2, below_full(labelled), color="grey")
+for x, value in enumerate([nominated, expected, below_full(labelled)]):
+    axes[1].text(x, value + 0.01, "%.3f" % value, ha="center")
+axes[1].set_ylim(0, max(nominated, expected) * 1.2)
+axes[1].set_xticks([0, 1, 2], ["nominated", "same label\nmix", "all\nlabelled"])
+axes[1].set_ylabel("share below full confidence")
+axes[1].set_title("below full crowd confidence")
+axes[1].legend(loc="upper center", bbox_to_anchor=(0.5, -0.3))
+plt.tight_layout()
+plt.savefig(OUT / "fig_clustering_crowd_confidence.png", dpi=150, bbox_inches="tight")
 plt.show()
 
-# overlap with the association rules flags
+# overlap with the association rules flags (only if 03 has been run)
 rules_file = OUT / "association_flagged.csv"
 if rules_file.exists():
     by_rules = set(pd.read_csv(rules_file)["_unit_id"])
@@ -370,7 +425,8 @@ if rules_file.exists():
           "| by clustering:", len(flagged), "| by both:", len(both))
 
 
-# output contract: clustering_predictions.csv - every profile in a one-sided cluster, labelled or not
+# 13. Predictions
+# output contract: every profile in a one-sided cluster, labelled or not
 leans = df["fine_cluster"].map(leaning["leans"])
 purity = df["fine_cluster"].map(rate["human_rate"])
 covered = leans.notna()
@@ -379,6 +435,7 @@ predictions = pd.DataFrame({
     "says": leans[covered],
     "score": np.where(leans[covered] == "human", purity[covered], 1 - purity[covered]).round(3),
     "recorded": df.loc[covered, "label"],
+    "votes": 1,                                    # a one-sided cluster, so the method votes
     "fine_cluster": df.loc[covered, "fine_cluster"],
 })
 print("\nprofiles in a one-sided cluster:", len(predictions))
@@ -386,7 +443,8 @@ print("suggestions for the unknown profiles:\n",
       predictions.loc[predictions["recorded"] == "unknown", "says"].value_counts())
 
 
-# write outputs - flagged list sorted by cluster purity, then distance to centroid
+# 14. Write outputs
+# flagged list sorted by cluster purity, then distance to centroid
 flagged = flagged.sort_values(["cluster_human_rate", "distance_to_centre"])
 KEEP = ["_unit_id", "says", "score", "recorded", "name", "gender", "gender:confidence", "cluster",
         "fine_cluster", "cluster_human_rate", "distance_to_centre"]

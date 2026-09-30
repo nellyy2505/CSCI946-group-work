@@ -1,0 +1,39 @@
+feature,coef,odds_ratio
+fav_number_log,0.8907,2.436835
+text_has_emoji,0.865335,2.375803
+account_age_days,0.469209,1.598729
+tz_Quito,0.378249,1.459726
+sidebar_default,0.2773,1.319563
+tz_Arizona,0.274798,1.316265
+tz_Amsterdam,0.209093,1.232559
+tweets_per_day_log,0.206535,1.229411
+link_b,0.155247,1.167946
+link_r,0.110415,1.116741
+name_n_digits,0.108551,1.114662
+tz_Casablanca,0.1044,1.110044
+tz_Other,0.079485,1.082729
+sidebar_g,0.063134,1.065169
+timezone_missing,0.04922,1.050451
+location_missing,0.030875,1.031357
+link_g,0.007041,1.007066
+sidebar_b,-0.012644,0.987436
+tz_Mountain Time (US & Canada),-0.013973,0.986124
+text_n_mentions,-0.056389,0.945172
+text_n_hashtags,-0.07386,0.928802
+link_default,-0.097919,0.906722
+desc_missing,-0.103176,0.901968
+sidebar_r,-0.119622,0.887256
+favs_per_day_log,-0.123966,0.88341
+tz_Atlantic Time (Canada),-0.14746,0.862897
+tz_Central Time (US & Canada),-0.167978,0.845373
+tz_London,-0.172941,0.841187
+text_len,-0.18481,0.831262
+tz_Pacific Time (US & Canada),-0.218008,0.804119
+has_coord,-0.272295,0.76163
+tz_Eastern Time (US & Canada),-0.37775,0.685402
+text_n_urls,-0.389528,0.677377
+desc_len,-0.413785,0.661143
+desc_has_url,-0.435466,0.646963
+tweet_count_log,-0.493157,0.610695
+has_retweets,-0.591405,0.553549
+default_image,-3.415443,0.032862

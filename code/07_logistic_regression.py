@@ -1,19 +1,15 @@
-# CSCI446/946 Big Data Analytics - Assignment 2
-# 07 - Logistic regression: predict is_human from the profile features (Lab 5, task 2)
+# 07_logistic_regression.py — logistic regression on is_human with RFE; the regression vote
 
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.base import clone
 from sklearn.linear_model import LogisticRegression
 from sklearn.feature_selection import RFE
-from sklearn.model_selection import StratifiedKFold, cross_val_predict
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_recall_fscore_support
 
-import warnings
-warnings.filterwarnings("ignore")
+plt.rcParams.update({"font.size": 11})   # figures are placed at 4-6.2 in wide in the report
 
 pd.set_option("display.width", 200)
 pd.set_option("display.max_columns", 30)
@@ -24,8 +20,7 @@ OUT = ROOT / "data" / "output"
 OUT.mkdir(exist_ok=True)
 
 TARGET = "is_human"
-SEED = 7
-MIN_SCORE = 0.90          # chosen from the sweep below, targets a few hundred profiles
+MIN_SCORE = 0.90          # fixed in advance, the same for 05, 07 and 08: a method votes when score >= 0.90
 
 # same features as 06_linear_regression.py, so the two regression views stay comparable
 NUM_COLS = ["fav_number_log", "tweet_count_log", "tweets_per_day_log", "favs_per_day_log",
@@ -36,7 +31,8 @@ FLAG_COLS = ["desc_missing", "desc_has_url", "text_has_emoji", "default_image", 
              "has_coord", "location_missing", "timezone_missing", "link_default", "sidebar_default"]
 
 
-# 1. load the split written by 02 (stratified on is_human, 60/20/20, SEED = 7) and check the classes
+# 1. Load
+# the split written by 02 (stratified on is_human, 60/20/20), and the class balance
 train = pd.read_csv(PROC / "twitter_train.csv")
 val = pd.read_csv(PROC / "twitter_validation.csv")
 test = pd.read_csv(PROC / "twitter_test.csv")
@@ -52,17 +48,19 @@ X_val, y_val = val[FEATURES], val[TARGET].astype(int)
 X_test, y_test = test[FEATURES], test[TARGET].astype(int)
 
 
-# 2. fit, then compare train with validation accuracy to check for overfitting
+# 2. Full model
+# compare train with validation accuracy to check for overfitting
 model = LogisticRegression(max_iter=1000)
 model.fit(X_train, y_train)
 train_acc = accuracy_score(y_train, model.predict(X_train))
 val_acc = accuracy_score(y_val, model.predict(X_val))
 print("\naccuracy - train %.4f | validation %.4f | gap %.4f" % (train_acc, val_acc, abs(train_acc - val_acc)))
-print("confusion matrix (validation) [rows actual, cols predicted, non_human first]:\n",
+print("confusion matrix (validation) [rows recorded, cols predicted, non_human first]:\n",
       confusion_matrix(y_val, model.predict(X_val)))
 
 
-# 3. RFE: drop the weakest features one at a time and see whether a smaller model holds up
+# 3. RFE
+# drop the weakest features one at a time and see whether a smaller model holds up
 def rfe_model(n_features):
     rfe = RFE(estimator=LogisticRegression(max_iter=1000), n_features_to_select=n_features, step=1)
     rfe.fit(X_train, y_train)
@@ -77,7 +75,7 @@ for n in [10, 5]:
     candidates["rfe_%d" % n] = rfe_model(n)
 
 
-# 4. choose on validation, then evaluate the winner once on test
+# 4. Choose on validation, test once
 best_name = max(candidates, key=lambda k: candidates[k][1])
 best_model = candidates[best_name][0]
 if best_name != "full":
@@ -99,7 +97,7 @@ comparison["test_accuracy"] = np.where(comparison["model"] == best_name, test_ac
 comparison.to_csv(OUT / "regression_logistic_model_comparison.csv", index=False)
 print("regression_logistic_model_comparison.csv:", len(comparison), "candidates")
 
-fig, ax = plt.subplots(figsize=(4.5, 4))
+fig, ax = plt.subplots(figsize=(4.4, 3.8))
 ax.imshow(cm, cmap="Blues")
 ax.set_xticks([0, 1], ["non_human", "human"])
 ax.set_yticks([0, 1], ["non_human", "human"])
@@ -108,77 +106,96 @@ for i in range(2):
         ax.text(j, i, cm[i, j], ha="center", va="center",
                 color="white" if cm[i, j] > cm.max() / 2 else "black")
 plt.xlabel("predicted")
-plt.ylabel("actual")
-plt.title("logistic regression (%s): confusion matrix (test)" % best_name)
+plt.ylabel("recorded")
+plt.title("logistic regression (%s):\nconfusion matrix (test)" % best_name)
 plt.tight_layout()
-plt.savefig(OUT / "fig_regression_logistic_confusion_matrix.png", dpi=120, bbox_inches="tight")
+plt.savefig(OUT / "fig_regression_logistic_confusion_matrix.png", dpi=150, bbox_inches="tight")
 plt.show()
 
 
-# 5. the product: an out-of-fold verdict for every labelled profile with the candidate chosen above
-#    (an RFE candidate re-selects its features inside each fold, so nothing leaks between folds)
-# (Lab 4's k-fold applied to Lab 5's model, so no profile is judged by a model that trained on it)
+# 5. Coefficients and odds ratios
+# log-odds of human per unit of each feature (Week 6)
+kept = FEATURES if best_name == "full" else [f for f, keep in zip(FEATURES, best_model.support_) if keep]
+fitted = best_model if best_name == "full" else best_model.estimator_
+coefs = pd.DataFrame({"feature": kept, "coef": fitted.coef_[0]})
+coefs["odds_ratio"] = np.exp(coefs["coef"])
+coefs = coefs.sort_values("coef", ascending=False)
+coefs.round(6).to_csv(OUT / "regression_logistic_coefficients.csv", index=False)   # rounded so reruns match
+print("\nintercept %.4f" % fitted.intercept_[0])
+print("coefficients and odds ratios (exp(coef)), sorted:")
+print(coefs.round(4).to_string(index=False))
+
+
+# 6. Predict every profile and nominate
+# training rows are judged by a model that saw their label, so flags there are conservative
 df = pd.read_csv(PROC / "twitter_full.csv")
-labelled = df["is_human"].notna()
-X_all = df.loc[labelled, FEATURES].to_numpy(float)
-y_all = df.loc[labelled, TARGET].astype(int).to_numpy()
-recorded = df.loc[labelled, "label"].to_numpy()
-cv = StratifiedKFold(5, shuffle=True, random_state=SEED)
-prob = cross_val_predict(clone(best_model), X_all, y_all, cv=cv, method="predict_proba")[:, 1]
-says = np.where(prob >= 0.5, "human", "non_human")
-score = np.maximum(prob, 1 - prob)
-disagree = says != recorded
-print("\n5-fold out-of-fold accuracy on all %d labelled profiles: %.4f" % (len(y_all), (says == recorded).mean()))
-
-conf_all = df.loc[labelled, "gender:confidence"].to_numpy()
-print("threshold sweep (crowd was unsure about %.3f of all labelled profiles)" % (conf_all < 1).mean())
-sweep = []
-for cut in [0.70, 0.75, 0.80, 0.85, 0.90, 0.95]:
-    hit = disagree & (score >= cut)
-    sweep.append({"min_score": cut, "profiles": int(hit.sum()),
-                  "crowd_unsure": (conf_all[hit] < 1).mean() if hit.sum() else np.nan})
-print(pd.DataFrame(sweep).round(3).to_string(index=False))
-
-
-# 6. output contract: regression_predictions.csv for every profile, regression_flagged.csv for the nominations
-final = clone(best_model).fit(X_all, y_all)                  # refit on every labelled row for the unknown profiles
-unknown = ~labelled
-prob_unknown = final.predict_proba(df.loc[unknown, FEATURES].to_numpy(float))[:, 1]
-predictions = pd.concat([
-    pd.DataFrame({"_unit_id": df.loc[labelled, "_unit_id"].to_numpy(), "says": says,
-                  "score": score.round(3), "recorded": recorded}),
-    pd.DataFrame({"_unit_id": df.loc[unknown, "_unit_id"].to_numpy(),
-                  "says": np.where(prob_unknown >= 0.5, "human", "non_human"),
-                  "score": np.maximum(prob_unknown, 1 - prob_unknown).round(3), "recorded": "unknown"}),
-], ignore_index=True)
+split_of = pd.concat([pd.Series(name, index=part["_unit_id"])
+                      for name, part in [("train", train), ("validation", val), ("test", test)]])
+prob = best_model.predict_proba(df[FEATURES])[:, 1]
+score = np.maximum(prob, 1 - prob).round(3)             # rounded first, so the file obeys votes == (score >= 0.90)
+predictions = pd.DataFrame({
+    "_unit_id": df["_unit_id"],
+    "says": np.where(prob >= 0.5, "human", "non_human"),
+    "score": score,
+    "recorded": df["label"],
+    "votes": (score >= MIN_SCORE).astype(int),
+    "split": df["_unit_id"].map(split_of).fillna("unknown"),
+})
 predictions.to_csv(OUT / "regression_predictions.csv", index=False)
-print("\nregression_predictions.csv:", len(predictions), "rows (labelled out-of-fold + unknown)")
+print("\nregression_predictions.csv:", len(predictions), "rows")
+print(predictions["split"].value_counts().to_string())
 
-hit = disagree & (score >= MIN_SCORE)
-lab_rows = df.loc[labelled]
-result = pd.DataFrame({
-    "_unit_id": lab_rows["_unit_id"].to_numpy()[hit],
-    "says": says[hit],
-    "score": score[hit].round(3),
-    "recorded": recorded[hit],
-    "gender": lab_rows["gender"].to_numpy()[hit],
-    "name": lab_rows["name"].to_numpy()[hit],
-    "gender:confidence": conf_all[hit],
-}).sort_values("score", ascending=False)
+labelled = predictions["recorded"] != "unknown"
+disagree = labelled & (predictions["says"] != predictions["recorded"])
+# printed for information only; the cut-off above was fixed before looking at it
+print(pd.DataFrame([{"min_score": cut, "profiles": int((disagree & (score >= cut)).sum())}
+                    for cut in [0.70, 0.75, 0.80, 0.85, 0.90, 0.95]]).to_string(index=False))
+
+hit = disagree & (predictions["votes"] == 1)
+result = predictions.loc[hit, ["_unit_id", "says", "score", "recorded", "split"]].join(
+    df.loc[hit, ["gender", "name", "gender:confidence"]]).sort_values("score", ascending=False)
 result.to_csv(OUT / "regression_flagged.csv", index=False)
 
-print("profiles nominated (regression_flagged.csv):", len(result))
+print("\nprofiles nominated (regression_flagged.csv):", len(result))
 print(pd.crosstab(result["recorded"], result["says"]))
+print("nominations per split:\n" + result["split"].value_counts().to_string())
 print(result.head(10)[["name", "gender", "recorded", "says", "score"]])
 
-# check the nominations against crowd confidence, which the model never used
-plt.figure(figsize=(8, 4))
-groups = [result["gender:confidence"], pd.Series(conf_all)]
-plt.hist(groups, bins=20, weights=[np.full(len(g), 100 / len(g)) for g in groups],
-         label=["nominated by logistic regression", "all labelled profiles"])
-plt.xlabel("gender:confidence")
-plt.ylabel("% of the group")
-plt.title("crowd confidence, nominated vs all")
-plt.legend()
-plt.savefig(OUT / "fig_regression_logistic_crowd_confidence.png", dpi=120, bbox_inches="tight")
+
+# 7. Crowd-confidence check
+# the model never used gender:confidence, so it is an after-the-fact check
+conf = df.loc[labelled, "gender:confidence"]
+unsure_by_label = (conf < 1).groupby(df.loc[labelled, "label"]).mean()
+nominated = (result["gender:confidence"] < 1).mean()
+same_mix = (result["recorded"].value_counts(normalize=True) * unsure_by_label).sum()
+everyone = (conf < 1).mean()
+print("\nshare below full crowd confidence - nominated %.3f | all labelled with the same recorded-label mix %.3f"
+      " | all labelled %.3f" % (nominated, same_mix, everyone))
+
+fig, axes = plt.subplots(1, 2, figsize=(7.4, 4.2))
+groups = [result["gender:confidence"], conf]
+axes[0].hist(groups, bins=20, weights=[np.full(len(g), 100 / len(g)) for g in groups],
+             color=["tab:red", "grey"], label=["nominated by logistic regression", "all labelled profiles"])
+axes[0].set_xlabel("gender:confidence")
+axes[0].set_ylabel("% of the group")
+axes[0].set_title("crowd confidence, nominated vs all")
+axes[0].legend(loc="upper center", bbox_to_anchor=(0.5, -0.22))
+# middle bar: the same recorded-label mix as the nominations, split by recorded label
+mix = result["recorded"].value_counts(normalize=True)
+axes[1].bar(0, nominated, color="tab:red")
+bottom = 0
+for name, colour in [("human", "tab:blue"), ("non_human", "tab:orange")]:
+    part = mix.get(name, 0) * unsure_by_label[name]
+    axes[1].bar(1, part, bottom=bottom, color=colour, label="recorded " + name)
+    bottom += part
+axes[1].bar(2, everyone, color="grey")
+for x, value in enumerate([nominated, same_mix, everyone]):
+    axes[1].text(x, value + 0.01, "%.3f" % value, ha="center")
+axes[1].set_ylim(0, max(nominated, same_mix) * 1.2)
+axes[1].set_xticks([0, 1, 2], ["nominated", "same label\nmix", "all\nlabelled"])
+axes[1].set_ylabel("share below full confidence")
+axes[1].set_title("below full crowd confidence")
+axes[1].legend(loc="upper center", bbox_to_anchor=(0.5, -0.3))
+plt.tight_layout()
+plt.savefig(OUT / "fig_regression_logistic_crowd_confidence.png", dpi=150, bbox_inches="tight")
 plt.show()
