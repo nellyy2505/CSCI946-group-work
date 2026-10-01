@@ -260,13 +260,15 @@ print("median by label:\n", labelled.groupby("is_human")[NUM_COLS].median().roun
 print("flag rate by label:\n", labelled.groupby("is_human")[FLAG_COLS].mean().round(3).T)
 
 # one axis per count, each on its own symlog scale (a log scale that can show zero)
-fig, axes = plt.subplots(1, 3, figsize=(7.4, 3.4))
-for ax, col in zip(axes, ["tweet_count", "fav_number", "account_age_days"]):
+fig, axes = plt.subplots(1, 3, figsize=(7.4, 3.6))
+for ax, col, unit in zip(axes, ["tweet_count", "fav_number", "account_age_days"], ["tweets", "favourites", "days"]):
     ax.boxplot([labelled.loc[labelled["is_human"] == v, col] for v in [1, 0]], showfliers=False)
-    ax.set_xticks([1, 2], ["human", "non-human"])
+    ax.set_xticks([1, 2], ["human", "non-\nhuman"])       # two lines, so the labels do not touch
     ax.set_yscale("symlog")
     ax.set_ylim(bottom=0)
     ax.set_title(col)
+    ax.set_xlabel("recorded label")
+    ax.set_ylabel(unit + " (symlog scale)")
 plt.suptitle("activity counts by label (outliers hidden)")
 plt.tight_layout()
 plt.savefig(OUT / "fig_preprocess_counts_by_label.png", dpi=150, bbox_inches="tight")

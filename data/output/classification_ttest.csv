@@ -1,2 +1,2 @@
 model_a,model_b,t,p,significant
-mlp,logistic,0.9425474343882674,0.3735008674301302,False
+mlp,knn,0.9491294635303157,0.3703415248822581,False

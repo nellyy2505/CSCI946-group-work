@@ -1,4 +1,4 @@
-# 07_logistic_regression.py — logistic regression on is_human with RFE; the regression vote
+# 07_logistic_regression.py — logistic regression on is_human with RFE; the regression vote (Lab 5, task 2)
 
 from pathlib import Path
 
@@ -50,7 +50,7 @@ X_test, y_test = test[FEATURES], test[TARGET].astype(int)
 
 # 2. Full model
 # compare train with validation accuracy to check for overfitting
-model = LogisticRegression(max_iter=1000)
+model = LogisticRegression(max_iter=2000)
 model.fit(X_train, y_train)
 train_acc = accuracy_score(y_train, model.predict(X_train))
 val_acc = accuracy_score(y_val, model.predict(X_val))
@@ -62,7 +62,7 @@ print("confusion matrix (validation) [rows recorded, cols predicted, non_human f
 # 3. RFE
 # drop the weakest features one at a time and see whether a smaller model holds up
 def rfe_model(n_features):
-    rfe = RFE(estimator=LogisticRegression(max_iter=1000), n_features_to_select=n_features, step=1)
+    rfe = RFE(estimator=LogisticRegression(max_iter=2000), n_features_to_select=n_features, step=1)
     rfe.fit(X_train, y_train)
     acc = accuracy_score(y_val, rfe.predict(X_val))
     print("RFE %2d features -> validation accuracy %.4f" % (n_features, acc))

@@ -1,4 +1,4 @@
-# 11_amendments.py — word groups, patterns and suggested amendments for the consensus candidates (report 10.6)
+# 11_amendments.py — word groups, patterns and suggested amendments for the consensus candidates (report Section 11)
 
 import re
 from pathlib import Path
@@ -65,7 +65,7 @@ def add_flags(f):
 cand, unk, lab = add_flags(cand), add_flags(unk), add_flags(lab)
 
 
-# 3. Recorded non-human, suggested human (Table 10.8)
+# 3. Recorded non-human, suggested human (Table 11.1, tiers)
 # the 839 by number of agreeing methods and word group
 to_h = cand[cand["recorded"] == "non_human"]
 brands = lab[lab["label"] == "non_human"]
@@ -94,7 +94,7 @@ print("first-person word in description or tweet %.1f%% (non-human %.1f%%, human
       % tuple(100 * (g["fp_desc"] | g["fp_tweet"]).mean() for g in [to_h, brands, humans]))
 
 
-# 4. Recorded human, suggested non-human (Table 10.9)
+# 4. Recorded human, suggested non-human (pattern counts; written to a CSV, not a report table)
 # five patterns in the tweet or description; each candidate falls in the first that matches
 to_nh = cand[cand["recorded"] == "human"].copy()
 NEWS = r"\bnews\b|feed|auto|updates|official"
@@ -110,13 +110,16 @@ print("\npatterns overlap on %d candidates" % ((to_nh["weather"].astype(int) + n
 
 # 5. Suggested amendments
 # recorded non-human: 2+ methods unless organisation-only, 1 method only with person words; Foothill_Dance by hand
+# chosen by reading the profiles: kept non-human despite the word rule
 MANUAL_KEEP = {"Foothill_Dance": "school dance programme; 'Dance I' matched as a first-person word"}
 amend_h = ((to_h["votes"] >= 2) & ~to_h["org_only"]) | ((to_h["votes"] == 1) & to_h["person_words"])
 amend_h_word = amend_h.copy()
 amend_h &= ~to_h["name"].isin(MANUAL_KEEP)
 # recorded human: default image and no first-person description, plus feeds and spam accounts read by hand
+# chosen by reading the profiles: automated news/update feeds
 FEEDS = ["khalidrafiq141", "Eddki885Mohamm", "dcgblog", "BenoistDaily", "Bamford_ID", "IPOSniffer", "iPeytonManning",
          "SachaIDK", "ShannaIDK", "YvetteIDK"]
+# chosen by reading the profiles: spam accounts
 SPAM = ["AdamCoo64216897", "PamelaW76653339", "ThomasH29137281", "Charlot02798732", "SalesForceReal"]
 empty = (to_nh["default_image"] == 1) & ~to_nh["fp_desc"]
 amend_nh = empty | to_nh["name"].isin(FEEDS) | to_nh["name"].isin(SPAM)
@@ -202,7 +205,7 @@ print("  2 methods: human %d (uploaded image %d, median favourites %.0f, first-p
                                                 ((nh2["default_image"] == 1) & (nh2["desc_missing"] == 1)).sum()))
 
 
-# 7. Signals (Table 10.10)
+# 7. Signals (Table 11.2)
 # share non-human among the labelled profiles that show each signal
 fav_q75 = df["fav_number"].quantile(0.75)
 signals = [("first-person word in the description", lab["fp_desc"]),

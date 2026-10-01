@@ -1,14 +1,14 @@
 # CSCI446/946 Assignment 2 — misrecorded human / non-human Twitter profiles
 ## Setup
 
-Python 3.8–3.12. `requirements.txt` gives minimum versions; the versions every reported number
-comes from are in its comments:
+Python 3.8–3.11 is required. `requirements.txt` pins exactly (`==`) the tested versions every reported
+number comes from; those pins install only on Python 3.8–3.11, and exact reproduction needs them:
 
     pip install -r requirements.txt
     python -m nltk.downloader stopwords punkt_tab
 
-The tested versions need Python 3.8–3.11. Python 3.12 needs newer libraries; the scripts run unchanged,
-but a few text and logistic votes move (1,100 to 1,103 candidates instead of 1,103).
+Newer Python needs newer libraries; the scripts run unchanged, but a few text and logistic votes
+move (1,100 to 1,103 candidates instead of 1,103), so use Python 3.8–3.11.
 
 The second line is needed once, with internet access. `08_text.py` looks for the two nltk resources
 first and downloads them only if they are missing; if that download fails it stops and prints the
@@ -35,7 +35,17 @@ location. Scripts show every figure with `plt.show()` and also save it; to run w
 | `08_text.py` | nltk tokens, TF-IDF + logistic regression, gensim LDA on the text fields only (Lab 7) | `text_{predictions,flagged}.csv`, `fig_text_*` |
 | `09_consensus.py` | one equal vote per method; ranked review list and unknown-profile suggestions | `consensus_*.csv`, `fig_consensus_agreement.png` |
 | `10_views.py` | logistic regression on each view (activity, profile flags, colour, text counts, time zone, text) | `views_accuracy.csv`, `fig_views_accuracy.png` |
-| `11_amendments.py` | first-person and organisation word groups, the recorded-human patterns and the suggested amendment for every candidate (report 10.6) | `amendments_{non_human_to_human,human_to_non_human,signals,suggested}.csv` |
+| `11_amendments.py` | first-person and organisation word groups, the recorded-human patterns and the suggested amendment for every candidate (report Section 11, Tables 11.1–11.2) | `amendments_{non_human_to_human,human_to_non_human,signals,suggested}.csv` |
 
 All outputs go to `data/output/`. `SEED = 7` wherever there is randomness, so a rerun with the
-tested versions in `requirements.txt` reproduces the files; other library versions can move a few flags.
+pinned versions in `requirements.txt` reproduces the files; other library versions can move a few flags.
+
+05 and 08 compare models with 5-fold cross-validation on the training split and choose on the
+validation split; 07 chooses full vs RFE on the validation split. All three score the test
+split once, then apply that fitted model to every profile. Every voting method writes `<method>_predictions.csv` with `_unit_id, says, score,
+recorded, votes`; `votes = 1` when the method is confident enough to vote (supervised: `score >=
+0.90`; association: a rule at or above the confidence cut-off fired; clustering: a one-sided cluster
+at or above the purity cut-off). The supervised files also carry `split` (train / validation / test
+/ unknown). `<method>_flagged.csv` holds the labelled `votes == 1` rows where `says` differs from
+`recorded`. `09_consensus.py` reads the predictions files and stops with an error if a method named
+in `--methods` (default: all five) has none.

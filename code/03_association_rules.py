@@ -1,4 +1,4 @@
-# 03_association_rules.py  Apriori rules on profile items; rules concluding a label vote on each profile
+# 03_association_rules.py — Apriori rules on profile items; rules concluding a label vote on each profile
 
 from pathlib import Path
 

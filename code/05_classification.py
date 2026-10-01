@@ -1,4 +1,4 @@
-# 05_classification.py — decision tree, naive Bayes, KNN, MLP and logistic on the structured features
+# 05_classification.py — decision tree, naive Bayes, KNN, MLP and logistic on the structured features (Lab 4)
 
 from pathlib import Path
 
@@ -44,7 +44,7 @@ NOT_FEATURES = {"_unit_id", "is_human", "label", "name", "gender", "gender:confi
 FEATURES = [c for c in train.columns if c not in NOT_FEATURES]
 print("features:", len(FEATURES))
 
-# KNeighborsClassifier chokes on a DataFrame in this environment, so use arrays
+# KNN is given a NumPy array; a DataFrame raised an attribute error with these library versions
 X_train, y_train = train[FEATURES].to_numpy(float), train["is_human"].astype(int).to_numpy()
 X_val, y_val = val[FEATURES].to_numpy(float), val["is_human"].astype(int).to_numpy()
 X_test, y_test = test[FEATURES].to_numpy(float), test["is_human"].astype(int).to_numpy()
@@ -158,7 +158,9 @@ plt.show()
 
 # 5. t-test between the two best models
 # Lab 4: is the gap in CV accuracy real, or noise?
-top_two = comparison.sort_values("cv_accuracy", ascending=False)["model"].iloc[:2].tolist()
+# logistic regression votes in 07, so the test compares the two best models eligible for this vote
+eligible = comparison.loc[comparison["model"] != "logistic"].sort_values("cv_accuracy", ascending=False)
+top_two = eligible["model"].iloc[:2].tolist()
 t, p = ttest_ind(cv_scores[top_two[0]], cv_scores[top_two[1]])
 print("\nt-test on CV accuracy, %s vs %s: t %.4f, p %.4f" % (top_two[0], top_two[1], t, p))
 pd.DataFrame([{"model_a": top_two[0], "model_b": top_two[1], "t": t, "p": p,

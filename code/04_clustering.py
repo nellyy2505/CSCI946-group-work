@@ -114,14 +114,15 @@ print("\ncluster sizes:\n", df["cluster"].value_counts().sort_index())
 cluster_mean = df.groupby(["cluster"])[FEATURES].agg("mean")
 print("\ncluster means:\n", cluster_mean.T.round(2))
 
-fig, ax = plt.subplots(figsize=(6, 7.5))
+# sized to be read at 6.2 in wide on its own: every number at the base font size (11 pt)
+fig, ax = plt.subplots(figsize=(6.2, 7))
 image = ax.imshow(cluster_mean.T, cmap="coolwarm", vmin=-1.5, vmax=1.5, aspect="auto")
 ax.set_xticks(range(K_MAIN), ["cluster " + str(c) for c in cluster_mean.index])
 ax.set_yticks(range(len(FEATURES)), FEATURES)
 for i in range(len(FEATURES)):
     for j in range(K_MAIN):
-        ax.text(j, i, round(cluster_mean.iloc[j, i], 2), ha="center", va="center", fontsize=10)
-fig.colorbar(image, label="mean value")
+        ax.text(j, i, "%.2f" % cluster_mean.iloc[j, i], ha="center", va="center")
+fig.colorbar(image, label="mean value (z-score, or share for a 0/1 flag)")
 plt.title("what each cluster looks like")
 plt.tight_layout()
 plt.savefig(OUT / "fig_clustering_cluster_means.png", dpi=150, bbox_inches="tight")
@@ -137,7 +138,8 @@ for cluster in range(K_MAIN):
 
 RAW_COUNTS = ["tweet_count", "tweets_per_day", "fav_number", "favs_per_day"]
 BOX = RAW_COUNTS + ["account_age_days", "text_len", "desc_len"]
-fig, axes = plt.subplots(4, 2, figsize=(7.4, 10))
+# sized to be read at 6.2 in wide on its own
+fig, axes = plt.subplots(3, 3, figsize=(6.2, 7.6))
 for ax, col in zip(axes.ravel(), BOX):
     ax.boxplot([df.loc[df["cluster"] == c, col] for c in range(K_MAIN)], showfliers=False)
     ax.set_xticks(range(1, K_MAIN + 1), range(K_MAIN))
@@ -149,8 +151,9 @@ for ax, col in zip(axes.ravel(), BOX):
         ax.set_ylim(bottom=0)   # counts cannot be negative
     else:
         ax.set_ylabel("z-score")
-axes.ravel()[-1].axis("off")
-plt.suptitle("spread of each attribute inside each cluster (outliers hidden)")
+for ax in axes.ravel()[len(BOX):]:
+    ax.axis("off")
+plt.suptitle("spread of each attribute inside each cluster\n(outliers hidden)")
 plt.tight_layout()
 plt.savefig(OUT / "fig_clustering_spread.png", dpi=150, bbox_inches="tight")
 plt.show()
