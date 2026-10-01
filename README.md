@@ -21,7 +21,7 @@ The scripts expect the raw file at `data/raw/twitter_user_data.csv`.
 
 Run from the repository root, in order 01 → 11. Each script resolves its paths from its own
 location. Scripts show every figure with `plt.show()` and also save it; to run without a display:
-`MPLBACKEND=Agg python code/01_eda.py`. The full run takes about 2 minutes.
+`MPLBACKEND=Agg python code/01_eda.py`.
 
 | script | what it does | writes |
 |---|---|---|
