@@ -69,7 +69,7 @@ y_train, y_val, y_test = (part["is_human"].astype(int) for part in [train, val, 
 
 
 # 3. Tokens
-# tokenise and remove stop words (Lab 7 Task 1)
+# tokenise and remove stop words
 def tokens(s):
     return [w for w in nltk.word_tokenize(s) if w not in STOP and len(w) > 2]
 
@@ -81,7 +81,7 @@ print("mean words kept - description:", round(df["desc_tokens"].str.len().mean()
 
 
 # 4. Words by class
-# conditional frequency distribution of the description words (Lab 7 Task 2)
+# conditional frequency distribution of the description words
 label = df["label"]
 pairs = [(lab, w) for lab, toks in zip(label[labelled], df.loc[labelled, "desc_tokens"]) for w in toks]
 cfd = nltk.ConditionalFreqDist(pairs)
@@ -111,7 +111,7 @@ plt.show()
 
 
 # 5. Model comparison
-# TF-IDF + logistic regression per text field, 5-fold CV on the training split (Lab 4)
+# TF-IDF + logistic regression per text field, 5-fold CV on the training split
 # the vectoriser sits inside the pipeline, so its vocabulary is learnt from training rows only
 def text_model(columns):
     tfidf = ColumnTransformer([(c, TfidfVectorizer(max_features=MAX_FEATURES, min_df=5, sublinear_tf=True), c)
@@ -185,7 +185,7 @@ plt.show()
 
 
 # 7. LDA topics
-# topics of the labelled descriptions (Lab 7 Task 3)
+# topics of the labelled descriptions
 docs = df.loc[labelled & (df["desc_tokens"].str.len() >= 3), ["is_human", "desc_tokens"]].copy()
 dictionary = corpora.Dictionary(docs["desc_tokens"])
 dictionary.filter_extremes(no_below=10, no_above=0.4)

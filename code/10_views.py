@@ -22,14 +22,15 @@ MAX_FEATURES = 2000       # same TF-IDF settings as 08_text.py
 
 
 # 1. Load
-# the training and test splits written by 02, and the two text fields
+# the training and validation splits written by 02, and the two text fields; the test split stays
+# untouched here because it was already used once to score the chosen models in 05, 07 and 08
 train = pd.read_csv(PROC / "twitter_train.csv")
-test = pd.read_csv(PROC / "twitter_test.csv")
+test = pd.read_csv(PROC / "twitter_validation.csv")
 text = pd.read_csv(PROC / "twitter_full.csv", usecols=["_unit_id", "desc_clean", "text_clean"]).fillna("")
 train = train.merge(text, on="_unit_id", how="left", validate="one_to_one")
 test = test.merge(text, on="_unit_id", how="left", validate="one_to_one")
 y_train, y_test = train["is_human"].astype(int), test["is_human"].astype(int)
-print("train:", train.shape, "test:", test.shape)
+print("train:", train.shape, "validation:", test.shape)
 
 
 # 2. Views
@@ -67,7 +68,7 @@ def tfidf(part):
 
 
 # 4. Accuracy per view
-# plain logistic regression on the training split, accuracy on the test split
+# plain logistic regression on the training split, accuracy on the validation split
 X = {name: (train[cols].to_numpy(float), test[cols].to_numpy(float)) for name, cols in VIEWS.items()}
 X["text (TF-IDF)"] = (tfidf(train), tfidf(test))
 X["all structured + text"] = (hstack([csr_matrix(X["all structured"][0]), X["text (TF-IDF)"][0]]).tocsr(),
@@ -77,20 +78,20 @@ rows = []
 for name, (X_train, X_test) in X.items():
     model = LogisticRegression(max_iter=3000).fit(X_train, y_train)
     rows.append({"view": name, "features": X_train.shape[1],
-                 "test_accuracy": accuracy_score(y_test, model.predict(X_test))})
+                 "validation_accuracy": accuracy_score(y_test, model.predict(X_test))})
 views = pd.DataFrame(rows)
 baseline = y_test.mean()
 views.to_csv(OUT / "views_accuracy.csv", index=False)
-print("\nlogistic regression per view, test accuracy (always human: %.4f):" % baseline)
+print("\nlogistic regression per view, validation accuracy (always human: %.4f):" % baseline)
 print(views.round(4).to_string(index=False))
 
 plt.figure(figsize=(6.5, 4.2))
-bars = plt.barh(views["view"], views["test_accuracy"], color="tab:gray")
+bars = plt.barh(views["view"], views["validation_accuracy"], color="tab:gray")
 plt.bar_label(bars, fmt="%.3f", padding=3)
 plt.axvline(baseline, color="black", linestyle="--", label="always human (%.3f)" % baseline)
 plt.gca().invert_yaxis()
 plt.xlim(0.5, 0.95)
-plt.xlabel("test accuracy (logistic regression, fitted on the training split)")
+plt.xlabel("validation accuracy (logistic regression, fitted on the training split)")
 plt.title("how well each view of a profile predicts\nhuman vs non-human")
 plt.legend(loc="upper center", bbox_to_anchor=(0.5, -0.22))   # below, clear of the bar labels
 plt.tight_layout()

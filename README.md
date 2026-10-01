@@ -1,4 +1,5 @@
 # CSCI446/946 Assignment 2 — misrecorded human / non-human Twitter profiles
+
 ## Setup
 
 Python 3.8–3.11 is required. `requirements.txt` pins exactly (`==`) the tested versions every reported
@@ -27,12 +28,12 @@ location. Scripts show every figure with `plt.show()` and also save it; to run w
 |---|---|---|
 | `01_eda.py` | inspect the raw file, record its problems | `fig_eda_*` |
 | `02_preprocess.py` | clean, engineer features, stratified 60/20/20 train/validation/test split | `data/processed/twitter_{full,train,validation,test}.csv`, `fig_preprocess_*` |
-| `03_association_rules.py` | Apriori rules that conclude the label (Lab 6) | `association_{rules,predictions,flagged}.csv`, `fig_association_*` |
-| `04_clustering.py` | k-means, hierarchical, DBSCAN on behaviour features (Lab 3) | `clustering_{assignments,predictions,flagged}.csv`, `fig_clustering_*` |
-| `05_classification.py` | decision tree, KNN, naive Bayes, MLP, logistic; the best non-logistic model votes (Lab 4) | `classification_*.csv`, `fig_classification_*` |
-| `06_linear_regression.py` | Lab 5 `LinearRegression` on `is_human` (0/1): R², MSE and accuracy at 0.5, showing predictions outside [0, 1] and two-band residuals, so logistic (07) is the right tool; does not vote | `regression_linear_{coefficients,model_comparison}.csv`, `fig_regression_linear_*` |
-| `07_logistic_regression.py` | logistic regression on `is_human` with RFE; the regression vote (Lab 5) | `regression_{logistic_model_comparison,logistic_coefficients,predictions,flagged}.csv`, `fig_regression_logistic_*` |
-| `08_text.py` | nltk tokens, TF-IDF + logistic regression, gensim LDA on the text fields only (Lab 7) | `text_{predictions,flagged}.csv`, `fig_text_*` |
+| `03_association_rules.py` | Apriori rules that conclude the label | `association_{rules,predictions,flagged}.csv`, `fig_association_*` |
+| `04_clustering.py` | k-means, hierarchical, DBSCAN on behaviour features | `clustering_{assignments,predictions,flagged}.csv`, `fig_clustering_*` |
+| `05_classification.py` | decision tree, KNN, naive Bayes, MLP, logistic; the best non-logistic model votes | `classification_*.csv`, `fig_classification_*` |
+| `06_linear_regression.py` | `LinearRegression` on `is_human` (0/1): R², MSE and accuracy at 0.5, showing predictions outside [0, 1] and two-band residuals, so logistic (07) is the right tool; does not vote | `regression_linear_{coefficients,model_comparison}.csv`, `fig_regression_linear_*` |
+| `07_logistic_regression.py` | logistic regression on `is_human` with RFE; the regression vote | `regression_{logistic_model_comparison,logistic_coefficients,predictions,flagged}.csv`, `fig_regression_logistic_*` |
+| `08_text.py` | nltk tokens, TF-IDF + logistic regression, gensim LDA on the text fields only | `text_{predictions,flagged}.csv`, `fig_text_*` |
 | `09_consensus.py` | one equal vote per method; ranked review list and unknown-profile suggestions | `consensus_*.csv`, `fig_consensus_agreement.png` |
 | `10_views.py` | logistic regression on each view (activity, profile flags, colour, text counts, time zone, text) | `views_accuracy.csv`, `fig_views_accuracy.png` |
 | `11_amendments.py` | first-person and organisation word groups, the recorded-human patterns and the suggested amendment for every candidate (report Section 11, Tables 11.1–11.2) | `amendments_{non_human_to_human,human_to_non_human,signals,suggested}.csv` |

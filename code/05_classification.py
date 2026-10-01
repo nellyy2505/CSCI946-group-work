@@ -1,4 +1,4 @@
-# 05_classification.py — decision tree, naive Bayes, KNN, MLP and logistic on the structured features (Lab 4)
+# 05_classification.py — decision tree, naive Bayes, KNN, MLP and logistic on the structured features
 
 from pathlib import Path
 
@@ -157,7 +157,7 @@ plt.show()
 
 
 # 5. t-test between the two best models
-# Lab 4: is the gap in CV accuracy real, or noise?
+# is the gap in CV accuracy real, or noise?
 # logistic regression votes in 07, so the test compares the two best models eligible for this vote
 eligible = comparison.loc[comparison["model"] != "logistic"].sort_values("cv_accuracy", ascending=False)
 top_two = eligible["model"].iloc[:2].tolist()

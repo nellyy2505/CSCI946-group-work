@@ -1,4 +1,4 @@
-# 06_linear_regression.py — linear regression on is_human: why a 0/1 outcome needs logistic
+# 06_linear_regression.py — linear regression on is_human: why a 0/1 outcome needs logistic (07)
 
 from pathlib import Path
 
@@ -87,7 +87,7 @@ plt.show()
 
 
 # 4. Evaluation
-# R2 and MSE as in Lab 5, plus accuracy with predictions cut at 0.5 to compare with logistic regression
+# R2 and MSE, plus accuracy with predictions cut at 0.5 to compare with logistic regression
 rows = []
 for split, X, y in [("train", X_train, y_train), ("validation", X_val, y_val), ("test", X_test, y_test)]:
     pred = model.predict(X)

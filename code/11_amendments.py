@@ -82,11 +82,11 @@ def tier_row(g, name):
 
 rows = [tier_row(to_h[to_h["votes"] == v], str(v)) for v in [5, 4, 3, 2, 1]]
 rows += [tier_row(to_h, "all"), tier_row(brands, "all recorded non-human")]
-t108 = pd.DataFrame(rows)
-t108.to_csv(OUT / "amendments_non_human_to_human.csv", index=False)
+non_human_to_human = pd.DataFrame(rows)
+non_human_to_human.to_csv(OUT / "amendments_non_human_to_human.csv", index=False)
 print("\nrecorded non-human -> human: %d | recorded human -> non-human: %d"
       % (len(to_h), (cand["recorded"] == "human").sum()))
-print(t108.to_string(index=False))
+print(non_human_to_human.to_string(index=False))
 print("uploaded image %.1f%% (all recorded non-human %.1f%%) | median favourites %.0f (non-human %.0f, human %.0f)"
       % (100 * (to_h["default_image"] == 0).mean(), 100 * (brands["default_image"] == 0).mean(),
          to_h["fav_number"].median(), brands["fav_number"].median(), humans["fav_number"].median()))
@@ -161,13 +161,13 @@ keep = ["_unit_id", "name", "recorded", "says", "votes", "methods", "fp_desc", "
         "pattern", "action", "reason"]
 suggested[keep].to_csv(OUT / "amendments_suggested.csv", index=False)
 
-t109 = pd.DataFrame([{"pattern": p, "candidates": int((to_nh["pattern"] == p).sum()),
+human_to_non_human = pd.DataFrame([{"pattern": p, "candidates": int((to_nh["pattern"] == p).sum()),
                       "two_or_more_methods": int(((to_nh["pattern"] == p) & (to_nh["votes"] >= 2)).sum()),
                       "suggested_non_human": int(((to_nh["pattern"] == p) & amend_nh).sum())}
                      for p in ["weather channel", "news/feed", "app-written", "forevermore", "other"]])
-t109.loc[len(t109)] = ["all", len(to_nh), int((to_nh["votes"] >= 2).sum()), int(amend_nh.sum())]
-t109.to_csv(OUT / "amendments_human_to_non_human.csv", index=False)
-print(t109.to_string(index=False))
+human_to_non_human.loc[len(human_to_non_human)] = ["all", len(to_nh), int((to_nh["votes"] >= 2).sum()), int(amend_nh.sum())]
+human_to_non_human.to_csv(OUT / "amendments_human_to_non_human.csv", index=False)
+print(human_to_non_human.to_string(index=False))
 
 two = (to_h["votes"] >= 2) & amend_h
 print("\nnon-human -> human: word rule %d; without Foothill_Dance %d amend, %d stay non-human"
@@ -224,8 +224,8 @@ signals = [("first-person word in the description", lab["fp_desc"]),
            ("link in the description", lab["desc_has_url"] == 1),
            ("retweet", lab["has_retweets"] == 1),
            ("all labelled profiles", pd.Series(True, index=lab.index))]
-t110 = pd.DataFrame([{"signal": name, "labelled_profiles": int(m.sum()),
+signals_table = pd.DataFrame([{"signal": name, "labelled_profiles": int(m.sum()),
                       "non_human_pct": round(100 * (lab.loc[m, "label"] == "non_human").mean(), 1)}
                      for name, m in signals])
-t110.to_csv(OUT / "amendments_signals.csv", index=False)
-print("\n" + t110.to_string(index=False))
+signals_table.to_csv(OUT / "amendments_signals.csv", index=False)
+print("\n" + signals_table.to_string(index=False))

@@ -1,4 +1,4 @@
-# 07_logistic_regression.py — logistic regression on is_human with RFE; the regression vote (Lab 5, task 2)
+# 07_logistic_regression.py — logistic regression on is_human with RFE; the regression vote
 
 from pathlib import Path
 
@@ -114,7 +114,7 @@ plt.show()
 
 
 # 5. Coefficients and odds ratios
-# log-odds of human per unit of each feature (Week 6)
+# log-odds of human per unit of each feature
 kept = FEATURES if best_name == "full" else [f for f, keep in zip(FEATURES, best_model.support_) if keep]
 fitted = best_model if best_name == "full" else best_model.estimator_
 coefs = pd.DataFrame({"feature": kept, "coef": fitted.coef_[0]})
