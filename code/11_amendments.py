@@ -211,7 +211,7 @@ fav_q75 = df["fav_number"].quantile(0.75)
 signals = [("first-person word in the description", lab["fp_desc"]),
            ("first-person word in the tweet", lab["fp_tweet"]),
            ("emoji in the tweet", lab["text_has_emoji"] == 1),
-           ("favourites in the top quarter (%.0f or more)" % fav_q75, lab["fav_number"] >= fav_q75),
+           ("favourites in the top quarter (more than %d)" % int(fav_q75), lab["fav_number"] >= fav_q75),
            ("organisation word in the description", lab["org_desc"]),
            ("official in the description", lab["description"].map(lambda s: "official" in tokens(s))),
            ("updates in the description", lab["description"].map(lambda s: "updates" in tokens(s))),

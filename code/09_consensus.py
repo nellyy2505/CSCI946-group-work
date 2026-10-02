@@ -145,7 +145,7 @@ def plot_validation(profiles, votes, ranked):
         axes[1].bar([p + width / 2 for p in pos], part, width, bottom=bottom, color=colour,
                     label=f"same label mix: recorded {name}")
         bottom = bottom + part
-    axes[1].bar_label(observed, fmt="%.2f", padding=2)
+    axes[1].bar_label(observed, fmt="%.2f", padding=2, label_type="center", color="white")
     axes[1].axhline(overview["unsure"].mean(), color="black", linestyle="--", label="All labelled profiles")
     axes[1].set_xticks(list(pos), [f"{k}\n(n={n})" for k, n in zip(x, summary["profiles"])])
     axes[1].set(xlabel="Methods nominating a profile", ylabel="Crowd confidence below 1 (share)", ylim=(0, 1.1))

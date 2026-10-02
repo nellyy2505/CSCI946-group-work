@@ -55,16 +55,15 @@ print("share human (train): %.3f (the accuracy of always guessing human)" % base
 # 3. Tree depth and number of neighbours
 # 5-fold CV on the training split only; the depth and k with the best mean are used below
 cv = StratifiedKFold(5, shuffle=True, random_state=SEED)
-MAX_DEPTH = 6             # best of the depth sweep
-K_NEIGHBOURS = 25         # best of the k sweep
 
 
-def sweep(param, values, make, chosen, file_name, title):
+def sweep(param, values, make, file_name, title):
     rows = []
     for v in values:
         scores = cross_val_score(make(v), X_train, y_train, cv=cv, scoring="accuracy")
         rows.append({param: "None" if v is None else v, "cv_accuracy": scores.mean(), "cv_std": scores.std()})
     table = pd.DataFrame(rows)
+    chosen = values[int(table["cv_accuracy"].idxmax())]   # the value with the best mean is the one used
     table.to_csv(OUT / ("classification_%s_sweep.csv" % file_name), index=False)
     print("\n%s sweep, 5-fold CV accuracy (train):\n%s" % (param, table.round(4).to_string(index=False)))
     # evenly spaced points, so max_depth=None can sit at the right-hand end
@@ -82,12 +81,14 @@ def sweep(param, values, make, chosen, file_name, title):
     plt.tight_layout()
     plt.savefig(OUT / ("fig_classification_%s_sweep.png" % file_name), dpi=150, bbox_inches="tight")
     plt.show()
+    return chosen
 
 
-sweep("max_depth", [2, 4, 6, 8, 10, 12, 15, 20, None],
-      lambda d: DecisionTreeClassifier(max_depth=d, random_state=SEED), MAX_DEPTH, "depth", "decision tree depth")
-sweep("n_neighbors", [5, 11, 15, 25, 35, 51, 75, 101],
-      lambda k: KNeighborsClassifier(n_neighbors=k), K_NEIGHBOURS, "k", "KNN number of neighbours")
+MAX_DEPTH = sweep("max_depth", [2, 4, 6, 8, 10, 12, 15, 20, None],
+                  lambda d: DecisionTreeClassifier(max_depth=d, random_state=SEED), "depth", "decision tree depth")
+K_NEIGHBOURS = sweep("n_neighbors", [5, 11, 15, 25, 35, 51, 75, 101],
+                     lambda k: KNeighborsClassifier(n_neighbors=k), "k", "KNN number of neighbours")
+print("chosen from the sweeps: max_depth = %s, n_neighbors = %s" % (MAX_DEPTH, K_NEIGHBOURS))
 
 
 # 4. Model comparison
